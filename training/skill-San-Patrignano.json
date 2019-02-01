@@ -1,0 +1,1687 @@
+{
+  "name": "San Patrignano",
+  "intents": [
+    {
+      "intent": "Informazioni_Associazioni_Volontariato",
+      "examples": [
+        {
+          "text": "Vorrei avere informazioni sulle associazioni di volontariato, dove posso trovarli?"
+        },
+        {
+          "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
+        },
+        {
+          "text": "Ciao, mi puoi dire dove trovo le informazioni sulle associazioni di volontariato"
+        },
+        {
+          "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
+        },
+        {
+          "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
+        }
+      ],
+      "description": "Informazioni sulle associazioni di volontariato"
+    },
+    {
+      "intent": "ElencoSettoriFormazione",
+      "examples": [
+        {
+          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
+        },
+        {
+          "text": "mi dici quali settori vita ci sono"
+        },
+        {
+          "text": "Quali sono i settori di formazioni disponibili?"
+        },
+        {
+          "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
+        },
+        {
+          "text": "Mi dici quali sono i settori di formazione che avete?"
+        },
+        {
+          "text": "Vorrei sapere quali sono i settori di formazione che avete"
+        }
+      ],
+      "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunità."
+    },
+    {
+      "intent": "Congedo",
+      "examples": [
+        {
+          "text": "Me ne sto andando."
+        },
+        {
+          "text": "smetti questa sessione adesso"
+        },
+        {
+          "text": "Pausa"
+        },
+        {
+          "text": "Non vedo l'ora di parlarti la prossima volta."
+        },
+        {
+          "text": "Addio!"
+        },
+        {
+          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
+        },
+        {
+          "text": "ciao watson ti auguro una giornata bellissima"
+        },
+        {
+          "text": "Ehi penso che hai risolto il mio problema grazie"
+        },
+        {
+          "text": "Grazie di avermi aiutato. Ciao"
+        },
+        {
+          "text": "Grazie di tutto, è stato molto di aiuto"
+        },
+        {
+          "text": "Grazie watson parliamo dopo per quanto riguarda il pagamento della fattura"
+        },
+        {
+          "text": "Mi è piaciuto cooperare con te."
+        },
+        {
+          "text": "Va bene, grazie mille allora"
+        },
+        {
+          "text": "Stammi bene."
+        },
+        {
+          "text": "Spero di risentirla presto"
+        },
+        {
+          "text": "Sono curiso se ci sentiamo ancora."
+        },
+        {
+          "text": "sono contento che non devo parlare con gli umani ciao watson"
+        }
+      ],
+      "description": "Termina la conversazione."
+    },
+    {
+      "intent": "DoveSiTrova",
+      "examples": [
+        {
+          "text": "Dove si trova la comunità?"
+        },
+        {
+          "text": "Dove si trova San Patrignano"
+        },
+        {
+          "text": "In che città vi trovate?"
+        },
+        {
+          "text": "Dove siete?"
+        },
+        {
+          "text": "Come faccio a raggiungervi?"
+        },
+        {
+          "text": "In quale città vi trovate?"
+        }
+      ],
+      "description": "Questo intento serve a identificare domande su dove si trova San Patrignano"
+    },
+    {
+      "intent": "InformazioniScuolaIstruzione",
+      "examples": [
+        {
+          "text": "E' possibile studiare a San Patrignano"
+        },
+        {
+          "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
+        },
+        {
+          "text": "Come posso recuperare gli anni scolastici persi?"
+        },
+        {
+          "text": "Mi dai qualche informazione su scuola e istruzione?"
+        },
+        {
+          "text": "E' possibile recuperare gli anni di studio persi?"
+        }
+      ],
+      "description": "Questo intent consente di richiedere informazioni su Scuola e Istruzione"
+    },
+    {
+      "intent": "Contatti",
+      "examples": [
+        {
+          "text": "Come posso contattare l'ufficio accoglienza?"
+        },
+        {
+          "text": "Come posso contattarvi?"
+        },
+        {
+          "text": "Qual'è l'email dell'ufficio accoglienza?"
+        },
+        {
+          "text": "Qual'è il telefono dell'ufficio accoglienza?"
+        },
+        {
+          "text": "come posso contattare l'ufficio stampa?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio raccolta fondi?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio prevenzione WeFree?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio commerciale?"
+        }
+      ],
+      "description": "Informazione sui contatti"
+    },
+    {
+      "intent": "RichiestaAmmissione",
+      "examples": [
+        {
+          "text": "Mi spieghi come si fa ad entrare nella comunità?"
+        },
+        {
+          "text": "Come faccio ad entrare nella comunità?"
+        },
+        {
+          "text": "Come si entra nella comunità?"
+        },
+        {
+          "text": "Come si fa per entrare nella comunità di San Patrignano?"
+        },
+        {
+          "text": "Cosa devo fare per entrare nella comunità di San Patrignano?"
+        },
+        {
+          "text": "come faccio ad entrare a san patrignano"
+        },
+        {
+          "text": "Mi aiuti a capire come si entra nella comunità?"
+        }
+      ],
+      "description": "Questo intent serve per aiutare l'utente a capire come si può entrare nella comunità"
+    },
+    {
+      "intent": "Costi",
+      "examples": [
+        {
+          "text": "Quali sono i costi per entrare a San Patrignano?"
+        },
+        {
+          "text": "va bene ma quanto costa tutto ciò"
+        },
+        {
+          "text": "Ci sono costi per entrare nella comunità?"
+        },
+        {
+          "text": "Quali sono i costi di ingresso per San Patrignano?"
+        },
+        {
+          "text": "Mi dici quanto costa entrare a San Patrignano?"
+        },
+        {
+          "text": "Quanto costa entrare a San Patrignano?"
+        }
+      ],
+      "description": "Questo intent serve a spiegare all'utente quali sono i costi per entrare a San Patrignano"
+    },
+    {
+      "intent": "Presentazione",
+      "examples": [
+        {
+          "text": "Non ho chiesto di parlare con un agente. Stavo per dire ciao a te"
+        },
+        {
+          "text": "Come ti senti?"
+        },
+        {
+          "text": "Ciao watson fornitore di informazioni"
+        },
+        {
+          "text": "Ciao, ho dei problemi di navigazione nel vostro portale"
+        },
+        {
+          "text": "Ciao gemello informatico"
+        },
+        {
+          "text": "Che succede, fratello"
+        },
+        {
+          "text": "Buon pomeriggio bot!"
+        },
+        {
+          "text": "Buongiorno Agent!"
+        },
+        {
+          "text": "Buonasera, ho qualche domanda da farle, posso ?"
+        },
+        {
+          "text": "Mi sei mancato."
+        },
+        {
+          "text": "La gente non è maleducata?"
+        },
+        {
+          "text": "Hai trascorso una buona giornata?"
+        },
+        {
+          "text": "Ehi tutto a posto?"
+        },
+        {
+          "text": "Salve, avrei bisogno di una vostra consulenza"
+        },
+        {
+          "text": "Ti trovo bene, buona sera"
+        },
+        {
+          "text": "Sto parlando con un computer?"
+        },
+        {
+          "text": "Salve operatore virtuale"
+        },
+        {
+          "text": "Salve, l' attivazione del pacchetto messaggi non e' ancora stato effettuato"
+        },
+        {
+          "text": "Saluti a lei"
+        },
+        {
+          "text": "Pronto per cominciare"
+        }
+      ],
+      "description": "Presentazione dell'ospite"
+    },
+    {
+      "intent": "Informazioni_Utente",
+      "examples": [
+        {
+          "text": "Faccio uso di droga"
+        },
+        {
+          "text": "Mio padre fa uso di eroina"
+        },
+        {
+          "text": "Mia madre usa cocaina"
+        },
+        {
+          "text": "Ho problemi di droga"
+        },
+        {
+          "text": "Mia sorella è cocainomane"
+        },
+        {
+          "text": "=tossicodipendente"
+        },
+        {
+          "text": "familiare"
+        },
+        {
+          "text": "Mia sorella fa uso di droga"
+        },
+        {
+          "text": "Mio fratello fa uso di droga"
+        },
+        {
+          "text": "Mio padre si droga"
+        },
+        {
+          "text": "Sono un tossicodipendente"
+        }
+      ],
+      "description": "Questo intent serve a capire se stiamo parlando con il tossicodipendente, un familiare, un donatore o semplicemente un curioso"
+    },
+    {
+      "intent": "Informazioni_Percorso",
+      "examples": [
+        {
+          "text": "Vorrei avere informazioni sul percorso di recupero nella vostra comunità"
+        },
+        {
+          "text": "Dammi qualche informazioni sui percorsi di recupero"
+        },
+        {
+          "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunità?"
+        },
+        {
+          "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
+        },
+        {
+          "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunità"
+        },
+        {
+          "text": "Aiutami a trovare informazioni sul percorso di recupero"
+        }
+      ],
+      "description": "Informazioni sul percorso di recupero"
+    },
+    {
+      "intent": "InformazioneSettoriFormazione",
+      "examples": [
+        {
+          "text": "Come funzionano i settori di formazione?"
+        },
+        {
+          "text": "Aiutami a capire cosa sono i settori di formazione"
+        },
+        {
+          "text": "mi dai qualche info sulla falegnameria"
+        },
+        {
+          "text": "si dammi qualche info sugli allevamenti"
+        },
+        {
+          "text": "Vorrei qualche informazione sui settori di formazione"
+        },
+        {
+          "text": "Cosa sono i settori di formazione?"
+        },
+        {
+          "text": "Potrei avere qualche informazione in più sui settori di formazione"
+        }
+      ],
+      "description": "Questo intent consente di ottenere informazioni sui settori di recupero"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "settoriformazione",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "norcineria",
+          "synonyms": [
+            "vendita salumi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ospitalità",
+          "synonyms": [
+            "ricevimento ospiti",
+            "servizio a tavola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coltivazioni",
+          "synonyms": [
+            "coltura",
+            "piantagione",
+            "campo",
+            "area coltivata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "forno",
+          "synonyms": [
+            "rosticceria",
+            "pasticceria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "allevamenti",
+          "synonyms": [
+            "allevamento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "call-center",
+          "synonyms": [
+            "centro informazioni, call center"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "canile",
+          "synonyms": [
+            "cuccia, covaccio, custodia cani"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cantina",
+          "synonyms": [
+            "azienda vino",
+            "vendita vino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "caseificio",
+          "synonyms": [
+            "produzione latticini"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "centro medico",
+          "synonyms": [
+            "ambulatorio",
+            "infermeria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "comunicazioni",
+          "synonyms": [
+            "redazione",
+            "ufficio stampa",
+            "comunicazione"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cucina",
+          "synonyms": [
+            "gastronomia",
+            "culinaria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "decorazioni",
+          "synonyms": [
+            "laboratorio artistico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fabbri",
+          "synonyms": [
+            "fabbro",
+            "ferraio",
+            "ferrai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "falegnameria",
+          "synonyms": [
+            "falegnami",
+            "legneria",
+            "bottega falegname"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grafiche",
+          "synonyms": [
+            "laboratorio grafico",
+            "ufficio grafiche"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "idraulici",
+          "synonyms": [
+            "settore idraulico",
+            "reparto idraulico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chimico",
+          "synonyms": [
+            "settore chimico",
+            "reparto chimico",
+            "chimici"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "elettricisti",
+          "synonyms": [
+            "settore elettrico",
+            "reparto elettrico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lavanderia",
+          "synonyms": [
+            "lavanderia a secco",
+            "lavasecco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "magazzini",
+          "synonyms": [
+            "stock",
+            "emporio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "manutenzione",
+          "synonyms": [
+            "manutenzioni",
+            "reparto manutenzione"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "personas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "donatore",
+          "synonyms": [
+            "benefattore",
+            "offerente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tossicodipendente",
+          "synonyms": [
+            "ospite",
+            "tossico",
+            "drogato",
+            "cocainomane",
+            "eroinomane",
+            "tossicomane"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "familiare",
+          "synonyms": [
+            "fratello",
+            "sorella",
+            "padre",
+            "madre",
+            "cugina",
+            "cugino",
+            "zio",
+            "zia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "conferma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negativa",
+          "synonyms": [
+            "no",
+            "non mi interessa",
+            "no grazie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "positiva",
+          "synonyms": [
+            "si",
+            "ok",
+            "va bene",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "it",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1547815740175",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1547815740175",
+      "previous_sibling": "handler_3_1547815740175"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1547815740175",
+      "event_name": "input",
+      "dialog_node": "handler_3_1547815740175"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nella comunità di troverai questi settori di vita e formazione:<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalità, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Vuoi informazioni su qualche settore in particolare?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547805118753",
+      "metadata": {},
+      "conditions": "@conferma:positiva",
+      "dialog_node": "node_2_1547985519266"
+    },
+    {
+      "type": "slot",
+      "parent": "Benvenuto",
+      "dialog_node": "slot_2_1547815740175",
+      "previous_sibling": "handler_1_1547815740167"
+    },
+    {
+      "type": "event_handler",
+      "parent": "Benvenuto",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1547815740167",
+      "previous_sibling": "node_4_1547829318977"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "context": {
+        "personas": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1548008790726"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1547829318977"
+    },
+    {
+      "type": "standard",
+      "title": "Entrata per Contatto diretto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Potete mettervi in contatto con l’Ufficio Accoglienza. E’ possibile comunicare con noi utilizzando il telefono, la posta, tradizionale o elettronica, oppure compilando l’apposito form in homepage.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Email: accoglienza@sanpatrignano.org (italiani)<br/>\nhelp@sanpatrignano.org (stranieri)<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Via San Patrignano 53\n47853 Coriano (Rimini) – Italia\n\nTel. +39 0541 362111\nFax +39 0541 756108<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1548005886588",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1548005886588"
+      },
+      "conditions": "$metodo_contatto==\"contatto diretto\"",
+      "dialog_node": "node_4_1548087510971",
+      "previous_sibling": "node_3_1548087415926"
+    },
+    {
+      "type": "standard",
+      "title": "Continua conversazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bene. Ti ricordo che posso aiutarti ad avere le informazioni che maggiormente ti interessano sulla comunità come il percorso, i settori di formazione, la scuola e istruzione, i costi, le modalità di entrata, informazioni sulle associazioni e SERT o le modalità per contattarci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1548005886588",
+      "metadata": {},
+      "conditions": "$metodo_contatto==\"\"",
+      "dialog_node": "node_1_1548163390972",
+      "previous_sibling": "node_5_1548087690389"
+    },
+    {
+      "type": "standard",
+      "title": "Entrata tramite Associazioni di volontariato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le associazioni di volontariato sono presenti in gran parte del territorio nazionale e sono composte da genitori, da volontari e da persone che hanno vissuto la tossicodipendenza e ne sono uscite.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Il loro ruolo è catalizzare le richieste di aiuto, supportare i ragazzi nella loro volontà di cambiare, aiutarli a disintossicarsi e suggerire alle famiglie il modo migliore per stare loro vicino. Le associazioni operano anche all’interno dei penitenziari dando l’opportunità alle persone detenute per reati connessi alla tossicodipendenza di accedere a misure alternative.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per trovare l’associazione più vicina a te, <a href=\"https://www.sanpatrignano.org/hai-bisogno-aiuto/le-associazioni/\" target=\"_blank\">clicca qui</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1548005886588",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1548005886588"
+      },
+      "conditions": "$metodo_contatto==\"associazioni di volontariato\"",
+      "dialog_node": "node_3_1548087415926",
+      "previous_sibling": "node_2_1548087195861"
+    },
+    {
+      "type": "standard",
+      "title": "Entrata tramite SERT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.ministerosalute.it/imgs/C_17_pubblicazioni_433_allegato.pdf\">Clicca qui</a> per scaricare l’elenco dei servizi pubblici per le tossicodipendenze.\nUna volta accertata la reale determinazione della persona, vengono organizzati uno o più colloqui con gli operatori dell’ufficio accoglienza, che illustrano i metodi, i principi e il programma di recupero.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Alla fine del colloquio, i ragazzi valutano la proposta e decidono liberamente se il programma di San Patrignano corrisponde o meno alle proprie esigenze. Se accettano, l’ingresso in comunità avviene direttamente.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1548005886588",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1548005886588"
+      },
+      "conditions": "$metodo_contatto==\"sert\"",
+      "dialog_node": "node_5_1548087690389",
+      "previous_sibling": "node_4_1548087510971"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1548005886588",
+      "context": {
+        "metodo_contatto": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1548087415926"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1548087195861"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1548008790741",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_10_1548008790741",
+      "previous_sibling": "handler_9_1548008790741"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1548008790741",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_9_1548008790741"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1548008790726",
+      "metadata": {},
+      "dialog_node": "slot_8_1548008790741",
+      "previous_sibling": "handler_11_1548008790741"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_6_1548008790726",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1548008790741",
+      "previous_sibling": "node_7_1548008790741"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1548008790726",
+      "context": {
+        "personas": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_7_1548008790741"
+    },
+    {
+      "type": "standard",
+      "title": "In altri casi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Non ho capito. Puoi riformulare la frase?"
+              },
+              {
+                "text": "Puoi ripetere usando altre parole? Non ho capito."
+              },
+              {
+                "text": "Non ho capito cosa mi hai detto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "In altri casi",
+      "previous_sibling": "node_3_1544523453277"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Settori di Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano presenta oltre 50 settori di vita e formazione, dove i ragazzi vengono inseriti in base alla disponibilità di persone che possano affiancare il nuovo entrato e in base alla sua propensione. Imparare al meglio una professione consente ad ogni ragazzo di crescere nell’autostima e nei rapporti interpersonali.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Vuoi sapere quali settori di formazione sono disponibili a San Patrignano?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioneSettoriFormazione && !@settoriformazione",
+      "dialog_node": "node_1_1547805118753",
+      "previous_sibling": "node_1_1544534431384"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Scuola e Istruzione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All’interno di San Patrignano i ragazzi possono riprendere gli studi che hanno abbandonato a causa della tossicodipendenza. In una struttura dedicata è infatti possibile colmare le proprie lacune o intraprendere un nuovo percorso scolastico orientato ad acquisire un diploma o una qualifica professionale.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/centro%20studi_1.jpg\" width=\"300\" height=\"200\"><br/><br/>In questa <a href=\"https://www.sanpatrignano.org/la-comunita/studio/\" target=\"_blank\">pagina</a> puoi trovare ulteriori informazioni."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioniScuolaIstruzione",
+      "dialog_node": "node_3_1548004915505",
+      "previous_sibling": "node_5_1547825383595"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta Informazioni - Familiare",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Grazie mille. Il mio compito è quello di aiutarti ad avere le informazioni di cui hai bisogno.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Prima di cominciare voglio dirti di non disperare perché la comunità di San Patrignano ha già aiutato migliaia di genitori e parenti che hanno dovuto combattere contro i problemi di tossicodipendenza dei propri figli o parenti. Molti di loro sono arrivati a San Patrignano disillusi e con la convinzione che fosse troppo tardi. Invece no, <u>non è mai tardi per aiutare chi amate</u> e cominciare accanto a loro un percorso che vi porterà a cambiare pelle.  Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/cari-genitori-i-genitori-si-raccontano/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie di genitori e parenti che ce l'hanno fatta.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2018/08/IMG_1687-730x410.jpg\" width=\"300\" height=\"200\"><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/>* sul percorso di recupero per tuo figlio/a o parente;<br/>* come tuo figlio/a o parente possa entrare nella comunità di San Patrignano;<br/>* i settori di formazione e la scuola;<br/>* per contattarci;<br/>* su come raggiungerci.<br/><br/>Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Informazioni_Utente && $personas==\"familiare\"",
+      "dialog_node": "node_1_1548172926105",
+      "previous_sibling": "node_1_1547724300149"
+    },
+    {
+      "type": "standard",
+      "title": "Congedo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ti saluto con la speranza che si risolva tutto"
+              },
+              {
+                "text": "Grazie per aver contattato la comunità di San Patrignano spero di esserti stato utile. Ti auguro una buona giornata."
+              },
+              {
+                "text": "Ti ringrazio per averci contattato e ti auguro che tutto vada per il meglio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Congedo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1544523453277",
+      "previous_sibling": "node_3_1548519355391"
+    },
+    {
+      "type": "standard",
+      "title": "Informazione Dettagli sui Settori di Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Per avere ulteriori informazioni sul settore <? entities['settoriformazione'] ?>  puoi consultare la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/formazione/<? entities['settoriformazione'] ?>\" target=\"_blank\">pagina</a>.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2014/01/allevamenti-san-patrignano.jpg\" width=\"300\" height=\"200\">"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioneSettoriFormazione && @settoriformazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1547825383595",
+      "previous_sibling": "node_2_1547828362401"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni sul Percorso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il programma di recupero è personalizzato e varia a seconda delle caratteristiche e necessità di ogni singolo individuo.<br/><br/>Esso avviene attraverso il confronto quotidiano con i compagni e i responsabili di settore. Attraverso di esso emergono le criticità e le fragilità dell’individuo, che vengono di volta in volta analizzate ed affrontate.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Quando un ragazzo entra in comunità, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano è suddivisa. Qui è affidato a un ragazzo che diventa suo tutor e che nel primo anno di comunità (tempo variabile da ragazzo a ragazzo) lo segue costantemente nel suo percorso. Il ragazzo vive in stanza assieme al tutor e ad altri ragazzi.<br/><br/>Parallelamente ad ogni ragazzo viene data la possibilità di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico.<br/><br/>Durante il percorso si cerca anche di ricostruire il rapporto fra il ragazzo e la sua famiglia.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>.<br/><br/>Se lo desideri posso fornirti informazioni su:<br/>* settori di formazione;<br/>* scuola e istruzione."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Informazioni_Percorso",
+      "dialog_node": "node_1_1544534431384",
+      "previous_sibling": "node_1_1548172926105"
+    },
+    {
+      "type": "standard",
+      "title": "Contatti",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2017/05/panorama_sanpatrignano1-800x480.jpg\" width=\"300\" height=\"200\">"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Contatti",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1548518022320",
+      "previous_sibling": "node_1_1548517842312"
+    },
+    {
+      "type": "standard",
+      "title": "Informazione sui Costi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "L’accoglienza in Comunità e l’intero programma di recupero sono <b>completamente gratuiti</b> sia per i ragazzi che per le loro famiglie.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Non sono richiesti né accettati contributi dai ragazzi accolti e dalle loro famiglie né contributi dallo Stato.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "La Comunità è in grado di coprire il 50% del proprio fabbisogno economico, il restante 50% proviene da donazioni di privati, aziende e fondazioni.<br/><br/>Ulteriori informazioni puoi trovarli <a href=\"https://www.sanpatrignano.org/recupero-che-conviene/\" target=\"_blank\">qui</a>.<br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Costi",
+      "dialog_node": "node_5_1548006228112",
+      "previous_sibling": "node_3_1548004915505"
+    },
+    {
+      "type": "standard",
+      "title": "Elenco Settori di Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La comunità di San Patrignano presenta oltre 50 settori di formazione. Questo è l'elenco:<br/><br/>allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalità, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche.<br/><br/>Vuoi informazioni su qualche settore in particolare?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#ElencoSettoriFormazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1547828362401",
+      "previous_sibling": "node_1_1547805118753"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta Ammissione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ci sono tre modalità per essere accolti nella comunità di San Patrignano. Cliccando su una qualunque di essa potrò fornirti ulteriori dettagli. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Tramite le associazioni di volontariato",
+                "value": {
+                  "input": {
+                    "text": "associazioni di volontariato"
+                  }
+                }
+              },
+              {
+                "label": "Contattandoci direttamente",
+                "value": {
+                  "input": {
+                    "text": "contatto diretto"
+                  }
+                }
+              },
+              {
+                "label": "Attraverso i servizi territoriali (Sert)",
+                "value": {
+                  "input": {
+                    "text": "sert"
+                  }
+                }
+              },
+              {
+                "label": "Non mi interessa, proseguiamo con la conversazione",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#RichiestaAmmissione",
+      "dialog_node": "node_4_1548005886588",
+      "previous_sibling": "node_5_1548006228112"
+    },
+    {
+      "type": "standard",
+      "title": "Presentazione dell'Ospite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Salve! Come anticipato nel messaggio di benvenuto sono sono qui per aiutarti a trovare le informazioni di cui hai bisogno.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per un buon proseguimento della nostra conversazione, avrei la necessità di sapere se sei interessato alla comunità perchè:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "hai problemi di tossicodipendenza;",
+                "value": {
+                  "input": {
+                    "text": "tossicodipendente"
+                  }
+                }
+              },
+              {
+                "label": "un tuo familiare ha problemi di tossicodipendenza;",
+                "value": {
+                  "input": {
+                    "text": "familiare"
+                  }
+                }
+              },
+              {
+                "label": "sei un donatore o vuoi informazioni per diventarlo;",
+                "value": {
+                  "input": {
+                    "text": "donatore"
+                  }
+                }
+              },
+              {
+                "label": "nulla di tutto ciò, sei solo interessato ad alcune informazioni",
+                "value": {
+                  "input": {
+                    "text": "curioso"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Presentazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1548008790726",
+      "digress_out": "allow_all",
+      "previous_sibling": "Benvenuto"
+    },
+    {
+      "type": "standard",
+      "title": "Associazioni di Volontariato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le associazioni di volontariato sono presenti in gran parte del territorio nazionale e sono composte da genitori, da volontari e da persone che hanno vissuto la tossicodipendenza e ne sono uscite.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Il loro ruolo è catalizzare le richieste di aiuto, supportare i ragazzi nella loro volontà di cambiare, aiutarli a disintossicarsi e suggerire alle famiglie il modo migliore per stare loro vicino. Le associazioni operano anche all’interno dei penitenziari dando l’opportunità alle persone detenute per reati connessi alla tossicodipendenza di accedere a misure alternative.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per trovare l’associazione più vicina a te, <a href=\"https://www.sanpatrignano.org/hai-bisogno-aiuto/le-associazioni/\" target=\"_blank\">clicca qui</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Informazioni_Associazioni_Volontariato",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548517842312",
+      "previous_sibling": "node_4_1548005886588"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta Informazioni - Tossicodipendente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Grazie mille. Il mio compito è quello di aiutarti ad avere le informazioni di cui hai bisogno.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Prima di cominciare voglio dirti di non disperare perché la comunità di San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg\" width=\"300\" height=\"200\"><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/>* sul percorso di recupero;<br/>* come entrare nella comunità di San Patrignano;<br/>* i settori di formazione e la scuola;<br/>* per contattarci;<br/>* su come raggiungerci.<br/><br/>Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Informazioni_Utente && $personas==\"tossicodipendente\"",
+      "dialog_node": "node_1_1547724300149",
+      "previous_sibling": "node_6_1548008790726"
+    },
+    {
+      "type": "standard",
+      "title": "Dove si Trova",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La comunità di San Patrignano si trova a Coriano (RN) in via San Patrignano n° 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps.<br/><br/><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#DoveSiTrova",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1548519355391",
+      "previous_sibling": "node_2_1548518022320"
+    },
+    {
+      "type": "standard",
+      "title": "Benvenuto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Benvenuto! sono Sanpa l'assistente virtuale della comunità di San Patrignano e sono qui per aiutarti.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per un buon proseguimento della nostra conversazione, avrei la necessità di sapere se sei interessato alla comunità perchè:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "hai problemi di tossicodipendenza;",
+                "value": {
+                  "input": {
+                    "text": "tossicodipendente"
+                  }
+                }
+              },
+              {
+                "label": "un tuo familiare ha problemi di tossicodipendenza;",
+                "value": {
+                  "input": {
+                    "text": "familiare"
+                  }
+                }
+              },
+              {
+                "label": "sei un donatore o vuoi informazioni per diventarlo;",
+                "value": {
+                  "input": {
+                    "text": "donatore"
+                  }
+                }
+              },
+              {
+                "label": "nulla di tutto ciò, sei solo interessato ad alcune informazioni",
+                "value": {
+                  "input": {
+                    "text": "curioso"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Benvenuto",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "7e8376e5-dee3-421b-9daf-b82f336a271d",
+  "counterexamples": [
+    {
+      "text": "va bene"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
