@@ -24,7 +24,7 @@ Poiché nel tempo a disposizione riteniamo sia impossibile coprire gli scenari l
 
 Dalla lista delle Personas abbiamo deciso di esplorare le due principali che sono poi quelle che si rivolgono maggiormente alla comunità per chiedere informazioni di varia natura:
 
-* Futuro Ospite
+* Ospite
 * Familiare
 
 ![Ospite](designthinking/thumbnails/Ospite.jpg?raw=true)
