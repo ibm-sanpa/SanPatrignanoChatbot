@@ -18,6 +18,8 @@ Iterando varie volte è venuto fuori il seguente elenco delle Personas in ordine
 8. Sponsor
 9. Amici/Curiosi
 
+Poiché nel tempo a disposizione riteniamo sia impossibile coprire gli scenari legati a tutte queste Personas abbiamo pensato di coprire gli scenari più significativi in maniera completa affinché il team di San Patrignano possa impadronirsi di tutti gli strumenti necessari per creare in proprio un chatbot.
+
 ## Empathy Maps
 
 Dalla lista delle Personas abbiamo deciso di esplorare le due principali che sono poi quelle che si rivolgono maggiormente alla comunità per chiedere informazioni di varia natura:
