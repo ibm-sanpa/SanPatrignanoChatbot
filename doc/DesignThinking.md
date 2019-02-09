@@ -41,6 +41,22 @@ Dopo aver individuato le Personas da analizzare e fatte le dovute considerazioni
 
 ### Struttura Scenari
 
+I seguenti schemi sono stati costruiti dopo discussioni del dominio in cui il chatbot si troverà ad operare. Abbiamo visto che un Familiare o un Ospite quando entra in contatto con la comunità vuole sapere due cose fondamentali:
+
+* come funziona il percorso di recupero;
+* come si fa ad entrare nella comunità.
+
+Il Percorso di recupero è basato fondamentalmente su due pilastri:
+
+* **Settori di formazione**. Sono oltre 50 e sono strutture in cui l'ospite, attraverso il lavoro e l'interazione con altri compagni, si inserisce piano piano nel contesto sociale della comunità guidato da un tutor e da supervisori. Attraverso questo scambio quotidiano si cerca anche di ricostruire un legame con la famiglia. 
+* **Scuola**. Attraverso la scuola, invece, l'ospite avrà la possibilità di recuperare gli anni persi a causa della dipendenza e avere un sufficiente livello culturale per reinserirsi nella società.
+
+L'entrata in comunità avviene in tre modi possibili:
+
+* **Associazioni**. Sono comunità locali composti da genitori di ex ospiti e/o ex ospiti guidati da esperti del settore.
+* **Contatto diretto**. Lo staff valuta lo stato del futuro ospite e lo rimanda verso associazioni locali o SERT. Solo se ci sono le condizioni si può fissare un colloquio per l'ingresso in comunità.
+* **SERT**. Centri specializzati locali per la cura da tossicodipendenza.
+
 ![Struttura scenari Familiare/Ospite](designthinking/thumbnails/Struttura_Scenario_Ospite_Familiare.jpg?raw=true)
 
 ![Struttura scenari Donazione](designthinking/thumbnails/Struttura_Scenario_Donazioni.jpg?raw=true)
