@@ -59,6 +59,8 @@ L'entrata in comunità avviene in tre modi possibili:
 
 ![Struttura scenari Familiare/Ospite](designthinking/thumbnails/Struttura_Scenario_Ospite_Familiare.jpg?raw=true)
 
+Le donazioni possono essere regolari o una tantum. Le donazioni regolari sono quasi sempre in forma monetaria e i pagamenti possono essere con carta di credito o RID. Le donazioni una tantum possono essere sia in forma di soldi ma anche come beni o lasciti. Nel caso di donazioni una tantum con soldi i pagamenti possono avvenire con bollettino postale, carta di credito, bonifico. San Patrignano non accetta soldi dai futuri ospiti o da familiari di ospiti. Ad ogni modo, quest'ultimi possono dare una mano alla comunità sottoscrivendo un abbonamento al giornale. I donatori possono detrarre le loro donazioni dalla loro dichiarazione dei redditi per cui è frequente la richiesta di ricevute.
+
 ![Struttura scenari Donazione](designthinking/thumbnails/Struttura_Scenario_Donazioni.jpg?raw=true)
 
 
