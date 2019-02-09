@@ -5,10 +5,10 @@
       "intent": "Informazioni_Bonifico",
       "examples": [
         {
-          "text": "posso avere gli estremi bancari?"
+          "text": "posso farvi un bonifico?"
         },
         {
-          "text": "mi date le vostre coordinate bancarie?"
+          "text": "posso avere il vostro iban"
         },
         {
           "text": "come faccio a fare un bonifico?"
@@ -17,13 +17,13 @@
           "text": "mi date il vostro iban"
         },
         {
+          "text": "mi date le vostre coordinate bancarie?"
+        },
+        {
+          "text": "posso avere gli estremi bancari?"
+        },
+        {
           "text": "vorrei l'iban di sanpa per donare"
-        },
-        {
-          "text": "posso farvi un bonifico?"
-        },
-        {
-          "text": "posso avere il vostro iban"
         }
       ],
       "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bollettino postale."
@@ -53,7 +53,7 @@
       "intent": "ElencoSettoriFormazione",
       "examples": [
         {
-          "text": "Mi dici quali sono i settori di formazione che avete?"
+          "text": "mi dici quali settori vita ci sono"
         },
         {
           "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
@@ -62,13 +62,13 @@
           "text": "Quali sono i settori di formazioni disponibili?"
         },
         {
-          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
-        },
-        {
-          "text": "mi dici quali settori vita ci sono"
+          "text": "Mi dici quali sono i settori di formazione che avete?"
         },
         {
           "text": "Vorrei sapere quali sono i settori di formazione che avete"
+        },
+        {
+          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
         }
       ],
       "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunità."
@@ -77,7 +77,10 @@
       "intent": "Congedo",
       "examples": [
         {
-          "text": "Ehi penso che hai risolto il mio problema grazie"
+          "text": "ciao watson ti auguro una giornata bellissima"
+        },
+        {
+          "text": "Grazie di avermi aiutato. Ciao"
         },
         {
           "text": "Grazie di tutto, è stato molto di aiuto"
@@ -122,10 +125,7 @@
           "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
         },
         {
-          "text": "ciao watson ti auguro una giornata bellissima"
-        },
-        {
-          "text": "Grazie di avermi aiutato. Ciao"
+          "text": "Ehi penso che hai risolto il mio problema grazie"
         }
       ],
       "description": "Termina la conversazione."
@@ -188,7 +188,10 @@
           "text": "Come faccio a raggiungervi?"
         },
         {
-          "text": "In quale città vi trovate?"
+          "text": "In che città vi trovate?"
+        },
+        {
+          "text": "Dove si trova San Patrignano"
         },
         {
           "text": "Dove siete?"
@@ -197,10 +200,7 @@
           "text": "Dove si trova la comunità?"
         },
         {
-          "text": "In che città vi trovate?"
-        },
-        {
-          "text": "Dove si trova San Patrignano"
+          "text": "In quale città vi trovate?"
         }
       ],
       "description": "Questo intento serve a identificare domande su dove si trova San Patrignano"
@@ -209,13 +209,13 @@
       "intent": "InformazioniScuolaIstruzione",
       "examples": [
         {
-          "text": "Come posso recuperare gli anni scolastici persi?"
-        },
-        {
           "text": "E' possibile recuperare gli anni di studio persi?"
         },
         {
           "text": "Mi dai qualche informazione su scuola e istruzione?"
+        },
+        {
+          "text": "Come posso recuperare gli anni scolastici persi?"
         },
         {
           "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
@@ -230,19 +230,19 @@
       "intent": "Informazioni_Deducibilita_Fiscale",
       "examples": [
         {
-          "text": "Quando mi arriva la ricevuta per la mia donazione?"
-        },
-        {
           "text": "Mi mandate una ricevuta per la mia donazione?"
         },
         {
           "text": "Sono un donatore, posso usufruire dei benefici fiscali?"
         },
         {
+          "text": "La donazione è deducibile?"
+        },
+        {
           "text": "Ho donato, vorrei la ricevuta"
         },
         {
-          "text": "La donazione è deducibile?"
+          "text": "Quando mi arriva la ricevuta per la mia donazione?"
         }
       ],
       "description": "Questo intent gestisce le richieste sulla deducibilità fiscale."
@@ -251,10 +251,10 @@
       "intent": "Informazioni_Donazione_Regolare",
       "examples": [
         {
-          "text": "Desidero fare una donazione regolare nel tempo"
+          "text": "Come posso fare una donazione regolare?"
         },
         {
-          "text": "Come posso fare una donazione regolare?"
+          "text": "vorrei fare una donazione ricorrente"
         },
         {
           "text": "Come si fa a donare una piccola quota mese dopo mese?"
@@ -264,6 +264,9 @@
         },
         {
           "text": "Come faccio a donare un po' di soldi mensilmente"
+        },
+        {
+          "text": "Desidero fare una donazione regolare nel tempo"
         },
         {
           "text": "Vorrei fare una donazione continuativa"
@@ -362,6 +365,12 @@
           "text": "avete un bollettino da darmi?"
         },
         {
+          "text": "mi date il vostro conto corrente postale"
+        },
+        {
+          "text": "mi mandate un bollettino postale precompilato?"
+        },
+        {
           "text": "mi mandate un bollettino postale in bianco?"
         },
         {
@@ -369,12 +378,6 @@
         },
         {
           "text": "posso donare con bollettino postale?"
-        },
-        {
-          "text": "mi date il vostro conto corrente postale"
-        },
-        {
-          "text": "mi mandate un bollettino postale precompilato?"
         }
       ],
       "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bollettino postale."
@@ -383,7 +386,7 @@
       "intent": "Presentazione",
       "examples": [
         {
-          "text": "Ciao watson fornitore di informazioni"
+          "text": "Ciao, ho dei problemi di navigazione nel vostro portale"
         },
         {
           "text": "Ehi tutto a posto?"
@@ -413,7 +416,7 @@
           "text": "Ciao gemello informatico"
         },
         {
-          "text": "Ciao, ho dei problemi di navigazione nel vostro portale"
+          "text": "Ciao watson fornitore di informazioni"
         },
         {
           "text": "Come ti senti?"
@@ -477,6 +480,9 @@
         },
         {
           "text": "=tossicodipendente"
+        },
+        {
+          "text": "curioso"
         },
         {
           "text": "familiare"
@@ -560,9 +566,6 @@
       "intent": "Informazioni_Donazioni_Una_Tantum",
       "examples": [
         {
-          "text": "come posso fare una donazione libera?"
-        },
-        {
           "text": "come funziona invece quella una tantum"
         },
         {
@@ -576,6 +579,9 @@
         },
         {
           "text": "come posso fare una donazione non regolare?"
+        },
+        {
+          "text": "come posso fare una donazione libera?"
         }
       ],
       "description": "Questo intento gestisce la richiesta di informazioni sulle donazioni una tantum."
@@ -583,9 +589,6 @@
     {
       "intent": "InformazioneSettoriFormazione",
       "examples": [
-        {
-          "text": "Potrei avere qualche informazione in più sui settori di formazione"
-        },
         {
           "text": "Cosa sono i settori di formazione?"
         },
@@ -603,6 +606,9 @@
         },
         {
           "text": "Come funzionano i settori di formazione?"
+        },
+        {
+          "text": "Potrei avere qualche informazione in più sui settori di formazione"
         }
       ],
       "description": "Questo intent consente di ottenere informazioni sui settori di recupero"
@@ -1305,7 +1311,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Donazioni (Familiare)",
+      "title": "Informazioni Donazioni (Familiare/Ospite)",
       "output": {
         "generic": [
           {
@@ -1334,19 +1340,19 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Informazioni_Donatore && $personas==\"donatore\"",
+      "conditions": "#Informazioni_Donatore && ($personas == 'familiare' || $personas == 'tossicodipendente')",
       "dialog_node": "node_2_1549707731268",
       "previous_sibling": "node_1_1549706998167"
     },
     {
       "type": "standard",
-      "title": "Informazioni sul Percorso",
+      "title": "Richiesta Informazioni - Curioso",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Il programma di recupero è personalizzato e varia a seconda delle caratteristiche e necessità di ogni singolo individuo.<br/><br/>Esso avviene attraverso il confronto quotidiano con i compagni e i responsabili di settore. Attraverso di esso emergono le criticità e le fragilità dell’individuo, che vengono di volta in volta analizzate ed affrontate.<br/><br/>"
+                "text": "Grazie mille. Il mio compito è quello di aiutarti ad avere le informazioni di cui hai bisogno.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -1360,7 +1366,7 @@
           {
             "values": [
               {
-                "text": "Quando un ragazzo entra in comunità, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano è suddivisa. Qui è affidato a un ragazzo che diventa suo tutor e che nel primo anno di comunità (tempo variabile da ragazzo a ragazzo) lo segue costantemente nel suo percorso. Il ragazzo vive in stanza assieme al tutor e ad altri ragazzi.<br/><br/>Parallelamente ad ogni ragazzo viene data la possibilità di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico.<br/><br/>Durante il percorso si cerca anche di ricostruire il rapporto fra il ragazzo e la sua famiglia.<br/><br/>"
+                "text": "Prima di cominciare voglio dirti che la comunità di San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg\" width=\"300\" height=\"200\"><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -1374,7 +1380,7 @@
           {
             "values": [
               {
-                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>.<br/><br/>Se lo desideri posso fornirti informazioni su:<br/>• settori di formazione;<br/>• scuola e istruzione."
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/>• sul percorso di recupero;<br/>• come si entra nella comunità di San Patrignano;<br/>• i settori di formazione e la scuola;<br/>• per contattarci;<br/>• su come raggiungerci.<br/><br/>Come posso aiutarti?"
               }
             ],
             "response_type": "text",
@@ -1383,8 +1389,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Informazioni_Percorso",
-      "dialog_node": "node_1_1544534431384",
+      "conditions": "#Informazioni_Utente && $personas==\"curioso\"",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1549750990654",
       "previous_sibling": "node_2_1549707731268"
     },
     {
@@ -1459,7 +1466,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Donazioni Beni",
+      "title": "Informazioni Donazioni Beni",
       "output": {
         "generic": [
           {
@@ -1558,7 +1565,56 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Donazioni Una Tantum",
+      "title": "Informazioni sul Percorso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il programma di recupero è personalizzato e varia a seconda delle caratteristiche e necessità di ogni singolo individuo.<br/><br/>Esso avviene attraverso il confronto quotidiano con i compagni e i responsabili di settore. Attraverso di esso emergono le criticità e le fragilità dell’individuo, che vengono di volta in volta analizzate ed affrontate.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Quando un ragazzo entra in comunità, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano è suddivisa. Qui è affidato a un ragazzo che diventa suo tutor e che nel primo anno di comunità (tempo variabile da ragazzo a ragazzo) lo segue costantemente nel suo percorso. Il ragazzo vive in stanza assieme al tutor e ad altri ragazzi.<br/><br/>Parallelamente ad ogni ragazzo viene data la possibilità di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico.<br/><br/>Durante il percorso si cerca anche di ricostruire il rapporto fra il ragazzo e la sua famiglia.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>.<br/><br/>Se lo desideri posso fornirti informazioni su:<br/>• settori di formazione;<br/>• scuola e istruzione."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Informazioni_Percorso",
+      "dialog_node": "node_1_1544534431384",
+      "previous_sibling": "node_1_1549750990654"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Donazioni Una Tantum",
       "output": {
         "generic": [
           {
@@ -1607,7 +1663,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni (Donatore)",
+      "title": "Informazioni (Donatore)",
       "output": {
         "generic": [
           {
@@ -1664,7 +1720,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Bollettino Postale",
+      "title": "Informazioni Pagamenti Bollettino Postale",
       "output": {
         "generic": [
           {
@@ -1854,7 +1910,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Donazioni Regolari",
+      "title": "Informazioni Donazioni Regolari",
       "output": {
         "generic": [
           {
@@ -2036,7 +2092,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Bonifico",
+      "title": "Informazioni Pagamenti Bonifico",
       "output": {
         "generic": [
           {
@@ -2057,7 +2113,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni Deducibilità Fiscale",
+      "title": "Informazioni Deducibilità Fiscale",
       "output": {
         "generic": [
           {
