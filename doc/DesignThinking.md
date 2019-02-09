@@ -39,4 +39,10 @@ Dopo aver individuato le Personas da analizzare e fatte le dovute considerazioni
 
 ![Familiare - Richiesta Informazioni](designthinking/thumbnails/Familiare-RichiestaInformazione.jpg?raw=true)
 
+### Struttura Scenari
+
+![Struttura scenari Familiare/Ospite](designthinking/thumbnails/Struttura_Scenario_Ospite_Familiare.jpg?raw=true)
+
+![Struttura scenari Donazione](designthinking/thumbnails/Struttura_Scenario_Donazioni.jpg?raw=true)
+
 
