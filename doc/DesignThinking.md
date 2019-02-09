@@ -6,6 +6,18 @@ Come prima cosa abbiamo cercato di individuare le Personas coinvolte. E' venuto 
 
 ![Personas](designthinking/thumbnails/Personas.jpg?raw=true)
 
+Iterando varie volte è venuto fuori il seguente elenco delle Personas in ordine di importanza:
+
+1. Ospite
+2. Familiare
+3. Donatore
+4. Associazioni
+5. Aziende
+6. Volontari
+7. Clienti
+8. Sponsor
+9. Amici/Curiosi
+
 ## Empathy Maps
 
 Dalla lista delle Personas abbiamo deciso di esplorare le due principali che sono poi quelle che si rivolgono maggiormente alla comunità per chiedere informazioni di varia natura:
