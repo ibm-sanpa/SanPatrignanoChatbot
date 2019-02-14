@@ -1,7 +1,6 @@
 applications:
 - memory: 64M
   instances: 1
-  domain: eu-gb.mybluemix.net
   name: SanPatrignano
   host: sanpatrignano
   disk_quota: 1024M
