@@ -2211,7 +2211,7 @@
           {
             "values": [
               {
-                "text": "Prima di cominciare voglio dirti di non disperare perché la comunità di San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg\" width=\"300\" height=\"200\"><br/><br/>"
+                "text": "Prima di cominciare voglio dirti di non disperare perché la comunità di San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie.<br/><br/><img src=\"https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg\" width=\"300\" height=\"200\"/><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -2333,7 +2333,7 @@
           {
             "values": [
               {
-                "text": "Benvenuto! sono Sanpa l'assistente virtuale della comunità di San Patrignano e sono qui per aiutarti.<br/><br/>"
+                "text": "<img src=\"https://www.sanpatrignano.org/wp-content/uploads/come-entrare.jpg\" width=\"300\" height=\"200\"/><br/><br/>Benvenuto! sono Sanpa l'assistente virtuale della comunità di San Patrignano e sono qui per aiutarti.<br/><br/>"
               }
             ],
             "response_type": "text",
