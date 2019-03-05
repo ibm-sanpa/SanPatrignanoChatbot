@@ -5,12 +5,6 @@
       "intent": "Informazioni_Bonifico",
       "examples": [
         {
-          "text": "vorrei l'iban di sanpa per donare"
-        },
-        {
-          "text": "posso farvi un bonifico?"
-        },
-        {
           "text": "posso avere il vostro iban?"
         },
         {
@@ -18,6 +12,12 @@
         },
         {
           "text": "come faccio a fare un bonifico?"
+        },
+        {
+          "text": "vorrei l'iban di sanpa per donare"
+        },
+        {
+          "text": "posso farvi un bonifico?"
         },
         {
           "text": "mi date le vostre coordinate bancarie?"
@@ -32,7 +32,28 @@
       "intent": "Informazioni_Donazioni_Beni",
       "examples": [
         {
+          "text": "posso donarvi giocattoli per i bambini?"
+        },
+        {
+          "text": "posso donare un immobile?"
+        },
+        {
+          "text": "posso donare un computer?"
+        },
+        {
+          "text": "posso regalarvi cose per la  prima infanzia"
+        },
+        {
+          "text": "avete bisogno di materiali?"
+        },
+        {
+          "text": "posso regalarvi una fornitura di cancelleria?"
+        },
+        {
           "text": "vorrei donarvi una macchina"
+        },
+        {
+          "text": "volete dei vestiti?"
         },
         {
           "text": "posso regalarvi una macchina?"
@@ -41,37 +62,16 @@
           "text": "posso regalarvi un motorino?"
         },
         {
-          "text": "avete bisogno di materiali?"
-        },
-        {
-          "text": "posso regalarvi cose per la  prima infanzia"
-        },
-        {
-          "text": "posso regalarvi una fornitura di cancelleria?"
-        },
-        {
-          "text": "posso donare un computer?"
-        },
-        {
-          "text": "posso donare un immobile?"
-        },
-        {
-          "text": "posso donarvi giocattoli per i bambini?"
-        },
-        {
-          "text": "posso donarvi una bicicletta?"
-        },
-        {
-          "text": "posso mandarvi dei mobili?"
+          "text": "posso regalarvi della carta igienica?"
         },
         {
           "text": "posso regalarvi dei medicinali?"
         },
         {
-          "text": "posso regalarvi della carta igienica?"
+          "text": "posso mandarvi dei mobili?"
         },
         {
-          "text": "volete dei vestiti?"
+          "text": "posso donarvi una bicicletta?"
         }
       ],
       "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di beni."
@@ -80,19 +80,19 @@
       "intent": "InformazioniScuolaIstruzione",
       "examples": [
         {
-          "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
-        },
-        {
           "text": "E' possibile studiare a San Patrignano"
         },
         {
-          "text": "E' possibile recuperare gli anni di studio persi?"
+          "text": "Come posso recuperare gli anni scolastici persi?"
         },
         {
           "text": "Mi dai qualche informazione su scuola e istruzione?"
         },
         {
-          "text": "Come posso recuperare gli anni scolastici persi?"
+          "text": "E' possibile recuperare gli anni di studio persi?"
+        },
+        {
+          "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
         }
       ],
       "description": "Questo intent consente di richiedere informazioni su Scuola e Istruzione"
@@ -110,13 +110,13 @@
           "text": "Quali sono i costi per entrare a San Patrignano?"
         },
         {
-          "text": "Quali sono i costi di ingresso per San Patrignano?"
-        },
-        {
           "text": "Mi dici quanto costa entrare a San Patrignano?"
         },
         {
           "text": "va bene ma quanto costa tutto ciò"
+        },
+        {
+          "text": "Quali sono i costi di ingresso per San Patrignano?"
         }
       ],
       "description": "Questo intent serve a spiegare all'utente quali sono i costi per entrare a San Patrignano"
@@ -125,22 +125,22 @@
       "intent": "Informazioni_Donazioni_Lasciti",
       "examples": [
         {
-          "text": "Quanto incide la tassa di successione su ciò che destino nel mio testamento?"
-        },
-        {
-          "text": "Sto per morire. Vorrei fare un lascito alla comunità."
-        },
-        {
           "text": "Come posso fare un lascito alla vostra comunità?"
-        },
-        {
-          "text": "Come sarà gestito il mio lascito?"
         },
         {
           "text": "Posso legare beni immobili?"
         },
         {
+          "text": "Quanto incide la tassa di successione su ciò che destino nel mio testamento?"
+        },
+        {
           "text": "Come si fa un lascito?"
+        },
+        {
+          "text": "Come sarà gestito il mio lascito?"
+        },
+        {
+          "text": "Sto per morire. Vorrei fare un lascito alla comunità."
         }
       ],
       "description": "Questo intento gestisce la richiesta di informazioni sui lasciti."
@@ -149,13 +149,34 @@
       "intent": "Presentazione",
       "examples": [
         {
-          "text": "Salve operatore virtuale"
+          "text": "Non ho chiesto di parlare con un agente. Stavo per dire ciao a te"
+        },
+        {
+          "text": "Hai trascorso una buona giornata?"
+        },
+        {
+          "text": "La gente non è maleducata?"
+        },
+        {
+          "text": "Salve, avrei bisogno di una vostra consulenza"
+        },
+        {
+          "text": "Ti trovo bene, buona sera"
+        },
+        {
+          "text": "Mi sei mancato."
         },
         {
           "text": "Saluti a lei"
         },
         {
-          "text": "Mi sei mancato."
+          "text": "Salve, l' attivazione del pacchetto messaggi non e' ancora stato effettuato"
+        },
+        {
+          "text": "Salve operatore virtuale"
+        },
+        {
+          "text": "Sto parlando con un computer?"
         },
         {
           "text": "Buonasera, ho qualche domanda da farle, posso ?"
@@ -185,77 +206,17 @@
           "text": "Pronto per cominciare"
         },
         {
-          "text": "Non ho chiesto di parlare con un agente. Stavo per dire ciao a te"
-        },
-        {
           "text": "Ehi tutto a posto?"
-        },
-        {
-          "text": "Hai trascorso una buona giornata?"
-        },
-        {
-          "text": "La gente non è maleducata?"
-        },
-        {
-          "text": "Salve, avrei bisogno di una vostra consulenza"
-        },
-        {
-          "text": "Ti trovo bene, buona sera"
-        },
-        {
-          "text": "Sto parlando con un computer?"
-        },
-        {
-          "text": "Salve, l' attivazione del pacchetto messaggi non e' ancora stato effettuato"
         }
       ],
       "description": "Presentazione dell'ospite"
     },
     {
-      "intent": "Informazioni_Utente",
-      "examples": [
-        {
-          "text": "Ho problemi di droga"
-        },
-        {
-          "text": "Mia sorella è cocainomane"
-        },
-        {
-          "text": "Sono un tossicodipendente"
-        },
-        {
-          "text": "Faccio uso di droga"
-        },
-        {
-          "text": "Mia sorella fa uso di droga"
-        },
-        {
-          "text": "familiare"
-        },
-        {
-          "text": "Mia madre usa cocaina"
-        },
-        {
-          "text": "Mio padre si droga"
-        },
-        {
-          "text": "Mio fratello fa uso di droga"
-        },
-        {
-          "text": "tossicodipendente"
-        },
-        {
-          "text": "curioso"
-        },
-        {
-          "text": "Mio padre fa uso di eroina"
-        }
-      ],
-      "description": "Questo intent serve a capire se stiamo parlando con il tossicodipendente, un familiare, un donatore o semplicemente un curioso"
-    },
-    {
       "intent": "Informazioni_Bollettino_Postale",
       "examples": [
+        {
+          "text": "posso donare con bollettino postale?"
+        },
         {
           "text": "posso donare con ccp?"
         },
@@ -270,30 +231,48 @@
         },
         {
           "text": "mi mandate un bollettino postale precompilato?"
-        },
-        {
-          "text": "posso donare con bollettino postale?"
         }
       ],
       "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bollettino postale."
     },
     {
-      "intent": "Informazioni_SERT",
+      "intent": "SonoTossicodipendente",
       "examples": [
         {
-          "text": "Vorrei contattare un SERT nella mia zona."
+          "text": "tossicodipendente"
         },
+        {
+          "text": "Mi drogo"
+        },
+        {
+          "text": "Sono un tossicodipendente"
+        },
+        {
+          "text": "Ho problemi di droga"
+        },
+        {
+          "text": "Faccio uso di droga"
+        }
+      ],
+      "description": "Questo intent serve a capire se stiamo parlando con un tossicodipendente."
+    },
+    {
+      "intent": "Informazioni_SERT",
+      "examples": [
         {
           "text": "Desidero sapere dove posso trovare informazioni sui SERT"
         },
         {
-          "text": "Non trovo le informazioni sui SERT, mi aiutate?"
+          "text": "Ciao, mi puoi dire dove trovo le informazioni sui SERT"
+        },
+        {
+          "text": "Vorrei contattare un SERT nella mia zona."
         },
         {
           "text": "Come posso contattare il SERT a me più vicino?"
         },
         {
-          "text": "Ciao, mi puoi dire dove trovo le informazioni sui SERT"
+          "text": "Non trovo le informazioni sui SERT, mi aiutate?"
         }
       ],
       "description": "Informazioni sui SERT"
@@ -302,19 +281,19 @@
       "intent": "Informazioni_Associazioni_Volontariato",
       "examples": [
         {
-          "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
-        },
-        {
           "text": "Vorrei avere informazioni sulle associazioni di volontariato, dove posso trovarli?"
         },
         {
-          "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
+          "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
+        },
+        {
+          "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
         },
         {
           "text": "Ciao, mi puoi dire dove trovo le informazioni sulle associazioni di volontariato"
         },
         {
-          "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
+          "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
         }
       ],
       "description": "Informazioni sulle associazioni di volontariato"
@@ -326,22 +305,22 @@
           "text": "si dammi qualche info sugli allevamenti"
         },
         {
-          "text": "Aiutami a capire cosa sono i settori di formazione"
+          "text": "Cosa sono i settori di formazione?"
         },
         {
-          "text": "mi dai qualche info sulla falegnameria"
-        },
-        {
-          "text": "Come funzionano i settori di formazione?"
+          "text": "Vorrei qualche informazione sui settori di formazione"
         },
         {
           "text": "Potrei avere qualche informazione in più sui settori di formazione"
         },
         {
-          "text": "Cosa sono i settori di formazione?"
+          "text": "Come funzionano i settori di formazione?"
         },
         {
-          "text": "Vorrei qualche informazione sui settori di formazione"
+          "text": "Aiutami a capire cosa sono i settori di formazione"
+        },
+        {
+          "text": "mi dai qualche info sulla falegnameria"
         }
       ],
       "description": "Questo intent consente di ottenere informazioni sui settori di recupero"
@@ -368,44 +347,8 @@
       "description": "Questo intent gestisce le richieste sulla deducibilità fiscale."
     },
     {
-      "intent": "Informazione_Donazioni_Soldi",
-      "examples": [
-        {
-          "text": "Mi piacerebbe fare una donazione di 10 Euro, come devo fare?"
-        },
-        {
-          "text": "Come posso fare una donazione di soldi mensile?"
-        },
-        {
-          "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
-        },
-        {
-          "text": "Vorrei donarvi dei soldi"
-        },
-        {
-          "text": "Mi aiutate a capire come fare una donazione monetaria?"
-        }
-      ],
-      "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi."
-    },
-    {
       "intent": "Informazioni_RID",
       "examples": [
-        {
-          "text": "Vorrei donare con addebito mensile in banca"
-        },
-        {
-          "text": "Vorrei fare una donazione continuativa con rid bancario"
-        },
-        {
-          "text": "Come faccio per pagare con l'accredito sul mio conto corrente?"
-        },
-        {
-          "text": "Come faccio per pagare con RID?"
-        },
-        {
-          "text": "E' possibile pagare tramite RID?"
-        },
         {
           "text": "E' possibile pagare una donazione con accredito sul conto corrente?"
         },
@@ -413,7 +356,22 @@
           "text": "Posso pagare tramite RID"
         },
         {
+          "text": "Come faccio per pagare con RID?"
+        },
+        {
+          "text": "Come faccio per pagare con l'accredito sul mio conto corrente?"
+        },
+        {
           "text": "Vorrei che la donazione fosse accreditata sul mio conto corrente. E' Possibile?"
+        },
+        {
+          "text": "Vorrei donare con addebito mensile in banca"
+        },
+        {
+          "text": "Vorrei fare una donazione continuativa con rid bancario"
+        },
+        {
+          "text": "E' possibile pagare tramite RID?"
         }
       ],
       "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite RID."
@@ -431,10 +389,10 @@
           "text": "Come posso contattare l'ufficio commerciale?"
         },
         {
-          "text": "Come posso contattarvi?"
+          "text": "Come posso contattare l'ufficio raccolta fondi?"
         },
         {
-          "text": "Come posso contattare l'ufficio raccolta fondi?"
+          "text": "Come posso contattarvi?"
         }
       ],
       "description": "Informazione sui contatti"
@@ -443,25 +401,25 @@
       "intent": "ContattiUfficioAccoglienza",
       "examples": [
         {
-          "text": "Vorrei contattare l'ufficio accoglienza"
+          "text": "Qual è l'email dell'ufficio accoglienza?"
         },
         {
           "text": "Come posso contattare l'accoglienza?"
         },
         {
-          "text": "Qual è il numero dell'accoglienza?"
+          "text": "Vorrei contattare l'ufficio accoglienza"
         },
         {
-          "text": "Qual è l'email dell'ufficio accoglienza?"
-        },
-        {
-          "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
+          "text": "Mi passi l'ufficio accoglienza"
         },
         {
           "text": "Come contatto l'accoglienza"
         },
         {
-          "text": "Mi passi l'ufficio accoglienza"
+          "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
+        },
+        {
+          "text": "Qual è il numero dell'accoglienza?"
         }
       ],
       "description": "Informazione su come contattare l'ufficio accoglienza"
@@ -470,22 +428,22 @@
       "intent": "ElencoSettoriFormazione",
       "examples": [
         {
-          "text": "Vorrei sapere quali sono i settori di formazione che avete"
-        },
-        {
-          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
-        },
-        {
-          "text": "Quali sono i settori di formazioni disponibili?"
-        },
-        {
           "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
         },
         {
           "text": "Mi dici quali sono i settori di formazione che avete?"
         },
         {
+          "text": "Vorrei sapere quali sono i settori di formazione che avete"
+        },
+        {
           "text": "mi dici quali settori vita ci sono"
+        },
+        {
+          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
+        },
+        {
+          "text": "Quali sono i settori di formazioni disponibili?"
         }
       ],
       "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunità."
@@ -494,16 +452,7 @@
       "intent": "ComeEntrareSanPatrignano",
       "examples": [
         {
-          "text": "Come si fa per entrare nella comunità di San Patrignano?"
-        },
-        {
           "text": "come faccio ad entrare a san patrignano"
-        },
-        {
-          "text": "Mi spieghi come si fa ad entrare nella comunità?"
-        },
-        {
-          "text": "Come faccio ad entrare nella comunità?"
         },
         {
           "text": "Mi aiuti a capire come si entra nella comunità?"
@@ -512,7 +461,16 @@
           "text": "Cosa devo fare per entrare nella comunità di San Patrignano?"
         },
         {
+          "text": "Come si fa per entrare nella comunità di San Patrignano?"
+        },
+        {
           "text": "Come si entra nella comunità?"
+        },
+        {
+          "text": "Come faccio ad entrare nella comunità?"
+        },
+        {
+          "text": "Mi spieghi come si fa ad entrare nella comunità?"
         }
       ],
       "description": "Questo intent serve per aiutare l'utente a capire come si può entrare nella comunità"
@@ -520,27 +478,6 @@
     {
       "intent": "Informazioni_Donatore",
       "examples": [
-        {
-          "text": "Come posso donare?"
-        },
-        {
-          "text": "Sono il padre di un ragazzo ospite. Come posso fare una donazione?"
-        },
-        {
-          "text": "donatore"
-        },
-        {
-          "text": "vorrei fare una donazione"
-        },
-        {
-          "text": "Voglio fare una donazione per sostenere il percorso di mio figlio, come procedo?"
-        },
-        {
-          "text": "Sono un parente di un ragazzo in percorso, come posso sostenere la Comunità?"
-        },
-        {
-          "text": "Sono la madre di un ragazzo ospite. Come posso fare una donazione?"
-        },
         {
           "text": "Mio figlio è entrato in Comunità, come posso aiutarvi?"
         },
@@ -560,10 +497,31 @@
           "text": "Come posso fare una donazione?"
         },
         {
+          "text": "Come posso donare?"
+        },
+        {
           "text": "Come posso contribuire?"
         },
         {
           "text": "Come posso sostenervi?"
+        },
+        {
+          "text": "donatore"
+        },
+        {
+          "text": "Sono il padre di un ragazzo ospite. Come posso fare una donazione?"
+        },
+        {
+          "text": "vorrei fare una donazione"
+        },
+        {
+          "text": "Voglio fare una donazione per sostenere il percorso di mio figlio, come procedo?"
+        },
+        {
+          "text": "Sono un parente di un ragazzo in percorso, come posso sostenere la Comunità?"
+        },
+        {
+          "text": "Sono la madre di un ragazzo ospite. Come posso fare una donazione?"
         }
       ],
       "description": "Questo intent gestisce le richieste dei donatori che vogliono informazioni."
@@ -572,40 +530,67 @@
       "intent": "Informazioni_Donazioni_Soldi",
       "examples": [
         {
+          "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
+        },
+        {
+          "text": "Vorrei donarvi dei soldi, come faccio?"
+        },
+        {
           "text": "Posso donarvi 10 Euro al mese?"
         },
         {
           "text": "Vorrei contribuire con un'offerta di soldi"
         },
         {
-          "text": "Posso contribuire con una quota mensile?"
-        },
-        {
           "text": "Come posso mandarvi dei soldi?"
         },
         {
-          "text": "Vorrei donarvi dei soldi, come faccio?"
+          "text": "Posso contribuire con una quota mensile?"
+        },
+        {
+          "text": "come posso donare dei soldi"
+        },
+        {
+          "text": "Come posso fare una donazione di soldi mensile?"
+        },
+        {
+          "text": "vorrei donare dei soldi"
+        },
+        {
+          "text": "Mi aiutate a capire come fare una donazione monetaria?"
+        },
+        {
+          "text": "Mi piacerebbe fare una donazione di 10 Euro, come devo fare?"
         }
       ],
       "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi."
     },
     {
+      "intent": "SonoAltroUtente",
+      "examples": [
+        {
+          "text": "altro utente"
+        }
+      ],
+      "description": "Questo intent serve a capire se stiamo parlando con un generico utente."
+    },
+    {
       "intent": "Aziende",
       "examples": [
         {
+          "text": "Come posso vendere i vostri prodotti all’interno della mia azienda?"
+        },
+        {
           "text": "E’ possibile realizzare un evento aziendale presso la vostra struttura?"
+        },
+        {
+          "text": "Sono un imprenditore come posso sostenervi?"
         },
         {
           "text": "Vorrei organizzare una visita aziendale, come posso fare?"
         },
         {
           "text": "Avete proposte di welfare aziendale?"
-        },
-        {
-          "text": "Come posso vendere i vostri prodotti all’interno della mia azienda?"
-        },
-        {
-          "text": "Sono un imprenditore come posso sostenervi?"
         }
       ],
       "description": "Questo intent consente di capire come possono sostenerci le aziende."
@@ -617,19 +602,19 @@
           "text": "In che città vi trovate?"
         },
         {
-          "text": "Dove siete?"
-        },
-        {
           "text": "Dove si trova la comunità?"
         },
         {
-          "text": "In quale città vi trovate?"
+          "text": "Dove si trova San Patrignano"
         },
         {
           "text": "Come faccio a raggiungervi?"
         },
         {
-          "text": "Dove si trova San Patrignano"
+          "text": "Dove siete?"
+        },
+        {
+          "text": "In quale città vi trovate?"
         }
       ],
       "description": "Questo intento serve a identificare domande su dove si trova San Patrignano"
@@ -638,10 +623,40 @@
       "intent": "Congedo",
       "examples": [
         {
+          "text": "Me ne sto andando."
+        },
+        {
+          "text": "Grazie watson parliamo dopo per quanto riguarda il pagamento della fattura"
+        },
+        {
+          "text": "Grazie di tutto, è stato molto di aiuto"
+        },
+        {
           "text": "Grazie di avermi aiutato. Ciao"
         },
         {
+          "text": "Addio!"
+        },
+        {
+          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
+        },
+        {
+          "text": "Ehi penso che hai risolto il mio problema grazie"
+        },
+        {
           "text": "sono contento che non devo parlare con gli umani ciao watson"
+        },
+        {
+          "text": "smetti questa sessione adesso"
+        },
+        {
+          "text": "Pausa"
+        },
+        {
+          "text": "Non vedo l'ora di parlarti la prossima volta."
+        },
+        {
+          "text": "Mi è piaciuto cooperare con te."
         },
         {
           "text": "Sono curiso se ci sentiamo ancora."
@@ -657,51 +672,42 @@
         },
         {
           "text": "ciao watson ti auguro una giornata bellissima"
-        },
-        {
-          "text": "Grazie di tutto, è stato molto di aiuto"
-        },
-        {
-          "text": "Addio!"
-        },
-        {
-          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
-        },
-        {
-          "text": "Ehi penso che hai risolto il mio problema grazie"
-        },
-        {
-          "text": "Grazie watson parliamo dopo per quanto riguarda il pagamento della fattura"
-        },
-        {
-          "text": "Me ne sto andando."
-        },
-        {
-          "text": "Mi è piaciuto cooperare con te."
-        },
-        {
-          "text": "Non vedo l'ora di parlarti la prossima volta."
-        },
-        {
-          "text": "Pausa"
-        },
-        {
-          "text": "smetti questa sessione adesso"
         }
       ],
       "description": "Termina la conversazione."
     },
     {
+      "intent": "SonoFamiliareTossicodipendente",
+      "examples": [
+        {
+          "text": "familiare"
+        },
+        {
+          "text": "Mia madre usa cocaina"
+        },
+        {
+          "text": "Mia sorella è cocainomane"
+        },
+        {
+          "text": "Mia sorella fa uso di droga"
+        },
+        {
+          "text": "Mio fratello fa uso di droga"
+        },
+        {
+          "text": "Mio padre si droga"
+        },
+        {
+          "text": "Sono il familiare di un tossicodipendente"
+        }
+      ],
+      "description": "Questo intent serve a capire se stiamo parlando con un familiare di un tossicodipendente"
+    },
+    {
       "intent": "Informazioni_Percorso",
       "examples": [
         {
-          "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunità?"
-        },
-        {
           "text": "Dammi qualche informazioni sui percorsi di recupero"
-        },
-        {
-          "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
         },
         {
           "text": "Aiutami a trovare informazioni sul percorso di recupero"
@@ -711,6 +717,12 @@
         },
         {
           "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunità"
+        },
+        {
+          "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
+        },
+        {
+          "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunità?"
         }
       ],
       "description": "Informazioni sul percorso di recupero"
@@ -722,31 +734,31 @@
           "text": "Vorrei fare una donazione singola con carta di credito, come posso fare?"
         },
         {
-          "text": "Come faccio per pagare con carta di credito?"
-        },
-        {
-          "text": "Posso pagare con carta di credito?"
-        },
-        {
           "text": "Vorrei pagare con carta di credito"
         },
         {
-          "text": "Posso donare con carta?"
-        },
-        {
-          "text": "Accettate la visa?"
-        },
-        {
-          "text": "Vorrei pagare la donazione con carta di credito, è possibile?"
+          "text": "Come faccio per pagare con carta di credito?"
         },
         {
           "text": "E' possibile pagare tramite carta di credito?"
+        },
+        {
+          "text": "Vorrei pagare la donazione con carta di credito, è possibile?"
         },
         {
           "text": "Accettate tutte le carte di credito?"
         },
         {
           "text": "Accettate american express?"
+        },
+        {
+          "text": "Accettate la visa?"
+        },
+        {
+          "text": "Posso donare con carta?"
+        },
+        {
+          "text": "Posso pagare con carta di credito?"
         }
       ],
       "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite carta credito."
@@ -1046,6 +1058,58 @@
       "parent": "Benvenuto",
       "event_name": "focus",
       "dialog_node": "handler_1_1547815740167",
+      "previous_sibling": "node_3_1551808052218"
+    },
+    {
+      "type": "standard",
+      "title": "Sono Familiare Tossicodipendente",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "context": {
+        "personas": "familiare"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1547724300149"
+      },
+      "conditions": "#SonoFamiliareTossicodipendente",
+      "dialog_node": "node_2_1551807494179",
+      "previous_sibling": "node_1_1551807396640"
+    },
+    {
+      "type": "standard",
+      "title": "Sono Tossicodipendente",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "context": {
+        "personas": "tossicodipendente"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1547724300149"
+      },
+      "conditions": "#SonoTossicodipendente",
+      "dialog_node": "node_1_1551807396640",
       "previous_sibling": "node_4_1547829318977"
     },
     {
@@ -1053,6 +1117,31 @@
       "parent": "Benvenuto",
       "dialog_node": "slot_2_1547815740175",
       "previous_sibling": "handler_1_1547815740167"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "context": {
+        "personas": "donatore"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1547724300149"
+      },
+      "conditions": "#Informazioni_Donatore",
+      "dialog_node": "node_3_1551808052218",
+      "previous_sibling": "node_2_1551807494179"
     },
     {
       "type": "standard",
@@ -1076,7 +1165,7 @@
         "selector": "condition",
         "dialog_node": "node_1_1547724300149"
       },
-      "conditions": "true",
+      "conditions": "(input.text==\"tossicodipendente\" || input.text==\"familiare\" || input.text==\"donatore\" || input.text==\"altro utente\")",
       "dialog_node": "node_4_1547829318977"
     },
     {
@@ -1317,7 +1406,7 @@
           {
             "values": [
               {
-                "text": "Con una donazione una tantum consiste in un contributo singolo. Puoi effettuare la donazione tramite: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/\\#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a>. In alternativa chiama il numero verde 800 894575.<br/><br/>"
+                "text": "Con una donazione una tantum il tuo contributo alla comunità sarà singolo. Puoi effettuare la donazione tramite: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/\\#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a>. In alternativa chiama il numero verde 800 894575.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -1629,7 +1718,7 @@
           {
             "values": [
               {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/> • sul percorso di recupero;<br/> • come entrare nella comunità di San Patrignano;<br/> • i settori di formazione e la scuola;<br/> • costi;<br/> • su come contattarci e raggiungerci.<br/><br/>Come posso aiutarti?"
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/> • sul percorso di recupero;<br/> • come entrare nella comunità di San Patrignano;<br/> • costi;<br/> • su come contattarci e raggiungerci.<br/><br/>Come posso aiutarti?"
               }
             ],
             "response_type": "text",
@@ -1638,7 +1727,7 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Informazioni_Utente && $personas==\"tossicodipendente\"",
+      "conditions": "#SonoTossicodipendente && $personas==\"tossicodipendente\"",
       "dialog_node": "node_1_1547724300149",
       "previous_sibling": "Benvenuto"
     },
@@ -1854,7 +1943,7 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni - Curioso",
+      "title": "Richiesta Informazioni - Altro Utente",
       "output": {
         "generic": [
           {
@@ -1888,7 +1977,7 @@
           {
             "values": [
               {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/>• sul percorso di recupero;<br/>• come si entra nella comunità di San Patrignano;<br/>• i settori di formazione e la scuola;<br/>• su come e raggiungerci.<br/><br/>Come posso aiutarti?"
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/>• sul percorso di recupero;<br/>• come si entra nella comunità di San Patrignano;<br/>• su come contattarci e raggiungerci.<br/><br/>Come posso aiutarti?"
               }
             ],
             "response_type": "text",
@@ -1897,7 +1986,7 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Informazioni_Utente && $personas==\"curioso\"",
+      "conditions": "#SonoAltroUtente && $personas==\"altro utente\"",
       "digress_in": "does_not_return",
       "dialog_node": "node_1_1549750990654",
       "previous_sibling": "node_2_1549707731268"
@@ -2038,7 +2127,7 @@
           {
             "values": [
               {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/> • sul percorso di recupero per tuo figlio/a o parente;<br/> • come tuo figlio/a o parente possa entrare nella comunità di San Patrignano;<br/> • i settori di formazione e la scuola;<br/>• costi;<br/> • su come e raggiungerci.<br/><br/>Come posso aiutarti?"
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni:<br/> • sul percorso di recupero per tuo figlio/a o parente;<br/> • come tuo figlio/a o parente possa entrare nella comunità di San Patrignano;<br/>• costi;<br/> • su come contattarci e raggiungerci.<br/><br/>Come posso aiutarti?"
               }
             ],
             "response_type": "text",
@@ -2047,7 +2136,7 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Informazioni_Utente && $personas==\"familiare\"",
+      "conditions": "#SonoFamiliareTossicodipendente && $personas==\"familiare\"",
       "dialog_node": "node_1_1548172926105",
       "previous_sibling": "node_1_1547724300149"
     },
@@ -2278,7 +2367,7 @@
             "title": "",
             "options": [
               {
-                "label": "tossicodipendente;",
+                "label": "tossicodipendente",
                 "value": {
                   "input": {
                     "text": "tossicodipendente"
@@ -2286,7 +2375,7 @@
                 }
               },
               {
-                "label": "familiare di tossicodipendente;",
+                "label": "familiare di tossicodipendente",
                 "value": {
                   "input": {
                     "text": "familiare"
@@ -2305,18 +2394,19 @@
                 "label": "altro",
                 "value": {
                   "input": {
-                    "text": "curioso"
+                    "text": "altro utente"
                   }
                 }
               }
             ],
+            "preference": "button",
             "description": "",
             "response_type": "option"
           }
         ]
       },
       "context": {
-        "personas": "curioso"
+        "personas": "altro utente"
       },
       "metadata": {
         "fallback": "leave"
