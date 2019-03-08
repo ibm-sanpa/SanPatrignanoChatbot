@@ -15,3 +15,17 @@ Questa è la lista dei partecipanti all'iniziativa.
 * Michela Fraternali
 * Sara Baldi
 * Sofia Di Stefano
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
