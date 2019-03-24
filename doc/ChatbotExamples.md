@@ -12,4 +12,8 @@ come obiettivo quello di creare un legame di empatia con l'utente.
 
 [Kayak](https://www.messenger.com/t/kayak)
 
-..........................
+Chatbot di Kayak per la prenotazione di Voli aerei e Hotel. L'interessante di questo chatbot è l'uso del menù iniziale che rende subito comprensibile cosa puoi fare con esso. Inoltre, il set di Carousel e elementi grafici semplifica la prenotazione di aerei mediante smartphone.
+
+[Filos](https://www.aimac.it/filos)
+
+Assistente virtuale sui diritti dei malati di cancro. E' interessante notare in questo chatbot l'utilizzo della scelta della Personas all'inizio e i guard rails che guidano l'utente verso i punti chiave del dialogo.
