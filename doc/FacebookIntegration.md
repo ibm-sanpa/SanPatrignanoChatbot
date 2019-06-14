@@ -20,6 +20,9 @@ Dalla home di Watson Assistant selezione l'Assistant del tuo chatbot. Nel pannel
 - Nome
 - Descrizione
 - Chiave segreta (creata nello step 2)
+- Normativa Privacy URL
+
+Attiva l'app con il bottone in alto.
 
 ### 4. Configura Facebook Messanger
 
@@ -29,24 +32,9 @@ A questo punto bisogna configurare i webhooks cliccando sul bottone **Ricevi gli
 
 Nella sezione **Webhooks** seleziona la pagina e clicca sul bottone **Effettua l'Iscrizione**
 
-```
-Step 1. Creazione di un applicazione Facebook
+### 4. Attiva il pulsante "Invia un Messaggio"
 
-Vai al link http://developers.facebook.com e loggati usando le tue credenziali Facebook. Aggiungi una nuova App e completa gli steps per generare un nuovo app ID.
-Completato questo step verrà generato un application secret da utilizzare per l'integrazione con Facebook Messenger in Watson Assistant.
-
-Step 2. Connetti Watson Assistant a Facebook
-
-Questo step collega la tua pagina facebook alla tua applicazione attraverso un "Page Access Token" che dovrai specificare nel campo Page Access Token su Watson Assistant.
-Nota: Se non hai già creato una pagina, clicca su Create a new page.
-
-Step 3. Configure Facebook webhooks and connetti il tuo assistant.
-
-Questo step connette il Webhooks alla pagina creata allo step 2
-
-
-
-```
+Nella pagina facebook clicca su **Aggiungi un pulsante**, apri il tab **Contatto**, seleziona **Invia un Messaggio** e poi clicca sul bottone **Avanti**. Seleziona **Messanger** come luogo di reindirizzamento e clicca sul bottone **Fine**.
 
 ## Tips & Tricks
 
