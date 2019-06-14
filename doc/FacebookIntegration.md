@@ -6,9 +6,14 @@
 
  Di seguito una descrizione degli steps principali di integrazione.
  
+### Crea pagina Facebook
+
+Collegati al tuo account Facebook e in alto a destra sulla freccia in basso clicca su **Gestisci Pagina** e poi su **Crea Pagina**, scegli se la pagina è un'azienda, brand, community o altro. Inserisci il **Nome** e la **Categoria**, poi anche l'**Indirizzo**. Carica l'immagine del profilo e la copertina.
+
 ### Creazione di un applicazione Facebook
 
 Vai a questo [link](http://developers.facebook.com) e loggati usando le tue credenziali Facebook. Clicca sul menu **Le mie app** e selezione la voce **Aggiungi una nuova**. Apparirà il pannello **Crea un nuovo ID app** einserisci il **Nome Visualizzato** e l'**Indirizzo e-mail di contatto**, poi clicca sul bottone **Crea ID App**. Conferma che non sei un robot e clicca sul bottone **Invia**. Dal menu selezione **Impostazioni**->**Di Base** e Mostra la chiave segreta che dovrai copiare e incollare per poterla usare nel prossimo step.
+
 
 ### Integra il tuo Chatbot con Facebook
 
