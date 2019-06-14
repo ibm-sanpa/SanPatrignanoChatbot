@@ -1,6 +1,6 @@
 ## Steps di integrazione con Facebook Messenger
 
- [Questo video](https://www.youtube.com/watch?v=8o-FFU5sYNM) descrive tutti gli steps di integrazione tra il chabot realizzato con Watson Assistant e Facebook Messenger.
+ Questo video descrive tutti gli steps di integrazione tra il chabot realizzato con Watson Assistant e Facebook Messenger.
  
  [![](http://img.youtube.com/vi/8o-FFU5sYNM/0.jpg)](http://www.youtube.com/watch?v=8o-FFU5sYNM "")
 
