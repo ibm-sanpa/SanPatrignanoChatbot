@@ -45,4 +45,5 @@ Per visualizzare le options va sempre specificato il titolo in Watson Assistant 
 
 ## Welocome Node
 Gran parte delle integrazioni non consentono di visualizzare il welcome node.
+
 [A questo link ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-start) è descritto una soluzione alternativa che risolve questo problerma.
