@@ -37,7 +37,10 @@ In questo caso è necessario utilizzare come response type "image" nel dialog.
 Questo response type mostra una lista di opzione che l'utente può selezionare.
 Per visualizzare le options va sempre specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
 
+[Cliccando qui ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-deploy-facebook#deploy-facebook=) è possibile trovare un elenco completo delle best practise da utilizzare
 
-[A questo è possibile trovare un elenco completo delle best practise da utilizzare] (https://cloud.ibm.com/docs/services/assistant?topic=assistant-deploy-facebook#deploy-facebook=)
+4. Welocome Node
+Gran parte delle integrazioni non consentono di visualizzare il welcome node.
+[A questo link ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-start) è descritto una soluzione alternativa che risolve questo problerma.
 
 ```
