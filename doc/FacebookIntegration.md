@@ -36,21 +36,16 @@ Nella sezione **Webhooks** seleziona la pagina e clicca sul bottone **Effettua l
 
 Nella pagina facebook clicca su **Aggiungi un pulsante**, apri il tab **Contatto**, seleziona **Invia un Messaggio** e poi clicca sul bottone **Avanti**. Seleziona **Messanger** come luogo di reindirizzamento e clicca sul bottone **Fine**.
 
-## Tips & Tricks
+## Troubleshooting
 
-```
-Le rich responses aggiunte ad un dialogo sono mostrate in Facebook come atteso, tranne alcune eccezzioni.
-Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
+Le rich responses aggiunte ad un dialogo sono mostrate in Facebook come atteso, tranne alcune eccezzioni. Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
 
 1. Image
-Questo response type permette di visualizzare un'immagine in Facebook Messenger.
-In questo caso è necessario utilizzare come response type "image" nel dialog.
+Questo response type permette di visualizzare un'immagine in Facebook Messenger. In questo caso è necessario utilizzare come response type "image" nel dialog.
 
 2. Option
-Questo response type mostra una lista di opzione che l'utente può selezionare.
-Per visualizzare le options va sempre specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
+Questo response type mostra una lista di opzione che l'utente può selezionare. Per visualizzare le options va sempre  specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
 
-```
 
 [Cliccando qui ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-deploy-facebook#deploy-facebook=) è possibile trovare un elenco completo delle best practise da utilizzare
 
