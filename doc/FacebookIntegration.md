@@ -26,11 +26,11 @@ Questo step connette il Webhooks alla pagina creata allo step 2
 ## Tips & Tricks
 
 ```
-Le rich responses aggiunte  ad un dialogo  sono mostrate in Facebook come atteso, tranne alcune eccezzioni.
+Le rich responses aggiunte ad un dialogo sono mostrate in Facebook come atteso, tranne alcune eccezzioni.
 Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
 
 1. Image
-Questo response type permette di visualizzare un immagine in Facebook Messenger.
+Questo response type permette di visualizzare un'immagine in Facebook Messenger.
 In questo caso è necessario utilizzare come response type "image" nel dialog.
 
 2. Option
