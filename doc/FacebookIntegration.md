@@ -9,7 +9,7 @@
 ```
 Step 1. Creazione di un applicazione Facebook
 
-Vai il link  http://developers.facebook.com e loggati usando le tue credenziali Facebook. Aggiungi una nuova App e completa gli steps per generare un nuovo app ID.
+Vai il [link](http://developers.facebook.com) e loggati usando le tue credenziali Facebook. Aggiungi una nuova App e completa gli steps per generare un nuovo app ID.
 Completato questo step verrà generato un application secret da utilizzare per l'integrazione con Facebook Messenger in Watson Assistant.
 
 Step 2. Connetti Watson Assistant a Facebook
