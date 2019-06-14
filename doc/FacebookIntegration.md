@@ -12,6 +12,11 @@ Vai a questo [link](http://developers.facebook.com) e loggati usando le tue cred
 
 ### Integra il tuo Chatbot con Facebook
 
+Dalla home di Watson Assistant selezione l'Assistant del tuo chatbot. Nel pannello a sinistra **Integrations** seleziona **Facebook Messanger** e compila il form inserendo i seguenti valori:
+- Nome
+- Descrizione
+- Chiave segreta (creata nello step precedente)
+
 ```
 Step 1. Creazione di un applicazione Facebook
 
