@@ -40,16 +40,13 @@ Nella pagina facebook clicca su **Aggiungi un pulsante**, apri il tab **Contatto
 
 Le rich responses aggiunte ad un dialogo sono mostrate in Facebook come atteso, tranne alcune eccezzioni. Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
 
-1. Image
-Questo response type permette di visualizzare un'immagine in Facebook Messenger. In questo caso è necessario utilizzare come response type "image" nel dialog.
+1. **Image**. Questo response type permette di visualizzare un'immagine in Facebook Messenger. In questo caso è necessario utilizzare come response type "image" nel dialog.
 
-2. Option
-Questo response type mostra una lista di opzione che l'utente può selezionare. Per visualizzare le options va sempre  specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
+2. **Option**. Questo response type mostra una lista di opzione che l'utente può selezionare. Per visualizzare le options va sempre  specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
 
+3. **Welcome Node**. Gran parte delle integrazioni non consentono di visualizzare il welcome node. [A questo link ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-start) è descritto una soluzione alternativa che risolve questo problerma.
 
 [Cliccando qui ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-deploy-facebook#deploy-facebook=) è possibile trovare un elenco completo delle best practise da utilizzare
 
-## Welocome Node
-Gran parte delle integrazioni non consentono di visualizzare il welcome node.
 
-[A questo link ](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-start) è descritto una soluzione alternativa che risolve questo problerma.
+
