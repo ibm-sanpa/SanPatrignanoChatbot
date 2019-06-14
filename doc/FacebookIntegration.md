@@ -1,1 +1,43 @@
-Questa pagina spiega come integrare il chatbot con Facebook messenger ed alcune utili best practices.
+## Steps di integrazione con Facebook Messenger
+
+ [Questo video](https://www.youtube.com/watch?v=8o-FFU5sYNM) descrive tutti gli steps di integrazione tra il chabot realizzato con Watson Assistant e Facebook Messenger.
+
+ Di seguito una descrizione degli steps principali di integrazione:
+
+```
+Step 1. Creazione di un applicazione Facebook
+
+Vai il link  http://developers.facebook.com e loggati usando le tue credenziali Facebook. Aggiungi una nuova App e completa gli steps per generare un nuovo app ID.
+Completato questo step verrà generato un application secret da utilizzare per l'integrazione con Facebook Messenger in Watson Assistant.
+
+Step 2. Connetti Watson Assistant a Facebook
+
+Questo step collega la tua pagina facebook alla tua applicazione attraverso un "Page Access Token" che dovrai specificare nel campo Page Access Token su Watson Assistant.
+Nota: Se non hai già creato una pagina, clicca su Create a new page.
+
+Step 3. Configure Facebook webhooks and connetti il tuo assistant.
+
+Questo step connette il Webhooks alla pagina creata allo step 2
+
+
+
+```
+
+## Tips & Tricks
+
+```
+Le rich responses aggiunte  ad un dialogo  sono mostrate in Facebook come atteso, tranne alcune eccezzioni.
+Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
+
+1. Image
+Questo response type permette di visualizzare un immagine in Facebook Messenger.
+In questo caso è necessario utilizzare come response type "image" nel dialog.
+
+2. Option
+Questo response type mostra una lista di opzione che l'utente può selezionare.
+Per visualizzare le options va sempre specificato il titolo in Watson Assistant mentre la description non verrà mai visualizzata ache se specificata.
+
+
+[A questo è possibile trovare un elenco completo delle best practise da utilizzare] (https://cloud.ibm.com/docs/services/assistant?topic=assistant-deploy-facebook#deploy-facebook=)
+
+```

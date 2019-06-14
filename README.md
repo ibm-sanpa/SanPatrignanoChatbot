@@ -46,6 +46,12 @@ Studiare esempi di altri chatbot consente di raccogliere best practices da poter
 
 cliccare sul bottone **Create**. Clicca su **Avvia Strumento** e apparirà la home page di Watson Assistant. Sul tab **Skill** clicca il bottone **Create** e poi seleziona il tab **Import skill**. Puoi a questo punto caricare il file JSON e il chatbot è pronto per essere usato..
 
+## Integrazione con Facebook
+A [questa pagina](doc/FacebookIntegration.md) puoi trovare le istruzioni per integrare il chatbot realizzato con Watson Assistant in Facebook Messenger.
+Questa pagina elenca anche una serie di best practices utili per indirizzare alcune delle problematiche che gli utenti devono affrontare durante questo tipo di
+intgrazione.
+
+
 ## Demo del Chatbot
 
 [Cliccando qui](https://sanpatrignano.eu-gb.mybluemix.net/) puoi accedere ad una demo live del chatbot. La demo consiste in un'applicazione Node.js che punta al servizio Watson Assistant e che permette di renderizzare pulsanti, immagini, pause, ecc. A breve verrà deployato su IBM Cloud un sito web Wordpress di test con il chatbot integrato.
