@@ -46,8 +46,19 @@ Studiare esempi di altri chatbot consente di raccogliere best practices da poter
 
 cliccare sul bottone **Create**. Clicca su **Avvia Strumento** e apparirà la home page di Watson Assistant. Sul tab **Skill** clicca il bottone **Create** e poi seleziona il tab **Import skill**. Puoi a questo punto caricare il file JSON e il chatbot è pronto per essere usato..
 
+## Integrazione con Facebook
+A [questa pagina](doc/FacebookIntegration.md) puoi trovare le istruzioni per integrare il chatbot realizzato con Watson Assistant in Facebook Messenger.
+Questa pagina elenca anche una serie di best practices utili per indirizzare alcune delle problematiche che gli utenti devono affrontare durante questo tipo di
+intgrazione.
+
+[Qui puoi provare il nostro chatbot di sviluppo](https://www.facebook.com/SanPa-Chatbot-372719496686347) integrato in una pagina Facebook di esempio.
+
 ## Demo del Chatbot
 
 [Cliccando qui](https://sanpatrignano.eu-gb.mybluemix.net/) puoi accedere ad una demo live del chatbot. La demo consiste in un'applicazione Node.js che punta al servizio Watson Assistant e che permette di renderizzare pulsanti, immagini, pause, ecc. A breve verrà deployato su IBM Cloud un sito web Wordpress di test con il chatbot integrato.
 
 A [questa pagina](doc/ConfiguraAmbienteSviluppo.md) puoi trovare le istruzioni per configurare l'ambiente di sviluppo di quest'applicazione.
+
+## Best Practices per un Continuo miglioramento del Chatbot
+
+[Questa è una presentazione fatta da Eric Wayne al Think19](https://1.dam.s81c.com/m/26eee8b01f0dcd09/original/4543-pdf.pdf) che mostra la metodologia per migliorare il Chatbot continuamente una volta che è andato in fase di test avanzato o produzione. Il sistema si basa sull'analisi dell'iterazione reale tra gli utenti e il chatbot.
