@@ -1,0 +1,21 @@
+Test Livello Confidenza
+-----------------------
+- User: sai mangiare la cioccolata?
+- Chatbot: NON HO CAPITO
+- User: sai mangiare la cioccolata?
+- Chatbot: NON HO CAPITO
+- User: sai mangiare la cioccolata?
+- Chatbot: AGENT_CAPABILITIES
+
+Disambiguazione
+---------------
+- User: vorrei informazioni su come entrare a san patrignano e sul percorso di recupero
+- Chatbot: DISAMBIGUAZIONE
+
+
+Cosa sai fare?
+--------------
+- User: Cosa sai Fare?
+- Chatbot: AGENT_CAPABILITIES
+
+

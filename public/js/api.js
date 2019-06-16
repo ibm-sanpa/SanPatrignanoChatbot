@@ -75,7 +75,7 @@ var Api = (function() {
             'generic': [
               {
                 'response_type': 'text',
-                'text': 'I\'m having trouble connecting to the server, please refresh the page'
+                'text': 'Non riesco più a connettermi al server. La sessione potrebbe essere scaduta. Ricarica la pagina per ricominciare la conversazione.'
               }
             ],
           }
