@@ -68,4 +68,4 @@ ASSISTANT_URL=https://gateway-<region>.watsonplatform.net/assistant/api
 5. ibmcloud app push SanPatrignano
 ```
 
-**Important** Do not retrieve ASSISTANT_URL from API credentials page. Simply use the URL https://gateway-<region>.watsonplatform.net/assistant/api customizing the region where the assistant is.
+**Important** Do not retrieve ASSISTANT_URL from API credentials page. Simply use the URL ```https://gateway-<region>.watsonplatform.net/assistant/api``` customizing the region where the assistant is.
