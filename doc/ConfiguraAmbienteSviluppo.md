@@ -45,3 +45,27 @@ Assicurati di avere la chiave privata per accedere al sito github.ibm.com. Se no
    principale e poi cliccare su Run.
 7. Apri il browser e connettiti a localhost:3000
 ```
+
+## Deploy la Demo Node.js su IBM Cloud
+
+Questi sono gli steps per deployare l'applicazione su IBM Cloud.
+
+```
+1. ibmcloud login -sso
+
+2. Get the One Time Passcode and login into the system.
+
+3. Select your account.
+
+4. ibmcloud target --cf-api https://api.<region>.bluemix.net -o <organization> -s <space>
+
+5. Create a .env file with the following values:
+ASSISTANT_ID=<your assistant id>
+ASSISTANT_USERNAME=apikey
+ASSISTANT_PASSWORD=<your password>
+ASSISTANT_URL=https://gateway-<region>.watsonplatform.net/assistant/api
+
+5. ibmcloud app push SanPatrignano
+```
+
+**Important** Do not retrieve ASSISTANT_URL from API credentials page. Simply use the URL ```https://gateway-<region>.watsonplatform.net/assistant/api``` customizing the region where the assistant is.
