@@ -107,15 +107,207 @@ Bot: [WELCOME]
 User: come posso contattarvi
 Bot: [Contatti]
 User: dove vi trovate?
+Bot: [DoveSiTrova]
+
+Scenario 19: Contatti ufficio accoglienza
+-----------------------------------------
+Bot: [WELCOME]
+User: come posso contattare l'ufficio accoglienza
+
+Scenario 20: Presentazione e Congedo
+------------------------------------
+Bot: [WELCOME]
+User: ciao sanpa, come stai?
+Bot: [Presentazione]
+User: addio sanpa
+
+Scenario 21: Cosa sai fare? e Passami Operatore
+-----------------------------------------------
+Bot: [WELCOME]
+User: cosa sai fare?
+Bot: [Cosa sai Fare]
+User: ok passami operatore
+Bot: [Contatti]
+
+------------------------------------------------------------------------------------------
+SCENARI DONATORE
+------------------------------------------------------------------------------------------
+
+Scenario 22: Scenario donatore soldi
+------------------------------------
+Bot: [WELCOME]
+User: donatore
+Bot: [Richiesta Informazioni (Donatore)]
+User: come posso donare soldi alla vostra comunità?
+
+Scenario 23: Scenario donatore beni
+------------------------------------
+Bot: [WELCOME]
+User: vorrei fare una donazione
+Bot: [Richiesta Informazioni (Donatore)]
+User: posso donarvi una bicicletta?
+
+Scenario 24: Scenario donatore lascito
+--------------------------------------
+Bot: [WELCOME]
+User: vorrei fare una donazione
+Bot: [Richiesta Informazioni (Donatore)]
+User: come funziona un lascito?
+
+Scenario 25: Scenario donatore soldi metodi pagamento
+-----------------------------------------------------
+Bot: [WELCOME]
+User: quali sono i metodi di pagamento per le donazioni?
+Bot: [Metodi di Pagamento]
+User: ok grazie
+Bot: [Congedo]
+
+Scenario 26: Scenario donazione con carta di credito
+------------------------------------------------------
+Bot: [WELCOME]
+User: posso fare una donazione pagandola con carta di credito?
+Bot: [Metodi di Pagamento]
+User: ti ringrazio, a presto
+Bot: [Congedo]
+
+Scenario 27: Scenario donazione con bonifico
+--------------------------------------------
+Bot: [WELCOME]
+User: posso fare una donazione pagandola con un bonifico?
+Bot: [Metodi di Pagamento]
+User: ti ringrazio, a presto
+Bot: [Congedo]
+
+Scenario 28: Scenario donazione con bollettino postale
+------------------------------------------------------
+Bot: [WELCOME]
+User: posso fare una donazione pagandola con un bollettino postale?
+Bot: [Metodi di Pagamento]
+User: ti ringrazio, a presto
+Bot: [Congedo]
+
+Scenario 29: Scenario donazione con RID
+------------------------------------------------------
+Bot: [WELCOME]
+User: posso fare una donazione continuativa addebitandola con con rid bancario?
+Bot: [Metodi di Pagamento]
+User: ti ringrazio, a presto
+Bot: [Congedo]
+
+Scenario 30: Deducibilità Fiscale
+---------------------------------
+Bot: [WELCOME]
+User: donatore
+Bot: [Richiesta Informazioni (Donatore)]
+User: come posso donare soldi alla vostra comunità?
+Bot: [Donazione Soldi]
+User: potete rilasciarmi una ricevuta
+Bot: [Deducibilità Fiscale]
+User: ok grazie
+Bot: [Congedo]
+
+Scenario 31: Donazione 5x1000
+-----------------------------
+Bot: [WELCOME]
+User: donatore
+Bot: [Richiesta Informazioni (Donatore)]
+User: come faccio per donarvi il 5x1000?
+Bot: [Donazioni 5x1000]
+User: ok grazie
+Bot: [Congedo]
+
+Scenario 32: Una Giornata a SanPa
+---------------------------------
+Bot: [WELCOME]
+User: E' possibile visitare la vostra comunità?
+Bot: [Una Giornata a SanPa]
+User: ti ringrazio. A presto.
+Bot: [Congedo]
+
+Scenario 33: Finalità e Importi Donazioni
+-----------------------------------------
+Bot: [WELCOME]
+User: donatore
+Bot: [Richiesta Informazioni (Donatore)]
+User: come posso donare soldi alla vostra comunità?
+Bot: [Donazione Soldi]
+User: cosa ne fate di questi soldi?
+Bot: [Finalità Donazioni]
+User: quanto posso donare?
+Bot: [Importi Donazioni]
+User: ok ti ringrazio per le informazioni
+Bot: [Congedo]
+
+Scenario 34: Donazioni Familiare
+--------------------------------
+Bot: [WELCOME]
+User: mio figlio è un ospite della comunità
+Bot: [Richiesta Informazioni (Familiare)]
+User: vorrei fare una donazione
+Bot: [Donazioni (Familiare)]
+User: ok ti ringrazio per le informazioni
+Bot: [Congedo]
 
 
+------------------------------------------------------------------------------------------
 
+Scenario 35: Pena Alternativa e Assistenza Legale
+-------------------------------------------------
+Bot: [WELCOME]
+User: familiare
+Bot: [Richiesta Informazioni (Familiare)]
+User: è possibile scontare a san patrignano gli anni di carcere?
+Bot: [Pena Alternativa]
+User: fornite anche assistenza legale?
+Bot: [Assistenza Legale]
+User: posso partecipare poi alle udienze
+Bot: [Partecipazione Udienze]
+User: perfetto, ti ringrazio. Addio.
+Bot: [Congedo]
 
+Scenario 36: Altro Utente
+-------------------------
+Bot: [WELCOME]
+User: altro utente
+Bot: [Richiesta Informazioni (Altro Utente)]
+User: vorrei informazioni sul percorso di recupero
+Bot: [Percorso Recupero]
+User: ho finito. grazie.
+Bot: [Congedo]
 
+Scenario 37: Minorenni
+----------------------
+Bot: [WELCOME]
+User: altro utente
+Bot: [Richiesta Informazioni (Altro Utente)]
+User: ospitate anche minorenni?
+Bot: [Minorenni]
+User: possono anche frequentare la scuola?
+Bot: [Istruzione e Scuola]
+User: ok grazie. A presto.
+Bot: [Congedo]
 
+Scenario 38: Aziende
+--------------------
+Bot: [WELCOME]
+User: altro utente
+Bot: [Richiesta Informazioni (Altro Utente)]
+User: sono un imprenditore, come posso aiutarvi con la mia azienda?
+Bot: [Aziende]
+User: ok grazie, bye
+Bot: [Congedo]
 
-
-
+Scenario 39: Test Comprensione
+-------------------------------
+Bot: [WELCOME]
+User: sai mangiare la cioccolata?
+Bot: [Anything else]
+User: sai mangiare la cioccolata?
+Bot: [Anything else]
+User: sai mangiare la cioccolata?
+Bot: [Cosa sai Fare?]
+User: ok grazie, bye
+Bot: [Congedo]
 
 
 
@@ -125,25 +317,8 @@ User: dove vi trovate?
 
 Test Livello Confidenza
 -----------------------
-- User: sai mangiare la cioccolata?
-- Chatbot: NON HO CAPITO
-- User: sai mangiare la cioccolata?
-- Chatbot: NON HO CAPITO
-- User: sai mangiare la cioccolata?
-- Chatbot: AGENT_CAPABILITIES
 
 Disambiguazione
 ---------------
 - User: vorrei informazioni su come entrare a san patrignano e sul percorso di recupero
 - Chatbot: DISAMBIGUAZIONE
-
-
-Cosa sai fare?
---------------
-- User: Cosa sai Fare?
-- Chatbot: AGENT_CAPABILITIES
-
-Percorso
---------
-
-
