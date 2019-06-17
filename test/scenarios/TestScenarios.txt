@@ -1,3 +1,128 @@
+Scenario 1: informazioni sul percorso di recupero
+-------------------------------------------------
+Bot: [WELCOME]
+User: tossicodipendente (BUTTON)
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: come funziona il percorso di recupero?
+BOT: [Informazioni Percorso]
+
+Scenario 2: informazioni sui settori di formazione dettaglio positiva
+---------------------------------------------------------------------
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+
+Scenario 3: informazioni sui settori di formazione dettaglio negativa
+---------------------------------------------------------------------
+Bot: [WELCOME]
+User: familiare (BUTTON)
+BOT: [Richiesta Informazioni (Familiare)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: no grazie
+BOT: [Informazioni Settori  Formazione->conferma:negativa]
+
+Scenario 4: informazioni sulla scuola
+-------------------------------------
+- Scenario 2
+User: è possibile proseguire gli studi a san patrignano?
+
+Scenario 5: informazioni sulla scuola (diretto)
+-----------------------------------------------
+Bot: [WELCOME]
+User: è possibile proseguire gli studi a san patrignano?
+
+Scenario 6: informazioni sui costi
+----------------------------------
+- Scenario 4
+User: quanto costa tutto ciò?
+
+Scenario 7: informazioni sui costi (diretto)
+--------------------------------------------
+Bot: [WELCOME]
+User: quanto costa entrare a san patrignano?
+
+Scenario 8: informazioni su come entrare a San Patrignano
+---------------------------------------------------------
+- Scenario 6
+User: come faccio ad entrare a san patrignano?
+
+Scenario 9: informazioni su come entrare a San Patrignano (diretto)
+-------------------------------------------------------------------
+Bot: [WELCOME]
+User: come faccio ad entrare a san patrignano?
+
+Scenario 10: entrare a san patrignano con contatto diretto
+----------------------------------------------------------
+- Scenario 8
+User: contatto ufficio accoglienza?
+
+Scenario 11: entrare a san patrignano con contatto diretto (diretto)
+--------------------------------------------------------------------
+- Scenario 9
+User: contatto ufficio accoglienza
+
+Scenario 12: entrare a san patrignano con SERT
+----------------------------------------------
+- Scenario 8
+User: sert
+
+Scenario 13: entrare a san patrignano con SERT (diretto)
+--------------------------------------------------------
+- Scenario 9
+User: sert
+
+Scenario 14: entrare a san patrignano con associazioni di volontariato
+----------------------------------------------------------------------
+- Scenario 8
+User: associazioni di volontariato
+
+Scenario 15: entrare a san patrignano con associazioni di volontariato (diretto)
+--------------------------------------------------------------------------------
+- Scenario 9
+User: associazioni di volontariato
+
+Scenario 16: informazioni sulle associazioni di volontariato
+------------------------------------------------------------
+Bot: [WELCOME]
+User: come funzionano le associazioni di volontariato?
+
+Scenario 17: informazioni sui SERT
+----------------------------------
+Bot: [WELCOME]
+User: cosa sono i sert
+
+Scenario 18: informazioni sui contatti e luogo
+----------------------------------------------
+Bot: [WELCOME]
+User: come posso contattarvi
+Bot: [Contatti]
+User: dove vi trovate?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Test Livello Confidenza
 -----------------------
 - User: sai mangiare la cioccolata?
@@ -17,5 +142,8 @@ Cosa sai fare?
 --------------
 - User: Cosa sai Fare?
 - Chatbot: AGENT_CAPABILITIES
+
+Percorso
+--------
 
 
