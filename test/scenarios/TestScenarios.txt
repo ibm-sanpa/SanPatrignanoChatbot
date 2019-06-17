@@ -308,17 +308,3 @@ User: sai mangiare la cioccolata?
 Bot: [Cosa sai Fare?]
 User: ok grazie, bye
 Bot: [Congedo]
-
-
-
-
-
-
-
-Test Livello Confidenza
------------------------
-
-Disambiguazione
----------------
-- User: vorrei informazioni su come entrare a san patrignano e sul percorso di recupero
-- Chatbot: DISAMBIGUAZIONE
