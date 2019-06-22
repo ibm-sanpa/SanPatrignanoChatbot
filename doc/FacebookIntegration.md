@@ -36,6 +36,22 @@ Nella sezione **Webhooks** seleziona la pagina e clicca sul bottone **Effettua l
 
 Nella pagina facebook clicca su **Aggiungi un pulsante**, apri il tab **Contatto**, seleziona **Invia un Messaggio** e poi clicca sul bottone **Avanti**. Seleziona **Messanger** come luogo di reindirizzamento e clicca sul bottone **Fine**.
 
+### 5. Attiva il bottone Inizia
+
+L'Integrazione del chatbot in facebook funziona in modo diverso rispetto all'integrazione con Wordpress. In facebook è sempre l'utente a dover cominciare la comunicazione. Per questo motivo solo la prima volta che l'utente interagisce con il chatbot dovrà apparire il bottone Inizia che farà iniziare la conversazione e nel nodo Welcome sarà necessario configurare la condizione in questo modo:
+
+```#welcome or conversation_start```
+
+Per far apparire il bottone Inizia bisogna inviare il seguente comando da shell:
+
+```
+curl -X POST -H "Contenjson" -d '{ "get_started": {"payload": "Inizia"} }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=PAGE_ACCESS_TOKEN"
+```
+
+dove PAGE_AGGESS_TOKEN è quello che abbiamo configurato nello step 4.
+
+**Importante!!!** Per testare che il nodo Welcome venga attivato quando si Inizia la conversazione, bisogna resettare tutto il dialogo. Per fare ciò da chatbot cliccare: Opzioni->Apri in Messanger. In Messanger in alto a destra, dove compare il logo della pagina, c'è la rotellina delle Impostazioni, clicca su di essa e seleziona l'opzione Elimina.
+
 ## Troubleshooting
 
 Le rich responses aggiunte ad un dialogo sono mostrate in Facebook come atteso, tranne alcune eccezzioni. Di seguito elenchiamo due di queste exceptions che abbiamo implementato per il nostro chabot:
