@@ -2,203 +2,182 @@
   "name": "San Patrignano",
   "intents": [
     {
-      "intent": "Donazione5x1000",
+      "intent": "PagamentoRID",
       "examples": [
         {
-          "text": "Posso sostenervi con il 5x1000"
+          "text": "Vorrei fare una donazione continuativa con RID bancario."
         },
         {
-          "text": "Mi  date il vostro codice fiscale per donarvi il 5x1000"
+          "text": "E' possibile pagare tramite RID?"
         },
         {
-          "text": "Ma il 5x1000 si paga ?"
+          "text": "Come faccio per pagare con l'accredito sul mio conto corrente?"
         },
         {
-          "text": "Come posso sostenervi con la dichiarazione dei redditi ?"
+          "text": "Vorrei donare con addebito mensile in banca"
         },
         {
-          "text": "Posso donarvi il 5x1000"
+          "text": "Vorrei che la donazione fosse accreditata sul mio conto corrente. E' possibile?"
         },
         {
-          "text": "Vi aiuto se dono il 5x1000?"
+          "text": "Posso pagare tramite RID"
+        },
+        {
+          "text": "Come faccio per pagare con RID?"
+        },
+        {
+          "text": "E' possibile pagare una donazione con accredito sul conto corrente?"
         }
       ],
-      "description": "Questo Intent serve a capire le richieste di informazioni sul 5x1000"
+      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite RID."
     },
     {
-      "intent": "InformazioniSERT",
+      "intent": "DonazioneLasciti",
       "examples": [
         {
-          "text": "cosa sono i sert"
+          "text": "Posso legare beni immobili?"
         },
         {
-          "text": "Desidero sapere dove posso trovare informazioni sui SERT"
+          "text": "Sto per morire. Vorrei fare un lascito alla comunità."
         },
         {
-          "text": "Non trovo le informazioni sui SERT, mi aiuti?"
+          "text": "posso donare un immobile?"
         },
         {
-          "text": "Vorrei contattare un SERT nella mia zona"
+          "text": "Quanto incide la tassa di successione su ciò che destino nel mio testamento?"
         },
         {
-          "text": "Ciao, mi puoi dire dove trovo le informazioni sui SERT"
+          "text": "Come si fa un lascito?"
         },
         {
-          "text": "Come posso contattare il SERT a me più vicino?"
+          "text": "Come posso fare un lascito alla vostra comunità?"
+        },
+        {
+          "text": "Come sarà gestito il mio lascito?"
         }
       ],
-      "description": "Informazioni sui SERT"
+      "description": "Questo intento gestisce la richiesta di informazioni sui lasciti."
     },
     {
-      "intent": "Tossicodipendente",
+      "intent": "Minori",
       "examples": [
         {
-          "text": "Sono un tossico"
+          "text": "Mio figlio minorenne si droga come posso farlo entrare?"
         },
         {
-          "text": "Faccio uso di cocaina"
+          "text": "C'è un centro minori nella comunità di San Patrignano?"
         },
         {
-          "text": "tossicodipendente"
+          "text": "Come funziona l'ingresso dei minorenni ?"
         },
         {
-          "text": "Ho problemi di droga"
-        },
-        {
-          "text": "Faccio uso di eroina"
-        },
-        {
-          "text": "Faccio uso di droga"
-        },
-        {
-          "text": "Sono un tossicodipendente"
-        },
-        {
-          "text": "Sono cocainomane"
-        },
-        {
-          "text": "Mi drogo"
+          "text": "Sono minorenne vorrei entrare a San Patrignano"
         }
       ],
-      "description": "Questo è l'intento per il riconoscimento della personas tossicodipendente."
+      "description": "Questo Intent gestisce le richieste di informazioni sui minori."
     },
     {
-      "intent": "UnGiornoASanpa",
+      "intent": "DoveSiTrova",
       "examples": [
         {
-          "text": "Posso venire a visitare San Patrignano"
+          "text": "Dove si trova San Patrignano"
         },
         {
-          "text": "Posso venire a vedere San Patrignano"
+          "text": "Come faccio a raggiungervi?"
         },
         {
-          "text": "Siamo un gruppo possiamo venire in visita?"
+          "text": "In che città vi trovate?"
         },
         {
-          "text": "Posso venire a trovarvi?"
+          "text": "Dove si trova la comunità?"
         },
         {
-          "text": "E' possibile visitare la vostra comunità?"
+          "text": "In quale città vi trovate?"
         },
         {
-          "text": "Organizzate visite in comunità ?"
+          "text": "Dove siete?"
         }
       ],
-      "description": "Visite a San Patrignano"
+      "description": "Questo intento serve a identificare domande su dove si trova San Patrignano."
     },
     {
-      "intent": "PenaAlternativa",
+      "intent": "AltroUtente",
       "examples": [
         {
-          "text": "Posso scontare pene alternative nella vostra comunità?"
-        },
-        {
-          "text": "E' possibile scontare la pena a San Patrignano?"
-        },
-        {
-          "text": "Posso scontare la mia pena residua a San Patrignano?"
-        },
-        {
-          "text": "Mio figlio è in carcere come possiamo farlo entrare in comunità"
-        },
-        {
-          "text": "Posso far entrare una persona a San Patrignano  per affidamento sociale  per reati connessi alla tossicodipendenza?"
-        },
-        {
-          "text": "Posso far entrare una persona a San Patrignano  per scontare gli  arresti domiciliari  per reati connessi alla tossicodipendenza?"
-        },
-        {
-          "text": "Sono un tossicodipendente agli arresti domiciliari, posso scontare la pena a San Patrignano?"
-        },
-        {
-          "text": "San Patrignano accoglie persone che devono scontare il carcere a causa della tossicodipendenza?"
-        },
-        {
-          "text": "Ho l'affidamento sociale, posso scontare il residuo pena a San Patrignano"
+          "text": "altro utente"
         }
       ],
-      "description": "Questo intent serve ad intercettare domande generiche sulle pene alternative."
+      "description": "Questo intent serve a capire se stiamo parlando con un generico utente."
     },
     {
-      "intent": "Costi",
+      "intent": "PassamiOperatore",
       "examples": [
         {
-          "text": "Quali sono i costi per entrare a San Patrignano?"
+          "text": "Voglio parlare con un addetto all'accoglienza."
         },
         {
-          "text": "Quanto costa entrare a San Patrignano?"
+          "text": "Voglio parlare con qualcuno che può farlo adesso"
         },
         {
-          "text": "Quali sono i costi di ingresso per San Patrignano?"
+          "text": "Voglio che mi mettiate in contatto con un operatore che mi può aiutare, non con una macchina"
         },
         {
-          "text": "Ci sono costi per entrare nella comunità?"
+          "text": "Sto cercando di parlare una persona fisica. Come posso parlare con qualcuno dell'ufficio accoglienza? grazie"
         },
         {
-          "text": "va bene ma quanto costa tutto ciò"
+          "text": "Puoi solamente mandarmi un numero di telefono per parlare con un rappresentante umano?"
         },
         {
-          "text": "Mi dici quanto costa entrare a San Patrignano?"
+          "text": "Posso parlare con un operatore in carne e ossa?"
+        },
+        {
+          "text": "Posso avere i contatti per parlare con un operatore?"
+        },
+        {
+          "text": "Per favore posso parlare con un operatore dell'ufficio accoglienza"
+        },
+        {
+          "text": "Per favore mi colleghi ad un agente umano."
+        },
+        {
+          "text": "Per favore aiutarmi a raggiungere un agente"
+        },
+        {
+          "text": "Per favore aiutarmi a connettersi ad un agente"
+        },
+        {
+          "text": "Ho bisogno di parlare con una persona reale piuttosto che comunicare con un sistema di risposta automatica, per favore."
+        },
+        {
+          "text": "Fammi parlare con un essere umano per favore"
+        },
+        {
+          "text": "Esiste un numero del servizio clienti della compagnia telefonica che posso usare per parlare direttamente con un operatore?"
+        },
+        {
+          "text": "Come posso saltare questa conversazione e andare dritto ad un operatore umano?"
+        },
+        {
+          "text": "Collegarmi a un operatore umano per favore."
+        },
+        {
+          "text": "Collegami a un operatore"
+        },
+        {
+          "text": "Ciao. Potresti passare la mia chiamata a un operatore in carne e ossa per favore? Vorrei parlare direttamente con un essere umano."
+        },
+        {
+          "text": "Voglio parlare della gestione del profilo con un agente"
+        },
+        {
+          "text": "Voglio parlare con un operatore al telefono"
         }
       ],
-      "description": "Questo intent serve a spiegare all'utente quali sono i costi per entrare a San Patrignano."
-    },
-    {
-      "intent": "FamiliareTossicodipendente",
-      "examples": [
-        {
-          "text": "Mio padre si droga"
-        },
-        {
-          "text": "Mia madre usa cocaina"
-        },
-        {
-          "text": "Mio fratello fa uso di droga"
-        },
-        {
-          "text": "Mia sorella è cocainomane"
-        },
-        {
-          "text": "Mio padre fa uso di eroina"
-        },
-        {
-          "text": "Sono il familiare di un tossicodipendente"
-        },
-        {
-          "text": "Mia sorella fa uso di droga"
-        },
-        {
-          "text": "familiare"
-        }
-      ],
-      "description": "Questo intent serve a capire se stiamo parlando con un familiare di un tossicodipendente."
+      "description": "Richiedi un agente umano."
     },
     {
       "intent": "Aziende",
       "examples": [
-        {
-          "text": "Avete proposte di welfare aziendale?"
-        },
         {
           "text": "E’ possibile realizzare un evento aziendale presso la vostra struttura?"
         },
@@ -210,51 +189,378 @@
         },
         {
           "text": "Come posso vendere i vostri prodotti all’interno della mia azienda?"
+        },
+        {
+          "text": "Avete proposte di welfare aziendale?"
         }
       ],
       "description": "Questo intent consente di capire come possono sostenerci le aziende."
     },
     {
-      "intent": "DoveSiTrova",
+      "intent": "Costi",
       "examples": [
         {
-          "text": "Dove siete?"
+          "text": "Mi dici quanto costa entrare a San Patrignano?"
         },
         {
-          "text": "In quale città vi trovate?"
+          "text": "Quali sono i costi per entrare a San Patrignano?"
         },
         {
-          "text": "Dove si trova la comunità?"
+          "text": "va bene ma quanto costa tutto ciò"
         },
         {
-          "text": "In che città vi trovate?"
+          "text": "Ci sono costi per entrare nella comunità?"
         },
         {
-          "text": "Come faccio a raggiungervi?"
+          "text": "Quali sono i costi di ingresso per San Patrignano?"
         },
         {
-          "text": "Dove si trova San Patrignano"
+          "text": "Quanto costa entrare a San Patrignano?"
         }
       ],
-      "description": "Questo intento serve a identificare domande su dove si trova San Patrignano."
+      "description": "Questo intent serve a spiegare all'utente quali sono i costi per entrare a San Patrignano."
+    },
+    {
+      "intent": "Donazione5x1000",
+      "examples": [
+        {
+          "text": "Posso donarvi il 5x1000"
+        },
+        {
+          "text": "Come posso sostenervi con la dichiarazione dei redditi ?"
+        },
+        {
+          "text": "Ma il 5x1000 si paga ?"
+        },
+        {
+          "text": "Mi  date il vostro codice fiscale per donarvi il 5x1000"
+        },
+        {
+          "text": "Posso sostenervi con il 5x1000"
+        },
+        {
+          "text": "Vi aiuto se dono il 5x1000?"
+        }
+      ],
+      "description": "Questo Intent serve a capire le richieste di informazioni sul 5x1000"
+    },
+    {
+      "intent": "PagamentoBollettinoPostale",
+      "examples": [
+        {
+          "text": "mi mandate un bollettino postale in bianco?"
+        },
+        {
+          "text": "posso donare con ccp?"
+        },
+        {
+          "text": "mi date il vostro conto corrente postale"
+        },
+        {
+          "text": "avete un bollettino da darmi?"
+        },
+        {
+          "text": "posso donare con bollettino postale?"
+        },
+        {
+          "text": "mi mandate un bollettino postale precompilato?"
+        }
+      ],
+      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bollettino postale."
+    },
+    {
+      "intent": "InformazioniAssociazioniVolontariato",
+      "examples": [
+        {
+          "text": "Ciao, mi puoi dire dove trovo le informazioni sulle associazioni di volontariato"
+        },
+        {
+          "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
+        },
+        {
+          "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
+        },
+        {
+          "text": "Vorrei avere informazioni sulle associazioni di volontariato, dove posso trovarli?"
+        },
+        {
+          "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
+        }
+      ],
+      "description": "Informazioni sulle associazioni di volontariato"
+    },
+    {
+      "intent": "ImportiDonazione",
+      "examples": [
+        {
+          "text": "Quanto posso donare per aiutare i ragazzi vittime della droga?"
+        },
+        {
+          "text": "Come posso assicurare i pasti quotidiani dei ragazzi?"
+        },
+        {
+          "text": "Quale e’ l’importo minimo che posso donare?"
+        },
+        {
+          "text": "Quanto posso donare?"
+        },
+        {
+          "text": "Quanto posso donare per aiutare ad accogliere i ragazzi, vittime della droga?"
+        },
+        {
+          "text": "Come posso contribuire alla formazione professionale dei ragazzi in percorso?"
+        }
+      ],
+      "description": "Questo intent serve a rispondere alle domande relative agli importi delle donazioni."
+    },
+    {
+      "intent": "PagamentoBonifico",
+      "examples": [
+        {
+          "text": "Mi date il vostro iban?"
+        },
+        {
+          "text": "Mi date le vostre coordinate bancarie?"
+        },
+        {
+          "text": "Posso avere il vostro iban?"
+        },
+        {
+          "text": "Posso farvi un bonifico?"
+        },
+        {
+          "text": "Posso avere gli estremi bancari?"
+        },
+        {
+          "text": "Vorrei l'iban di sanpa per donare"
+        },
+        {
+          "text": "Come faccio a fare un bonifico?"
+        }
+      ],
+      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bonifico bancario."
+    },
+    {
+      "intent": "InformazioniSERT",
+      "examples": [
+        {
+          "text": "Ciao, mi puoi dire dove trovo le informazioni sui SERT"
+        },
+        {
+          "text": "Vorrei contattare un SERT nella mia zona"
+        },
+        {
+          "text": "Non trovo le informazioni sui SERT, mi aiuti?"
+        },
+        {
+          "text": "Desidero sapere dove posso trovare informazioni sui SERT"
+        },
+        {
+          "text": "cosa sono i sert"
+        },
+        {
+          "text": "Come posso contattare il SERT a me più vicino?"
+        }
+      ],
+      "description": "Informazioni sui SERT"
+    },
+    {
+      "intent": "Contatti",
+      "examples": [
+        {
+          "text": "Come posso contattarvi?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio raccolta fondi?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio prevenzione WeFree?"
+        },
+        {
+          "text": "Come posso contattare l'ufficio commerciale?"
+        },
+        {
+          "text": "come posso contattare l'ufficio stampa?"
+        }
+      ],
+      "description": "Informazione sui contatti"
+    },
+    {
+      "intent": "ContattiUfficioAccoglienza",
+      "examples": [
+        {
+          "text": "Passami l'ufficio accoglienza"
+        },
+        {
+          "text": "Qual è il numero dell'accoglienza?"
+        },
+        {
+          "text": "Vorrei contattare l'ufficio accoglienza"
+        },
+        {
+          "text": "Mi dai il numero per parlare con qualcuno dell'accoglienza?"
+        },
+        {
+          "text": "A chi mi devo rivolgere per essere accolto"
+        },
+        {
+          "text": "Voglio il numero per contattare l'ufficio informazioni"
+        },
+        {
+          "text": "Qual è l'email dell'ufficio accoglienza?"
+        },
+        {
+          "text": "C'è un ufficio informazioni al quale rivolgermi?"
+        },
+        {
+          "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
+        },
+        {
+          "text": "Come posso contattare l'accoglienza?"
+        },
+        {
+          "text": "Come contatto l'accoglienza?"
+        }
+      ],
+      "description": "Informazioni su come contattare l'ufficio accoglienza"
+    },
+    {
+      "intent": "DonazioneSoldi",
+      "examples": [
+        {
+          "text": "Mi piacerebbe fare una donazione di 10 Euro, come devo fare?"
+        },
+        {
+          "text": "Mi aiutate a capire come fare una donazione monetaria?"
+        },
+        {
+          "text": "Come posso fare una donazione di soldi mensile?"
+        },
+        {
+          "text": "Vorrei donarvi dei soldi, come faccio?"
+        },
+        {
+          "text": "Vorrei donare dei soldi"
+        },
+        {
+          "text": "Come posso mandarvi dei soldi?"
+        },
+        {
+          "text": "Vorrei contribuire con un'offerta di soldi"
+        },
+        {
+          "text": "Posso donarvi 10 Euro al mese?"
+        },
+        {
+          "text": "come posso donare dei soldi"
+        },
+        {
+          "text": "Posso contribuire con una quota mensile?"
+        },
+        {
+          "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
+        }
+      ],
+      "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi."
+    },
+    {
+      "intent": "AssistenzaLegale",
+      "examples": [
+        {
+          "text": "Se entro a San Patrignano l'assistenza legale è gratuita?"
+        },
+        {
+          "text": "San Patrignano offre sostegno legale a chi intraprende il percorso di recupero?"
+        },
+        {
+          "text": "Posso avere un'assistenza e o consulenza legale da parte vostra?"
+        },
+        {
+          "text": "Posso avere un avvocato a sanpa"
+        },
+        {
+          "text": "Posso essere difeso legalmente in maniera gratuita?"
+        },
+        {
+          "text": "Come faccio ad ottenere assistenza legale?"
+        },
+        {
+          "text": "Ci sono persone che possono sostenermi nelle mie future scelte processuali?"
+        },
+        {
+          "text": "Posso avere assistenza legale all'interno della Comunità?"
+        },
+        {
+          "text": "Ci sono avvocati che possono aiutarmi nei processi"
+        }
+      ],
+      "description": "Questo Intent è utilizzato nel contesto delle Pene Alternative quando l'utente chiede informazioni sul sostegno legale."
+    },
+    {
+      "intent": "FinalitaDonazioni",
+      "examples": [
+        {
+          "text": "Cosa fate con le donazioni?"
+        },
+        {
+          "text": "A cosa destinate la mia donazione?"
+        },
+        {
+          "text": "Vi ho fatto una donazione, come la investirete?"
+        },
+        {
+          "text": "Dove vanno a finire i soldi che dono?"
+        },
+        {
+          "text": "A cosa vi servono i soldi delle donazioni?"
+        },
+        {
+          "text": "Come investite i soldi dei donatori?"
+        },
+        {
+          "text": "La donazione che faccio come la usate?"
+        }
+      ],
+      "description": "Questo intent serve a capire come vengono usate le donazioni alla comunità."
+    },
+    {
+      "intent": "Tossicodipendente",
+      "examples": [
+        {
+          "text": "Mi drogo"
+        },
+        {
+          "text": "Faccio uso di droga"
+        },
+        {
+          "text": "Faccio uso di eroina"
+        },
+        {
+          "text": "Sono cocainomane"
+        },
+        {
+          "text": "Ho problemi di droga"
+        },
+        {
+          "text": "tossicodipendente"
+        },
+        {
+          "text": "Faccio uso di cocaina"
+        },
+        {
+          "text": "Sono un tossico"
+        },
+        {
+          "text": "Sono un tossicodipendente"
+        }
+      ],
+      "description": "Questo è l'intento per il riconoscimento della personas tossicodipendente."
     },
     {
       "intent": "CosaSaiFare",
       "examples": [
         {
-          "text": "In che cosa puoi aiutarmi?"
-        },
-        {
-          "text": "Senti puoi dirmi come puoi aiutarmi per favore?"
-        },
-        {
-          "text": "Ciao, come puoi essermi d'aiuto oggi?"
-        },
-        {
-          "text": "Ciao. Potresti darmi un elenco di argomenti con cui puoi aiutarmi per favore?"
-        },
-        {
-          "text": "Mi piacerebbe sapere che tipo di domande puoi rispondere per me."
+          "text": "Cosa sai fare?"
         },
         {
           "text": "Cosa posso chiederti?"
@@ -287,9 +593,6 @@
           "text": "Che tipo di assistenza mi puoi dare?"
         },
         {
-          "text": "Cosa sai fare?"
-        },
-        {
           "text": "E' possibile ricevere un qualche tipo d'aiuto?"
         },
         {
@@ -300,244 +603,28 @@
         },
         {
           "text": "In quale modo puoi aiutarmi?"
+        },
+        {
+          "text": "In che cosa puoi aiutarmi?"
+        },
+        {
+          "text": "Senti puoi dirmi come puoi aiutarmi per favore?"
+        },
+        {
+          "text": "Ciao, come puoi essermi d'aiuto oggi?"
+        },
+        {
+          "text": "Ciao. Potresti darmi un elenco di argomenti con cui puoi aiutarmi per favore?"
+        },
+        {
+          "text": "Mi piacerebbe sapere che tipo di domande puoi rispondere per me."
         }
       ],
       "description": "Questo Intent serve per capire quando l'utente mi chiede cosa so fare, affinché io possa rispondere."
     },
     {
-      "intent": "Congedo",
-      "examples": [
-        {
-          "text": "Addio!"
-        },
-        {
-          "text": "Spero di risentirti presto"
-        },
-        {
-          "text": "Smetti questa sessione adesso"
-        },
-        {
-          "text": "Pausa"
-        },
-        {
-          "text": "Non vedo l'ora di parlarti la prossima volta."
-        },
-        {
-          "text": "Grazie di tutto, è stato molto di aiuto"
-        },
-        {
-          "text": "Ti saluto, a presto."
-        },
-        {
-          "text": "Ci sentiamo."
-        },
-        {
-          "text": "Bye Bye."
-        },
-        {
-          "text": "Arrividerci."
-        },
-        {
-          "text": "A presto."
-        },
-        {
-          "text": "Ti auguro una giornata bellissima"
-        },
-        {
-          "text": "Me ne sto andando."
-        },
-        {
-          "text": "Stammi bene."
-        },
-        {
-          "text": "Va bene, grazie mille allora"
-        },
-        {
-          "text": "Mi è piaciuto cooperare con te."
-        },
-        {
-          "text": "Grazie di avermi aiutato. Ciao"
-        },
-        {
-          "text": "Ehi penso che hai risolto il mio problema grazie"
-        },
-        {
-          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
-        },
-        {
-          "text": "Grazie, sei stato di grande aiuto. A presto."
-        }
-      ],
-      "description": "Termina la conversazione."
-    },
-    {
-      "intent": "InformazioniPercorso",
-      "examples": [
-        {
-          "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
-        },
-        {
-          "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunità?"
-        },
-        {
-          "text": "come funziona il percorso?"
-        },
-        {
-          "text": "Aiutami a trovare informazioni sul percorso di recupero"
-        },
-        {
-          "text": "Vorrei avere informazioni sul percorso di recupero nella vostra comunità"
-        },
-        {
-          "text": "Dammi qualche informazioni sui percorsi di recupero"
-        },
-        {
-          "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunità"
-        }
-      ],
-      "description": "Informazioni sul percorso di recupero."
-    },
-    {
-      "intent": "PassamiOperatore",
-      "examples": [
-        {
-          "text": "Voglio parlare con un addetto all'accoglienza."
-        },
-        {
-          "text": "Voglio parlare con un operatore al telefono"
-        },
-        {
-          "text": "Voglio parlare della gestione del profilo con un agente"
-        },
-        {
-          "text": "Ciao. Potresti passare la mia chiamata a un operatore in carne e ossa per favore? Vorrei parlare direttamente con un essere umano."
-        },
-        {
-          "text": "Collegami a un operatore"
-        },
-        {
-          "text": "Collegarmi a un operatore umano per favore."
-        },
-        {
-          "text": "Come posso saltare questa conversazione e andare dritto ad un operatore umano?"
-        },
-        {
-          "text": "Esiste un numero del servizio clienti della compagnia telefonica che posso usare per parlare direttamente con un operatore?"
-        },
-        {
-          "text": "Fammi parlare con un essere umano per favore"
-        },
-        {
-          "text": "Ho bisogno di parlare con una persona reale piuttosto che comunicare con un sistema di risposta automatica, per favore."
-        },
-        {
-          "text": "Per favore aiutarmi a connettersi ad un agente"
-        },
-        {
-          "text": "Per favore aiutarmi a raggiungere un agente"
-        },
-        {
-          "text": "Per favore mi colleghi ad un agente umano."
-        },
-        {
-          "text": "Per favore posso parlare con un operatore dell'ufficio accoglienza"
-        },
-        {
-          "text": "Posso avere i contatti per parlare con un operatore?"
-        },
-        {
-          "text": "Posso parlare con un operatore in carne e ossa?"
-        },
-        {
-          "text": "Puoi solamente mandarmi un numero di telefono per parlare con un rappresentante umano?"
-        },
-        {
-          "text": "Sto cercando di parlare una persona fisica. Come posso parlare con qualcuno dell'ufficio accoglienza? grazie"
-        },
-        {
-          "text": "Voglio che mi mettiate in contatto con un operatore che mi può aiutare, non con una macchina"
-        },
-        {
-          "text": "Voglio parlare con qualcuno che può farlo adesso"
-        }
-      ],
-      "description": "Richiedi un agente umano."
-    },
-    {
-      "intent": "Minori",
-      "examples": [
-        {
-          "text": "Sono minorenne vorrei entrare a San Patrignano"
-        },
-        {
-          "text": "Mio figlio minorenne si droga come posso farlo entrare?"
-        },
-        {
-          "text": "C'è un centro minori nella comunità di San Patrignano?"
-        },
-        {
-          "text": "Come funziona l'ingresso dei minorenni ?"
-        }
-      ],
-      "description": "Questo Intent gestisce le richieste di informazioni sui minori."
-    },
-    {
-      "intent": "InformazioniAssociazioniVolontariato",
-      "examples": [
-        {
-          "text": "Ciao, mi puoi dire dove trovo le informazioni sulle associazioni di volontariato"
-        },
-        {
-          "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
-        },
-        {
-          "text": "Vorrei avere informazioni sulle associazioni di volontariato, dove posso trovarli?"
-        },
-        {
-          "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
-        },
-        {
-          "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
-        }
-      ],
-      "description": "Informazioni sulle associazioni di volontariato"
-    },
-    {
-      "intent": "InformazioniScuolaIstruzione",
-      "examples": [
-        {
-          "text": "E' possibile studiare a San Patrignano"
-        },
-        {
-          "text": "Come posso recuperare gli anni scolastici persi?"
-        },
-        {
-          "text": "Mi dai qualche informazione su scuola e istruzione?"
-        },
-        {
-          "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
-        },
-        {
-          "text": "Posso anche frequentare la scuola?"
-        },
-        {
-          "text": "E' possibile recuperare gli anni di studio persi?"
-        }
-      ],
-      "description": "Questo intent consente di richiedere informazioni su Scuola e Istruzione"
-    },
-    {
       "intent": "ComeEntrareSanPatrignano",
       "examples": [
-        {
-          "text": "Come si fa per entrare nella comunità di San Patrignano?"
-        },
-        {
-          "text": "Come si entra nella comunità?"
-        },
-        {
-          "text": "Mi spieghi come si fa ad entrare nella comunità?"
-        },
         {
           "text": "Mi aiuti a capire come si entra nella comunità?"
         },
@@ -552,174 +639,132 @@
         },
         {
           "text": "Cosa devo fare per entrare nella comunità di San Patrignano?"
+        },
+        {
+          "text": "Come si entra nella comunità?"
+        },
+        {
+          "text": "Come si fa per entrare nella comunità di San Patrignano?"
+        },
+        {
+          "text": "Mi spieghi come si fa ad entrare nella comunità?"
         }
       ],
       "description": "Questo intent serve per aiutare l'utente a capire come si può entrare nella comunità"
     },
     {
-      "intent": "ContattiUfficioAccoglienza",
+      "intent": "ElencoSettoriFormazione",
       "examples": [
         {
-          "text": "Vorrei contattare l'ufficio accoglienza"
+          "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
         },
         {
-          "text": "A chi mi devo rivolgere per essere accolto"
+          "text": "Mi dici quali sono i settori di formazione che avete?"
         },
         {
-          "text": "Voglio il numero per contattare l'ufficio informazioni"
+          "text": "Vorrei sapere quali sono i settori di formazione che avete"
         },
         {
-          "text": "Qual è l'email dell'ufficio accoglienza?"
+          "text": "mi dici quali settori vita ci sono"
         },
         {
-          "text": "C'è un ufficio informazioni al quale rivolgermi?"
+          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
         },
         {
-          "text": "Passami l'ufficio accoglienza"
-        },
-        {
-          "text": "Qual è il numero dell'accoglienza?"
-        },
-        {
-          "text": "Mi dai il numero per parlare con qualcuno dell'accoglienza?"
-        },
-        {
-          "text": "Come contatto l'accoglienza?"
-        },
-        {
-          "text": "Come posso contattare l'accoglienza?"
-        },
-        {
-          "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
+          "text": "Quali sono i settori di formazioni disponibili?"
         }
       ],
-      "description": "Informazioni su come contattare l'ufficio accoglienza"
+      "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunità."
     },
     {
-      "intent": "MetodiPagamento",
+      "intent": "InformazioniScuolaIstruzione",
       "examples": [
         {
-          "text": "Quali sono i metodi di pagamento per le donazioni?"
+          "text": "Mi dai qualche informazione su scuola e istruzione?"
         },
         {
-          "text": "Mi aiutate a capire come posso pagare la mia donazione?"
+          "text": "E' possibile studiare a San Patrignano"
         },
         {
-          "text": "Vorrei fare una donazione, come posso pagarla?"
+          "text": "Come posso recuperare gli anni scolastici persi?"
         },
         {
-          "text": "Come posso pagare la mia donazione"
+          "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
         },
         {
-          "text": "Quali metodi di pagamento mettete a disposizione?"
+          "text": "Posso anche frequentare la scuola?"
+        },
+        {
+          "text": "E' possibile recuperare gli anni di studio persi?"
         }
       ],
-      "description": "Questo Intent serve per identificare le richieste sui metodi di pagamento per le donazioni."
+      "description": "Questo intent consente di richiedere informazioni su Scuola e Istruzione"
     },
     {
-      "intent": "AltroUtente",
+      "intent": "Presentazione",
       "examples": [
         {
-          "text": "altro utente"
+          "text": "Ciao SanPa"
+        },
+        {
+          "text": "Ti trovo bene, buona sera"
+        },
+        {
+          "text": "Sto parlando con un computer?"
+        },
+        {
+          "text": "Salve, avrei bisogno di una vostra consulenza"
+        },
+        {
+          "text": "Salve operatore virtuale"
+        },
+        {
+          "text": "Pronto per cominciare"
+        },
+        {
+          "text": "Saluti a te"
+        },
+        {
+          "text": "Ehi tutto bene?"
+        },
+        {
+          "text": "Buon pomeriggio bot!"
+        },
+        {
+          "text": "Ciao Sanpa fornitore di informazioni"
+        },
+        {
+          "text": "Buonasera, ho qualche domanda da farle, posso ?"
+        },
+        {
+          "text": "Buongiorno Agent!"
+        },
+        {
+          "text": "Saluti a lei"
+        },
+        {
+          "text": "Che succede, assistente"
+        },
+        {
+          "text": "Ciao, avrei bisogno di una tua consulenza"
         }
       ],
-      "description": "Questo intent serve a capire se stiamo parlando con un generico utente."
+      "description": "Presentazione dell'utente."
     },
     {
-      "intent": "PagamentoRID",
+      "intent": "PartecipazioniUdienze",
       "examples": [
         {
-          "text": "E' possibile pagare tramite RID?"
+          "text": "Gli ospiti della comunità possono partecipare alle udienze?"
         },
         {
-          "text": "Come faccio per pagare con l'accredito sul mio conto corrente?"
+          "text": "E' possibile partecipare alle udienze una volta entrati in comunità?"
         },
         {
-          "text": "Vorrei donare con addebito mensile in banca"
-        },
-        {
-          "text": "Vorrei che la donazione fosse accreditata sul mio conto corrente. E' possibile?"
-        },
-        {
-          "text": "Posso pagare tramite RID"
-        },
-        {
-          "text": "Come faccio per pagare con RID?"
-        },
-        {
-          "text": "E' possibile pagare una donazione con accredito sul conto corrente?"
-        },
-        {
-          "text": "Vorrei fare una donazione continuativa con RID bancario."
+          "text": "Se uno intraprende il percorso poi può presenziare alle udienze?"
         }
       ],
-      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite RID."
-    },
-    {
-      "intent": "DonazioneSoldi",
-      "examples": [
-        {
-          "text": "come posso donare dei soldi"
-        },
-        {
-          "text": "Mi piacerebbe fare una donazione di 10 Euro, come devo fare?"
-        },
-        {
-          "text": "Mi aiutate a capire come fare una donazione monetaria?"
-        },
-        {
-          "text": "Come posso mandarvi dei soldi?"
-        },
-        {
-          "text": "Come posso fare una donazione di soldi mensile?"
-        },
-        {
-          "text": "Vorrei donarvi dei soldi, come faccio?"
-        },
-        {
-          "text": "Vorrei donare dei soldi"
-        },
-        {
-          "text": "Vorrei contribuire con un'offerta di soldi"
-        },
-        {
-          "text": "Posso donarvi 10 Euro al mese?"
-        },
-        {
-          "text": "Posso contribuire con una quota mensile?"
-        },
-        {
-          "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
-        }
-      ],
-      "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi."
-    },
-    {
-      "intent": "PagamentoBonifico",
-      "examples": [
-        {
-          "text": "Mi date il vostro iban?"
-        },
-        {
-          "text": "Mi date le vostre coordinate bancarie?"
-        },
-        {
-          "text": "Posso avere il vostro iban?"
-        },
-        {
-          "text": "Posso farvi un bonifico?"
-        },
-        {
-          "text": "Posso avere gli estremi bancari?"
-        },
-        {
-          "text": "Vorrei l'iban di sanpa per donare"
-        },
-        {
-          "text": "Come faccio a fare un bonifico?"
-        }
-      ],
-      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bonifico bancario."
+      "description": "Questo Intent è usato nel contesto delle Pene Alternative per rispondere alle domande sulla partecipazione alle udienze."
     },
     {
       "intent": "InformazioniDonatore",
@@ -740,10 +785,10 @@
           "text": "Vorrei fare una donazione"
         },
         {
-          "text": "Come posso sostenervi?"
+          "text": "donatore"
         },
         {
-          "text": "donatore"
+          "text": "Come posso sostenervi?"
         },
         {
           "text": "Come posso sostenere la Comunità?"
@@ -755,74 +800,41 @@
       "description": "Questo intent gestisce le richieste dei donatori che vogliono informazioni."
     },
     {
-      "intent": "ElencoSettoriFormazione",
+      "intent": "PenaAlternativa",
       "examples": [
         {
-          "text": "Quali sono i settori di formazioni disponibili?"
+          "text": "Posso far entrare una persona a San Patrignano  per affidamento sociale  per reati connessi alla tossicodipendenza?"
         },
         {
-          "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
+          "text": "E' possibile scontare la pena a San Patrignano?"
         },
         {
-          "text": "mi dici quali settori vita ci sono"
+          "text": "Posso scontare la mia pena residua a San Patrignano?"
         },
         {
-          "text": "Vorrei sapere quali sono i settori di formazione che avete"
+          "text": "Mio figlio è in carcere come possiamo farlo entrare in comunità"
         },
         {
-          "text": "Mi dici quali sono i settori di formazione che avete?"
+          "text": "Posso far entrare una persona a San Patrignano  per scontare gli  arresti domiciliari  per reati connessi alla tossicodipendenza?"
         },
         {
-          "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
+          "text": "Sono un tossicodipendente agli arresti domiciliari, posso scontare la pena a San Patrignano?"
+        },
+        {
+          "text": "San Patrignano accoglie persone che devono scontare il carcere a causa della tossicodipendenza?"
+        },
+        {
+          "text": "Posso scontare pene alternative nella vostra comunità?"
+        },
+        {
+          "text": "Ho l'affidamento sociale, posso scontare il residuo pena a San Patrignano"
         }
       ],
-      "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunità."
-    },
-    {
-      "intent": "PagamentoCartaCredito",
-      "examples": [
-        {
-          "text": "E' possibile pagare tramite carta di credito?"
-        },
-        {
-          "text": "Posso donare con carta di credito?"
-        },
-        {
-          "text": "Vorrei pagare la donazione con carta di credito, è possibile?"
-        },
-        {
-          "text": "Vorrei pagare con carta di credito"
-        },
-        {
-          "text": "Accettate tutte le carte di credito?"
-        },
-        {
-          "text": "Vorrei fare una donazione con carta di credito, come posso fare?"
-        },
-        {
-          "text": "Accettate la visa?"
-        },
-        {
-          "text": "Accettate american express?"
-        },
-        {
-          "text": "Come faccio per pagare con carta di credito?"
-        }
-      ],
-      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite carta credito."
+      "description": "Questo intent serve ad intercettare domande generiche sulle pene alternative."
     },
     {
       "intent": "DonazioneBeni",
       "examples": [
-        {
-          "text": "posso regalarvi un motorino?"
-        },
-        {
-          "text": "posso regalarvi una fornitura di cancelleria?"
-        },
-        {
-          "text": "vorrei donarvi una macchina"
-        },
         {
           "text": "volete dei vestiti?"
         },
@@ -852,63 +864,24 @@
         },
         {
           "text": "posso donarvi giocattoli per i bambini?"
+        },
+        {
+          "text": "posso regalarvi un motorino?"
+        },
+        {
+          "text": "posso regalarvi una fornitura di cancelleria?"
+        },
+        {
+          "text": "vorrei donarvi una macchina"
         }
       ],
       "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di beni."
     },
     {
-      "intent": "PagamentoBollettinoPostale",
-      "examples": [
-        {
-          "text": "mi mandate un bollettino postale precompilato?"
-        },
-        {
-          "text": "mi mandate un bollettino postale in bianco?"
-        },
-        {
-          "text": "posso donare con ccp?"
-        },
-        {
-          "text": "mi date il vostro conto corrente postale"
-        },
-        {
-          "text": "avete un bollettino da darmi?"
-        },
-        {
-          "text": "posso donare con bollettino postale?"
-        }
-      ],
-      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bollettino postale."
-    },
-    {
-      "intent": "ImportiDonazione",
-      "examples": [
-        {
-          "text": "Quanto posso donare?"
-        },
-        {
-          "text": "Quale e’ l’importo minimo che posso donare?"
-        },
-        {
-          "text": "Come posso assicurare i pasti quotidiani dei ragazzi?"
-        },
-        {
-          "text": "Quanto posso donare per aiutare i ragazzi vittime della droga?"
-        },
-        {
-          "text": "Come posso contribuire alla formazione professionale dei ragazzi in percorso?"
-        },
-        {
-          "text": "Quanto posso donare per aiutare ad accogliere i ragazzi, vittime della droga?"
-        }
-      ],
-      "description": "Questo intent serve a rispondere alle domande relative agli importi delle donazioni."
-    },
-    {
       "intent": "DeducibilitaFiscale",
       "examples": [
         {
-          "text": "Mi mandate una ricevuta per la mia donazione?"
+          "text": "Ho donato, vorrei la ricevuta"
         },
         {
           "text": "La donazione è deducibile?"
@@ -917,65 +890,188 @@
           "text": "Quando mi arriva la ricevuta per la mia donazione?"
         },
         {
-          "text": "Sono un donatore, posso usufruire dei benefici fiscali?"
+          "text": "Mi mandate una ricevuta per la mia donazione?"
         },
         {
-          "text": "Ho donato, vorrei la ricevuta"
+          "text": "Sono un donatore, posso usufruire dei benefici fiscali?"
         }
       ],
       "description": "deducibilità fiscale"
     },
     {
-      "intent": "AssistenzaLegale",
+      "intent": "InformazioniPercorso",
       "examples": [
         {
-          "text": "Posso avere assistenza legale all'interno della Comunità?"
+          "text": "Aiutami a trovare informazioni sul percorso di recupero"
         },
         {
-          "text": "Se entro a San Patrignano l'assistenza legale è gratuita?"
+          "text": "Vorrei avere informazioni sul percorso di recupero nella vostra comunità"
         },
         {
-          "text": "Ci sono avvocati che possono aiutarmi nei processi"
+          "text": "Dammi qualche informazioni sui percorsi di recupero"
         },
         {
-          "text": "San Patrignano offre sostegno legale a chi intraprende il percorso di recupero?"
+          "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunità?"
         },
         {
-          "text": "Posso avere un'assistenza e o consulenza legale da parte vostra?"
+          "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunità"
         },
         {
-          "text": "Posso avere un avvocato a sanpa"
+          "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
         },
         {
-          "text": "Posso essere difeso legalmente in maniera gratuita?"
-        },
-        {
-          "text": "Come faccio ad ottenere assistenza legale?"
-        },
-        {
-          "text": "Ci sono persone che possono sostenermi nelle mie future scelte processuali?"
+          "text": "come funziona il percorso?"
         }
       ],
-      "description": "Questo Intent è utilizzato nel contesto delle Pene Alternative quando l'utente chiede informazioni sul sostegno legale."
+      "description": "Informazioni sul percorso di recupero."
     },
     {
-      "intent": "PartecipazioniUdienze",
+      "intent": "Congedo",
       "examples": [
         {
-          "text": "Se uno intraprende il percorso poi può presenziare alle udienze?"
+          "text": "Grazie di tutto, è stato molto di aiuto"
         },
         {
-          "text": "E' possibile partecipare alle udienze una volta entrati in comunità?"
+          "text": "Ti saluto, a presto."
         },
         {
-          "text": "Gli ospiti della comunità possono partecipare alle udienze?"
+          "text": "Grazie, sei stato di grande aiuto. A presto."
+        },
+        {
+          "text": "Bene, abbiamo fatto tutto ciò che mi serviva."
+        },
+        {
+          "text": "Ehi penso che hai risolto il mio problema grazie"
+        },
+        {
+          "text": "Grazie di avermi aiutato. Ciao"
+        },
+        {
+          "text": "Mi è piaciuto cooperare con te."
+        },
+        {
+          "text": "Va bene, grazie mille allora"
+        },
+        {
+          "text": "Stammi bene."
+        },
+        {
+          "text": "Me ne sto andando."
+        },
+        {
+          "text": "Ti auguro una giornata bellissima"
+        },
+        {
+          "text": "A presto."
+        },
+        {
+          "text": "Arrividerci."
+        },
+        {
+          "text": "Bye Bye."
+        },
+        {
+          "text": "Ci sentiamo."
+        },
+        {
+          "text": "Addio!"
+        },
+        {
+          "text": "Spero di risentirti presto"
+        },
+        {
+          "text": "Smetti questa sessione adesso"
+        },
+        {
+          "text": "Pausa"
+        },
+        {
+          "text": "Non vedo l'ora di parlarti la prossima volta."
         }
       ],
-      "description": "Questo Intent è usato nel contesto delle Pene Alternative per rispondere alle domande sulla partecipazione alle udienze."
+      "description": "Termina la conversazione."
+    },
+    {
+      "intent": "MetodiPagamento",
+      "examples": [
+        {
+          "text": "Vorrei fare una donazione, come posso pagarla?"
+        },
+        {
+          "text": "Quali metodi di pagamento mettete a disposizione?"
+        },
+        {
+          "text": "Quali sono i metodi di pagamento per le donazioni?"
+        },
+        {
+          "text": "Mi aiutate a capire come posso pagare la mia donazione?"
+        },
+        {
+          "text": "Come posso pagare la mia donazione"
+        }
+      ],
+      "description": "Questo Intent serve per identificare le richieste sui metodi di pagamento per le donazioni."
+    },
+    {
+      "intent": "UnGiornoASanpa",
+      "examples": [
+        {
+          "text": "Posso venire a vedere San Patrignano"
+        },
+        {
+          "text": "Posso venire a trovarvi?"
+        },
+        {
+          "text": "Siamo un gruppo possiamo venire in visita?"
+        },
+        {
+          "text": "E' possibile visitare la vostra comunità?"
+        },
+        {
+          "text": "Organizzate visite in comunità ?"
+        },
+        {
+          "text": "Posso venire a visitare San Patrignano"
+        }
+      ],
+      "description": "Visite a San Patrignano"
+    },
+    {
+      "intent": "FamiliareTossicodipendente",
+      "examples": [
+        {
+          "text": "Mia sorella fa uso di droga"
+        },
+        {
+          "text": "Mio padre si droga"
+        },
+        {
+          "text": "Mia madre usa cocaina"
+        },
+        {
+          "text": "Mio fratello fa uso di droga"
+        },
+        {
+          "text": "Mia sorella è cocainomane"
+        },
+        {
+          "text": "Mio padre fa uso di eroina"
+        },
+        {
+          "text": "Sono il familiare di un tossicodipendente"
+        },
+        {
+          "text": "familiare"
+        }
+      ],
+      "description": "Questo intent serve a capire se stiamo parlando con un familiare di un tossicodipendente."
     },
     {
       "intent": "InformazioneSettoriFormazione",
       "examples": [
+        {
+          "text": "Si dammi qualche info sugli allevamenti"
+        },
         {
           "text": "Mi dai qualche info sulla falegnameria"
         },
@@ -992,170 +1088,64 @@
           "text": "Vorrei qualche informazione sui settori di formazione"
         },
         {
-          "text": "Si dammi qualche info sugli allevamenti"
-        },
-        {
           "text": "Cosa sono i settori di formazione?"
         }
       ],
       "description": "Questo intent consente di ottenere informazioni sui settori di recupero"
     },
     {
-      "intent": "FinalitaDonazioni",
+      "intent": "PagamentoCartaCredito",
       "examples": [
         {
-          "text": "La donazione che faccio come la usate?"
+          "text": "Accettate tutte le carte di credito?"
         },
         {
-          "text": "Come investite i soldi dei donatori?"
+          "text": "Vorrei fare una donazione con carta di credito, come posso fare?"
         },
         {
-          "text": "A cosa vi servono i soldi delle donazioni?"
+          "text": "Accettate la visa?"
         },
         {
-          "text": "Cosa fate con le donazioni?"
+          "text": "Accettate american express?"
         },
         {
-          "text": "Dove vanno a finire i soldi che dono?"
+          "text": "Come faccio per pagare con carta di credito?"
         },
         {
-          "text": "Vi ho fatto una donazione, come la investirete?"
+          "text": "E' possibile pagare tramite carta di credito?"
         },
         {
-          "text": "A cosa destinate la mia donazione?"
+          "text": "Posso donare con carta di credito?"
+        },
+        {
+          "text": "Vorrei pagare la donazione con carta di credito, è possibile?"
+        },
+        {
+          "text": "Vorrei pagare con carta di credito"
         }
       ],
-      "description": "Questo intent serve a capire come vengono usate le donazioni alla comunità."
-    },
-    {
-      "intent": "DonazioneLasciti",
-      "examples": [
-        {
-          "text": "Come si fa un lascito?"
-        },
-        {
-          "text": "Quanto incide la tassa di successione su ciò che destino nel mio testamento?"
-        },
-        {
-          "text": "posso donare un immobile?"
-        },
-        {
-          "text": "Sto per morire. Vorrei fare un lascito alla comunità."
-        },
-        {
-          "text": "Posso legare beni immobili?"
-        },
-        {
-          "text": "Come sarà gestito il mio lascito?"
-        },
-        {
-          "text": "Come posso fare un lascito alla vostra comunità?"
-        }
-      ],
-      "description": "Questo intento gestisce la richiesta di informazioni sui lasciti."
-    },
-    {
-      "intent": "Presentazione",
-      "examples": [
-        {
-          "text": "Ciao Sanpa fornitore di informazioni"
-        },
-        {
-          "text": "Buon pomeriggio bot!"
-        },
-        {
-          "text": "Saluti a te"
-        },
-        {
-          "text": "Ehi tutto bene?"
-        },
-        {
-          "text": "Pronto per cominciare"
-        },
-        {
-          "text": "Salve operatore virtuale"
-        },
-        {
-          "text": "Salve, avrei bisogno di una vostra consulenza"
-        },
-        {
-          "text": "Sto parlando con un computer?"
-        },
-        {
-          "text": "Ti trovo bene, buona sera"
-        },
-        {
-          "text": "Ciao SanPa"
-        },
-        {
-          "text": "Ciao, avrei bisogno di una tua consulenza"
-        },
-        {
-          "text": "Che succede, assistente"
-        },
-        {
-          "text": "Saluti a lei"
-        },
-        {
-          "text": "Buongiorno Agent!"
-        },
-        {
-          "text": "Buonasera, ho qualche domanda da farle, posso ?"
-        }
-      ],
-      "description": "Presentazione dell'utente."
-    },
-    {
-      "intent": "Contatti",
-      "examples": [
-        {
-          "text": "Come posso contattare l'ufficio prevenzione WeFree?"
-        },
-        {
-          "text": "Come posso contattare l'ufficio commerciale?"
-        },
-        {
-          "text": "come posso contattare l'ufficio stampa?"
-        },
-        {
-          "text": "Come posso contattarvi?"
-        },
-        {
-          "text": "Come posso contattare l'ufficio raccolta fondi?"
-        }
-      ],
-      "description": "Informazione sui contatti"
+      "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite carta credito."
     }
   ],
   "entities": [
     {
-      "entity": "conferma",
+      "entity": "settoriformazione",
       "values": [
         {
           "type": "synonyms",
-          "value": "positiva",
+          "value": "magazzini",
           "synonyms": [
-            "si",
-            "ok",
-            "va bene",
-            "yes"
+            "stock",
+            "emporio"
           ]
         },
         {
           "type": "synonyms",
-          "value": "negativa",
+          "value": "decorazioni",
           "synonyms": [
-            "no",
-            "non mi interessa",
-            "no grazie"
+            "laboratorio artistico"
           ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "settoriformazione",
-      "values": [
+        },
         {
           "type": "synonyms",
           "value": "coltivazioni",
@@ -1316,21 +1306,6 @@
             "lavanderia a secco",
             "lavasecco"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "magazzini",
-          "synonyms": [
-            "stock",
-            "emporio"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "decorazioni",
-          "synonyms": [
-            "laboratorio artistico"
-          ]
         }
       ],
       "fuzzy_match": true
@@ -1338,6 +1313,14 @@
     {
       "entity": "personas",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "donatore",
+          "synonyms": [
+            "benefattore",
+            "offerente"
+          ]
+        },
         {
           "type": "synonyms",
           "value": "familiare",
@@ -1363,13 +1346,30 @@
             "eroinomane",
             "tossicomane"
           ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "conferma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negativa",
+          "synonyms": [
+            "no",
+            "non mi interessa",
+            "no grazie"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "donatore",
+          "value": "positiva",
           "synonyms": [
-            "benefattore",
-            "offerente"
+            "si",
+            "ok",
+            "va bene",
+            "yes"
           ]
         }
       ],
@@ -1385,21 +1385,6 @@
   },
   "description": "",
   "dialog_nodes": [
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_6_1548008790726",
-      "metadata": {},
-      "dialog_node": "slot_8_1548008790741",
-      "previous_sibling": "handler_11_1548008790741"
-    },
-    {
-      "type": "event_handler",
-      "parent": "node_6_1548008790726",
-      "metadata": {},
-      "event_name": "focus",
-      "dialog_node": "handler_11_1548008790741"
-    },
     {
       "type": "event_handler",
       "output": {},
@@ -1430,6 +1415,58 @@
       "parent": "slot_2_1547815740175",
       "event_name": "input",
       "dialog_node": "handler_3_1547815740175"
+    },
+    {
+      "type": "event_handler",
+      "parent": "Benvenuto",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1547815740167",
+      "previous_sibling": "node_4_1547829318977"
+    },
+    {
+      "type": "slot",
+      "parent": "Benvenuto",
+      "dialog_node": "slot_2_1547815740175",
+      "previous_sibling": "handler_1_1547815740167"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "context": {
+        "personas": "<? input.text ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1547724300149"
+      },
+      "conditions": "(input.text==\"tossicodipendente\" || input.text==\"familiare\" || input.text==\"donatore\" || input.text==\"altro utente\")",
+      "dialog_node": "node_4_1547829318977"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1548008790726",
+      "metadata": {},
+      "dialog_node": "slot_8_1548008790741",
+      "previous_sibling": "handler_11_1548008790741"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_6_1548008790726",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1548008790741"
     },
     {
       "type": "standard",
@@ -1480,20 +1517,165 @@
       "dialog_node": "node_2_1547985519266"
     },
     {
-      "type": "event_handler",
-      "parent": "Benvenuto",
-      "event_name": "focus",
-      "dialog_node": "handler_1_1547815740167",
-      "previous_sibling": "node_4_1547829318977"
-    },
-    {
-      "type": "slot",
-      "parent": "Benvenuto",
-      "dialog_node": "slot_2_1547815740175",
-      "previous_sibling": "handler_1_1547815740167"
+      "type": "standard",
+      "title": "Donazione 5x1000",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Destinare il 5 per mille è semplice: basta mettere una firma e il codice fiscale di San Patrignano nello spazio riservato al sostegno delle Onlus, che si trova nei modelli per la dichiarazione dei redditi (modello 730, UNICO e CUD)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "\nUn gesto che non costa nulla ma che può consentire alla Comunità di essere gratuita e per tutti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Non è un prelievo aggiuntivo in quanto il 5x1000 viene detratto dall’imposta che comunque versi. Il codice fiscale di San Patrignano è 91030420409."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Donazione5x1000",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1553778887967",
+      "previous_sibling": "node_2_1560778934771"
     },
     {
       "type": "standard",
+      "title": "Richiesta Informazioni (Altro utente)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg",
+            "response_type": "image"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#AltroUtente && $personas==\"altro utente\"",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1553767261785",
+      "previous_sibling": "node_6_1550763468320"
+    },
+    {
+      "type": "standard",
+      "title": "Finalità Donazioni",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano è una comunità completamente gratuita, per i ragazzi che accoglie, per le loro famiglie ed anche per lo Stato, da cui non accetta rette. Andiamo avanti grazie ai prodotti che la comunità produce per autogestione e alle donazioni di molte persone di buona volontà che vogliono contribuire alla nostra missione che è quella i salvare vite tutti i giorni."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "La sua donazione sosterrà il percorso formativo di rinserimento professionale dei ragazzi ospiti così che possano apprendere un mestiere e alla fine delle percorso reinserirsi attivamente nella società."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#FinalitaDonazioni",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1550763734176",
+      "previous_sibling": "node_6_1553779951933"
+    },
+    {
+      "type": "standard",
+      "title": "Dove Si Trova",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La comunità di San Patrignano si trova a Coriano (RN) in via San Patrignano n° 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps.<iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#DoveSiTrova",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1548519355391",
+      "previous_sibling": "node_2_1561814061390"
+    },
+    {
+      "type": "standard",
+      "title": "Sono Familiare",
       "output": {
         "generic": [
           {
@@ -1503,328 +1685,18 @@
           }
         ]
       },
-      "parent": "Benvenuto",
       "context": {
-        "personas": "<? input.text ?>"
+        "personas": "familiare"
       },
       "metadata": {},
       "next_step": {
         "behavior": "jump_to",
         "selector": "condition",
-        "dialog_node": "node_1_1547724300149"
+        "dialog_node": "node_1_1548172926105"
       },
-      "conditions": "(input.text==\"tossicodipendente\" || input.text==\"familiare\" || input.text==\"donatore\" || input.text==\"altro utente\")",
-      "dialog_node": "node_4_1547829318977"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni Settori  Formazione",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "San Patrignano presenta oltre 50 settori di vita e formazione, dove i ragazzi vengono inseriti in base alla disponibilità di persone che possano affiancare il nuovo entrato e in base alla sua propensione."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Imparare al meglio una professione consente ad ogni ragazzo di crescere nell’autostima e nei rapporti interpersonali."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Vuoi sapere quali settori di formazione sono disponibili a San Patrignano?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#InformazioneSettoriFormazione && !@settoriformazione",
-      "dialog_node": "node_1_1547805118753",
-      "previous_sibling": "node_1_1544534431384"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni Percorso",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Il programma di recupero è personalizzato e varia a seconda delle caratteristiche e necessità di ogni singolo individuo."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Quando un ragazzo entra in comunità, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano è suddivisa. Qui è affidato a un ragazzo che diventa suo tutor e nel primo anno di comunità lo segue costantemente. Parallelamente ad ogni ragazzo viene data la possibilità di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>. Se lo desideri posso fornirti informazioni su: • settori di formazione • scuola e istruzione."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#InformazioniPercorso",
-      "dialog_node": "node_1_1544534431384",
-      "previous_sibling": "node_1_1553767261785"
-    },
-    {
-      "type": "standard",
-      "title": "Metodi di Pagamento",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Puoi pagare la tua donazione con i seguenti metodi di pagamento: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a> e RID bancario (addebito sul conto corrente bancario)."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#MetodiPagamento",
-      "dialog_node": "node_2_1560778934771",
-      "previous_sibling": "node_16_1550764171649"
-    },
-    {
-      "type": "standard",
-      "title": "Pena Alternativa",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "\nGrazie a San Patrignano quasi 4000 ragazzi hanno hanno scontato la loro pena a San Patrignano affrontando un percorso di recupero che li ha portati a reinserirsi in società da cellule attive."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Non esistono preclusioni relative al tipo di provvedimento a cui sia sottoposto un soggetto che voglia iniziare a San Patrignano un percorso di recupero."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "L’unico limite è rappresentato dal residuo pena (da ciò che resta da scontare) al momento sia della richiesta che dell’ingresso."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#PenaAlternativa",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_1_1553677769590",
-      "previous_sibling": "node_14_1550763882455"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni Scuola",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "All’interno di San Patrignano i ragazzi possono riprendere gli studi che hanno abbandonato a causa della tossicodipendenza."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "In una struttura dedicata è infatti possibile colmare le proprie lacune o intraprendere un nuovo percorso scolastico orientato ad acquisire un diploma o una qualifica professionale. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/centro%20studi_1.jpg",
-            "response_type": "image"
-          },
-          {
-            "values": [
-              {
-                "text": "In questa <a href=\"https://www.sanpatrignano.org/la-comunita/studio/\" target=\"_blank\">pagina</a> puoi trovare ulteriori informazioni."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#InformazioniScuolaIstruzione",
-      "dialog_node": "node_3_1548004915505",
-      "previous_sibling": "node_5_1547825383595"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni Donazioni Beni",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "E' possibile donare beni materiali qualora siano ritenuti utili alla Comunità e in buone condizioni."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Scopri la lista dei prodotti necessari alla Comunità <a href=\"https://www.sanpatrignano.org/aziende/gift-kind-donazione-prodotti/\" target=\"_blank\">cliccando qui</a>. Per eventuali dubbi contattaci al numero 0541 362111."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#DonazioneBeni",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_13_1550763878119",
-      "previous_sibling": "node_11_1550763799880"
-    },
-    {
-      "type": "standard",
-      "title": "Assistenza Legale",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "L’ufficio legale di San Patrignano ha creato, nel corso degli anni, una rete di avvocati che collaborano con noi a condizioni convenienti, ma non gratuite."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "In questo modo l’ospite della Comunità può proporre al competente tribunale, le istanze necessarie a scongiurare la reclusione."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#AssistenzaLegale",
-      "dialog_node": "node_1_1553679193850",
-      "previous_sibling": "node_1_1553677769590"
-    },
-    {
-      "type": "standard",
-      "title": "Importi Donazione",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Non esiste un importo minimo da donare; ogni sostegno è prezioso per la comunità; le donazioni regolari sono di notevole importanza perché ci permettono di aiutare con costanza i ragazzi in percorso e di fare una pianificazione e una progettazione degli interventi su lungo termine; abbiamo bisogno del tuo sostegno per portare avanti la nostra missione.<br/><br/>Sostienici con la tua donazione <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">cliccando qui</a>."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#ImportiDonazione",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_14_1550763882455",
-      "previous_sibling": "node_10_1550763734176"
+      "conditions": "#FamiliareTossicodipendente",
+      "dialog_node": "node_3_1553770672111",
+      "previous_sibling": "node_2_1553770494808"
     },
     {
       "type": "standard",
@@ -1878,6 +1750,89 @@
     },
     {
       "type": "standard",
+      "title": "Richiesta Informazioni (Tossicodipendente)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg",
+            "response_type": "image"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Tossicodipendente && $personas==\"tossicodipendente\"",
+      "dialog_node": "node_1_1547724300149",
+      "previous_sibling": "node_4_1553770744638"
+    },
+    {
+      "type": "standard",
+      "title": "Minori",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all’utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Potete leggere <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunità per i minori all’interno di San Patrignano."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Minori",
+      "dialog_node": "node_2_1553682497355",
+      "previous_sibling": "node_1_1553871461467"
+    },
+    {
+      "type": "standard",
       "title": "Partecipazioni Udienze",
       "output": {
         "generic": [
@@ -1927,53 +1882,6 @@
     },
     {
       "type": "standard",
-      "title": "Pagamento RID Bancario",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Puoi effettuare una donazione continuativa con RID bancario direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#PagamentoRID",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_16_1550764171649",
-      "previous_sibling": "node_17_1550764173537"
-    },
-    {
-      "type": "standard",
-      "title": "Sono Tossicodipendente",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "context": {
-        "personas": "tossicodipendente"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_1_1547724300149"
-      },
-      "conditions": "#Tossicodipendente",
-      "dialog_node": "node_2_1553770494808",
-      "previous_sibling": "node_6_1548008790726"
-    },
-    {
-      "type": "standard",
       "title": "Pagamento Bonifico",
       "output": {
         "generic": [
@@ -2005,17 +1913,17 @@
     },
     {
       "type": "standard",
-      "title": "Cosa sai fare?",
+      "title": "Assistenza Legale",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Sono un chatbot è il mio obiettivo è quello di aiutarti a trovare le informazioni che desideri."
+                "text": "L’ufficio legale di San Patrignano ha creato, nel corso degli anni, una rete di avvocati che collaborano con noi a condizioni convenienti, ma non gratuite."
               }
             ],
             "response_type": "text",
-            "selection_policy": "random"
+            "selection_policy": "sequential"
           },
           {
             "time": 2000,
@@ -2025,21 +1933,7 @@
           {
             "values": [
               {
-                "text": "Ad esempio, posso aiutarti a trovare informazioni su: • percorso di recupero • come entrare in comunità • settori di formazione • scuola e istruzione • costi • donazioni di soldi o beni • lasciti • metodi di pagamento per le donazioni • come contattarci o raggiungerci."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+                "text": "In questo modo l’ospite della Comunità può proporre al competente tribunale, le istanze necessarie a scongiurare la reclusione."
               }
             ],
             "response_type": "text",
@@ -2047,13 +1941,10 @@
           }
         ]
       },
-      "context": {
-        "agentCapabilities": 0
-      },
       "metadata": {},
-      "conditions": "#CosaSaiFare || $agentCapabilities > 1",
-      "dialog_node": "node_1_1560671148980",
-      "previous_sibling": "node_3_1544523453277"
+      "conditions": "#AssistenzaLegale",
+      "dialog_node": "node_1_1553679193850",
+      "previous_sibling": "node_1_1553677769590"
     },
     {
       "type": "standard",
@@ -2079,21 +1970,17 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni (Tossicodipendente)",
+      "title": "Associazioni Volontariato",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+                "text": "Le associazioni di volontariato sono presenti in gran parte del territorio nazionale e sono composte da genitori, da volontari e da persone che hanno vissuto la tossicodipendenza e ne sono uscite."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg",
-            "response_type": "image"
           },
           {
             "time": 2000,
@@ -2103,16 +1990,21 @@
           {
             "values": [
               {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
+                "text": "Il loro ruolo è catalizzare le richieste di aiuto, supportare i ragazzi nella loro volontà di cambiare, aiutarli a disintossicarsi e suggerire alle famiglie il modo migliore per stare loro vicino. Le associazioni operano anche all’interno dei penitenziari dando l’opportunità alle persone detenute per reati connessi alla tossicodipendenza di accedere a misure alternative."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
             "values": [
               {
-                "text": "Come posso aiutarti?"
+                "text": "Per trovare l’associazione più vicina a te, <a href=\"https://www.sanpatrignano.org/hai-bisogno-aiuto/le-associazioni/\" target=\"_blank\">clicca qui</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -2121,27 +2013,50 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Tossicodipendente && $personas==\"tossicodipendente\"",
-      "dialog_node": "node_1_1547724300149",
-      "previous_sibling": "node_4_1553770744638"
+      "conditions": "#InformazioniAssociazioniVolontariato",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548517842312",
+      "previous_sibling": "node_4_1548005886588"
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni (Altro utente)",
+      "title": "Contatti",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "San Patrignano ha già aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/09/sanpastorie-730x410.jpg",
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/2017/05/panorama_sanpatrignano1-800x480.jpg",
             "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Contatti || #PassamiOperatore",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1548518022320",
+      "previous_sibling": "node_8_1550763622067"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta Informazioni (Donatore)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Decidendo di fare una donazione garantisci un sostegno per i nostri ragazzi. Le donazioni possono essere in forma di denaro o beni (lasciti o materiali)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
           },
           {
             "time": 2000,
@@ -2151,16 +2066,21 @@
           {
             "values": [
               {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
+                "text": "I pagamenti possono essere effettuati tramite carta di credito, RID, bonifico bancario o bollettino postale."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
             "values": [
               {
-                "text": "Come posso aiutarti?"
+                "text": "Se lo desideri possiamo fornirti ulteriori informazioni su: • donazione di soldi o beni • lasciti • metodi di pagamento."
               }
             ],
             "response_type": "text",
@@ -2169,10 +2089,243 @@
         ]
       },
       "metadata": {},
-      "conditions": "#AltroUtente && $personas==\"altro utente\"",
+      "conditions": "#InformazioniDonatore && $personas==\"donatore\"",
       "digress_in": "does_not_return",
-      "dialog_node": "node_1_1553767261785",
-      "previous_sibling": "node_6_1550763468320"
+      "dialog_node": "node_5_1550763400131",
+      "previous_sibling": "node_1_1548172926105"
+    },
+    {
+      "type": "standard",
+      "title": "Un Giorno A Sanpa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vivi una giornata nella comunità di San Patrignano perché è un’esperienza indimenticabile. Non solo per la bellezza di cui si riempiranno gli occhi sulla collina che guarda il mare di Rimini, ma anche per la bellezza che riscoprirai nel tuo cuore ascoltando le storie dei ragazzi che stanno lottando per rinascere."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#UnGiornoASanpa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1553779951933",
+      "previous_sibling": "node_5_1553778887967"
+    },
+    {
+      "type": "standard",
+      "title": "Pena Alternativa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nGrazie a San Patrignano quasi 4000 ragazzi hanno hanno scontato la loro pena a San Patrignano affrontando un percorso di recupero che li ha portati a reinserirsi in società da cellule attive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Non esistono preclusioni relative al tipo di provvedimento a cui sia sottoposto un soggetto che voglia iniziare a San Patrignano un percorso di recupero."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "L’unico limite è rappresentato dal residuo pena (da ciò che resta da scontare) al momento sia della richiesta che dell’ingresso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#PenaAlternativa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1553677769590",
+      "previous_sibling": "node_14_1550763882455"
+    },
+    {
+      "type": "standard",
+      "title": "Pagamento Carta Di Credito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puoi effettuare una donazione con carta di credito direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#PagamentoCartaCredito",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_17_1550764173537",
+      "previous_sibling": "node_18_1550764175969"
+    },
+    {
+      "type": "standard",
+      "title": "Presentazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ciao! Sono Sanpa l'assistente virtuale della comunità di San Patrignano e sono qui per aiutarti. Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Presentazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1548008790726",
+      "digress_out": "allow_all",
+      "previous_sibling": "Benvenuto"
+    },
+    {
+      "type": "standard",
+      "title": "Sono Donatore",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "personas": "donatore"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1550763400131"
+      },
+      "conditions": "#InformazioniDonatore",
+      "dialog_node": "node_4_1553770744638",
+      "previous_sibling": "node_3_1553770672111"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Settori  Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano presenta oltre 50 settori di vita e formazione, dove i ragazzi vengono inseriti in base alla disponibilità di persone che possano affiancare il nuovo entrato e in base alla sua propensione."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Imparare al meglio una professione consente ad ogni ragazzo di crescere nell’autostima e nei rapporti interpersonali."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Vuoi sapere quali settori di formazione sono disponibili a San Patrignano?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioneSettoriFormazione && !@settoriformazione",
+      "dialog_node": "node_1_1547805118753",
+      "previous_sibling": "node_1_1544534431384"
+    },
+    {
+      "type": "standard",
+      "title": "Informazione Dettagli Settori di Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Per avere ulteriori informazioni sul settore <? entities['settoriformazione'] ?>  puoi consultare la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/formazione/<? entities['settoriformazione'] ?>\" target=\"_blank\">pagina</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/2014/01/allevamenti-san-patrignano.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioneSettoriFormazione && @settoriformazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1547825383595",
+      "previous_sibling": "node_2_1547828362401"
     },
     {
       "type": "standard",
@@ -2234,17 +2387,46 @@
     },
     {
       "type": "standard",
-      "title": "Minori",
+      "title": "Sono Tossicodipendente",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "personas": "tossicodipendente"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1547724300149"
+      },
+      "conditions": "#Tossicodipendente",
+      "dialog_node": "node_2_1553770494808",
+      "previous_sibling": "node_6_1548008790726"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta Informazioni (Familiare)",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all’utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio."
+                "text": "San Patrignano ha già aiutato migliaia di persone che hanno dovuto combattere contro i problemi di tossicodipendenza dei propri familiari. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/cari-genitori-i-genitori-si-raccontano/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie dipersoneche ce l'hanno fatta."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/08/IMG_1687-730x410.jpg",
+            "response_type": "image"
           },
           {
             "time": 2000,
@@ -2254,7 +2436,16 @@
           {
             "values": [
               {
-                "text": "Potete leggere <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunità per i minori all’interno di San Patrignano."
+                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • su come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Come posso aiutarti?"
               }
             ],
             "response_type": "text",
@@ -2263,19 +2454,19 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Minori",
-      "dialog_node": "node_2_1553682497355",
-      "previous_sibling": "node_1_1553871461467"
+      "conditions": "#FamiliareTossicodipendente && $personas==\"familiare\"",
+      "dialog_node": "node_1_1548172926105",
+      "previous_sibling": "node_1_1547724300149"
     },
     {
       "type": "standard",
-      "title": "Donazione 5x1000",
+      "title": "Informazioni SERT",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Destinare il 5 per mille è semplice: basta mettere una firma e il codice fiscale di San Patrignano nello spazio riservato al sostegno delle Onlus, che si trova nei modelli per la dichiarazione dei redditi (modello 730, UNICO e CUD)."
+                "text": "<a href=\"http://www.salute.gov.it/imgs/C_17_pubblicazioni_433_allegato.pdf\" target=\"_blank\">Clicca qui</a> per scaricare l’elenco dei servizi pubblici per le tossicodipendenze.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -2289,7 +2480,7 @@
           {
             "values": [
               {
-                "text": "\nUn gesto che non costa nulla ma che può consentire alla Comunità di essere gratuita e per tutti."
+                "text": "Una volta accertata la reale determinazione della persona, vengono organizzati uno o più colloqui con gli operatori dell’ufficio accoglienza, che illustrano i metodi, i principi e il programma di recupero.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -2303,7 +2494,7 @@
           {
             "values": [
               {
-                "text": "Non è un prelievo aggiuntivo in quanto il 5x1000 viene detratto dall’imposta che comunque versi. Il codice fiscale di San Patrignano è 91030420409."
+                "text": "Alla fine del colloquio, i ragazzi valutano la proposta e decidono liberamente se il programma di San Patrignano corrisponde o meno alle proprie esigenze. Se accettano, l’ingresso in comunità avviene direttamente.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -2312,36 +2503,31 @@
         ]
       },
       "metadata": {},
-      "conditions": "#Donazione5x1000",
+      "conditions": "#InformazioniSERT",
       "digress_in": "does_not_return",
-      "dialog_node": "node_5_1553778887967",
-      "previous_sibling": "node_2_1560778934771"
+      "dialog_node": "node_5_1548087690389",
+      "previous_sibling": "node_1_1553696854929"
     },
     {
       "type": "standard",
-      "title": "Informazione Dettagli Settori di Formazione",
+      "title": "Metodi di Pagamento",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Per avere ulteriori informazioni sul settore <? entities['settoriformazione'] ?>  puoi consultare la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/formazione/<? entities['settoriformazione'] ?>\" target=\"_blank\">pagina</a>."
+                "text": "Puoi pagare la tua donazione con i seguenti metodi di pagamento: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a> e RID bancario (addebito sul conto corrente bancario)."
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/2014/01/allevamenti-san-patrignano.jpg",
-            "response_type": "image"
           }
         ]
       },
       "metadata": {},
-      "conditions": "#InformazioneSettoriFormazione && @settoriformazione",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_5_1547825383595",
-      "previous_sibling": "node_2_1547828362401"
+      "conditions": "#MetodiPagamento",
+      "dialog_node": "node_2_1560778934771",
+      "previous_sibling": "node_16_1550764171649"
     },
     {
       "type": "standard",
@@ -2378,361 +2564,6 @@
       "digress_in": "does_not_return",
       "dialog_node": "node_6_1550763468320",
       "previous_sibling": "node_5_1550763400131"
-    },
-    {
-      "type": "standard",
-      "title": "Dove Si Trova",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "La comunità di San Patrignano si trova a Coriano (RN) in via San Patrignano n° 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps.<iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#DoveSiTrova",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_3_1548519355391",
-      "previous_sibling": "node_2_1548518022320"
-    },
-    {
-      "type": "standard",
-      "title": "Richiesta Informazioni (Donatore)",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Decidendo di fare una donazione garantisci un sostegno per i nostri ragazzi. Le donazioni possono essere in forma di denaro o beni (lasciti o materiali)."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "I pagamenti possono essere effettuati tramite carta di credito, RID, bonifico bancario o bollettino postale."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Se lo desideri possiamo fornirti ulteriori informazioni su: • donazione di soldi o beni • lasciti • metodi di pagamento."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#InformazioniDonatore && $personas==\"donatore\"",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_5_1550763400131",
-      "previous_sibling": "node_1_1548172926105"
-    },
-    {
-      "type": "standard",
-      "title": "Sono Familiare",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "context": {
-        "personas": "familiare"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_1_1548172926105"
-      },
-      "conditions": "#FamiliareTossicodipendente",
-      "dialog_node": "node_3_1553770672111",
-      "previous_sibling": "node_2_1553770494808"
-    },
-    {
-      "type": "standard",
-      "title": "Pagamento Bollettino Postale",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Puoi sostenerci con un bollettino sul conto corrente n. 610410, intestato a Comunità San Patrignano Società Cooperativa Sociale, via San Patrignano, 53 - Coriano - 47853 (RN). Puoi scaricarlo <a href=\"https://donazione.sanpatrignano.org/assets/bollettino.pdf\" target=\"_blank\">qui</a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#PagamentoBollettinoPostale",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_12_1550763871682",
-      "previous_sibling": "node_7_1550763551658"
-    },
-    {
-      "type": "standard",
-      "title": "Finalità Donazioni",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "San Patrignano è una comunità completamente gratuita, per i ragazzi che accoglie, per le loro famiglie ed anche per lo Stato, da cui non accetta rette. Andiamo avanti grazie ai prodotti che la comunità produce per autogestione e alle donazioni di molte persone di buona volontà che vogliono contribuire alla nostra missione che è quella i salvare vite tutti i giorni."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "La sua donazione sosterrà il percorso formativo di rinserimento professionale dei ragazzi ospiti così che possano apprendere un mestiere e alla fine delle percorso reinserirsi attivamente nella società."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#FinalitaDonazioni",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_10_1550763734176",
-      "previous_sibling": "node_6_1553779951933"
-    },
-    {
-      "type": "standard",
-      "title": "Un Giorno A Sanpa",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Vivi una giornata nella comunità di San Patrignano perché è un’esperienza indimenticabile. Non solo per la bellezza di cui si riempiranno gli occhi sulla collina che guarda il mare di Rimini, ma anche per la bellezza che riscoprirai nel tuo cuore ascoltando le storie dei ragazzi che stanno lottando per rinascere."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#UnGiornoASanpa",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_6_1553779951933",
-      "previous_sibling": "node_5_1553778887967"
-    },
-    {
-      "type": "standard",
-      "title": "Congedo",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ti saluto con la speranza che si risolva tutto."
-              },
-              {
-                "text": "Grazie per aver contattato la comunità di San Patrignano spero di esserti stato utile. Ti auguro una buona giornata."
-              },
-              {
-                "text": "Ti ringrazio per averci contattato, spero di aver risposto a tutte le tue richieste. Ti auguro che tutto vada per il meglio."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Congedo",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_3_1544523453277",
-      "previous_sibling": "node_3_1548519355391"
-    },
-    {
-      "type": "standard",
-      "title": "Elenco Settori Formazione",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "La comunità di San Patrignano presenta oltre 50 settori di formazione. Questo è l'elenco:"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalità, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Vuoi informazioni su qualche settore in particolare?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#ElencoSettoriFormazione",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_2_1547828362401",
-      "previous_sibling": "node_1_1547805118753"
-    },
-    {
-      "type": "standard",
-      "title": "Aziende",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "San Patrignano è una comunità di recupero ma anche un’impresa sociale. Sono tanti i modi con cui un’azienda può sostenere la Comunità."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende è un segno di forte responsabilità sociale. Puoi scegliere tra diversi modi per sostenere la comunità di recupero San Patrignano e affermare la tua responsabilità sociale, le donazioni sono solo uno dei tanti."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Scopri cosa può fare la tua impresa <a href=\"https://www.sanpatrignano.org/aziende/\">cliccando qui</a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Aziende",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_8_1550763622067",
-      "previous_sibling": "node_2_1553682497355"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni Deducibilità Fiscale",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "San Patrignano è una ONLUS (Organizzazione Non Lucrativa di Utilità Sociale ai sensi del D. Lgs. 460/97), pertanto i privati e le aziende che effettuano una erogazione liberale possono beneficiare delle agevolazioni fiscali previste dalla legge."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Se sostieni San Patrignano tramite domiciliazione bancaria o postale, carta di credito, bonifico o assegno, l’estratto conto ha valore di ricevuta. Negli altri casi, puoi richiedere la ricevuta di donazione contattandoci al 0541 362247. Per maggiori informazioni visita <a href=\"https://www.sanpatrignano.org/sostienici/deducibilita-fiscale\" target=\"_blank\">il nostro sito</a>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#DeducibilitaFiscale",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_7_1550763551658",
-      "previous_sibling": "node_9_1550763630378"
     },
     {
       "type": "standard",
@@ -2816,86 +2647,13 @@
     },
     {
       "type": "standard",
-      "title": "Richiesta Informazioni (Familiare)",
+      "title": "Informazioni Deducibilità Fiscale",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "San Patrignano ha già aiutato migliaia di persone che hanno dovuto combattere contro i problemi di tossicodipendenza dei propri familiari. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/cari-genitori-i-genitori-si-raccontano/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie dipersoneche ce l'hanno fatta."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/2018/08/IMG_1687-730x410.jpg",
-            "response_type": "image"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Proseguendo questa conversazioni potrò fornirti informazioni: • sul percorso di recupero • su come entrare nella comunità di San Patrignano • costi • su come contattarci e raggiungerci."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Come posso aiutarti?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#FamiliareTossicodipendente && $personas==\"familiare\"",
-      "dialog_node": "node_1_1548172926105",
-      "previous_sibling": "node_1_1547724300149"
-    },
-    {
-      "type": "standard",
-      "title": "Sono Donatore",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "context": {
-        "personas": "donatore"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_5_1550763400131"
-      },
-      "conditions": "#InformazioniDonatore",
-      "dialog_node": "node_4_1553770744638",
-      "previous_sibling": "node_3_1553770672111"
-    },
-    {
-      "type": "standard",
-      "title": "Informazioni SERT",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "<a href=\"http://www.salute.gov.it/imgs/C_17_pubblicazioni_433_allegato.pdf\" target=\"_blank\">Clicca qui</a> per scaricare l’elenco dei servizi pubblici per le tossicodipendenze.<br/><br/>"
+                "text": "San Patrignano è una ONLUS (Organizzazione Non Lucrativa di Utilità Sociale ai sensi del D. Lgs. 460/97), pertanto i privati e le aziende che effettuano una erogazione liberale possono beneficiare delle agevolazioni fiscali previste dalla legge."
               }
             ],
             "response_type": "text",
@@ -2909,7 +2667,65 @@
           {
             "values": [
               {
-                "text": "Una volta accertata la reale determinazione della persona, vengono organizzati uno o più colloqui con gli operatori dell’ufficio accoglienza, che illustrano i metodi, i principi e il programma di recupero.<br/><br/>"
+                "text": "Se sostieni San Patrignano tramite domiciliazione bancaria o postale, carta di credito, bonifico o assegno, l’estratto conto ha valore di ricevuta. Negli altri casi, puoi richiedere la ricevuta di donazione contattandoci al 0541 362247. Per maggiori informazioni visita <a href=\"https://www.sanpatrignano.org/sostienici/deducibilita-fiscale\" target=\"_blank\">il nostro sito</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#DeducibilitaFiscale",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1550763551658",
+      "previous_sibling": "node_9_1550763630378"
+    },
+    {
+      "type": "standard",
+      "title": "Pagamento Bollettino Postale",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puoi sostenerci con un bollettino sul conto corrente n. 610410, intestato a Comunità San Patrignano Società Cooperativa Sociale, via San Patrignano, 53 - Coriano - 47853 (RN). Puoi scaricarlo <a href=\"https://donazione.sanpatrignano.org/assets/bollettino.pdf\" target=\"_blank\">qui</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#PagamentoBollettinoPostale",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_12_1550763871682",
+      "previous_sibling": "node_7_1550763551658"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Percorso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il programma di recupero è personalizzato e varia a seconda delle caratteristiche e necessità di ogni singolo individuo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Quando un ragazzo entra in comunità, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano è suddivisa. Qui è affidato a un ragazzo che diventa suo tutor e nel primo anno di comunità lo segue costantemente. Parallelamente ad ogni ragazzo viene data la possibilità di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico."
               }
             ],
             "response_type": "text",
@@ -2923,7 +2739,7 @@
           {
             "values": [
               {
-                "text": "Alla fine del colloquio, i ragazzi valutano la proposta e decidono liberamente se il programma di San Patrignano corrisponde o meno alle proprie esigenze. Se accettano, l’ingresso in comunità avviene direttamente.<br/><br/>"
+                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>. Se lo desideri posso fornirti informazioni su: • settori di formazione • scuola e istruzione."
               }
             ],
             "response_type": "text",
@@ -2932,111 +2748,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#InformazioniSERT",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_5_1548087690389",
-      "previous_sibling": "node_1_1553696854929"
-    },
-    {
-      "type": "standard",
-      "title": "Presentazione",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ciao! Sono Sanpa l'assistente virtuale della comunità di San Patrignano e sono qui per aiutarti. Come posso aiutarti?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {
-        "fallback": "leave"
-      },
-      "conditions": "#Presentazione",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_6_1548008790726",
-      "digress_out": "allow_all",
-      "previous_sibling": "Benvenuto"
-    },
-    {
-      "type": "standard",
-      "title": "Associazioni Volontariato",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Le associazioni di volontariato sono presenti in gran parte del territorio nazionale e sono composte da genitori, da volontari e da persone che hanno vissuto la tossicodipendenza e ne sono uscite."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2000,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Il loro ruolo è catalizzare le richieste di aiuto, supportare i ragazzi nella loro volontà di cambiare, aiutarli a disintossicarsi e suggerire alle famiglie il modo migliore per stare loro vicino. Le associazioni operano anche all’interno dei penitenziari dando l’opportunità alle persone detenute per reati connessi alla tossicodipendenza di accedere a misure alternative."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 2500,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [
-              {
-                "text": "Per trovare l’associazione più vicina a te, <a href=\"https://www.sanpatrignano.org/hai-bisogno-aiuto/le-associazioni/\" target=\"_blank\">clicca qui</a><br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#InformazioniAssociazioniVolontariato",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_1_1548517842312",
-      "previous_sibling": "node_4_1548005886588"
-    },
-    {
-      "type": "standard",
-      "title": "Contatti",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "source": "https://www.sanpatrignano.org/wp-content/uploads/2017/05/panorama_sanpatrignano1-800x480.jpg",
-            "response_type": "image"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Contatti || #PassamiOperatore",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_2_1548518022320",
-      "previous_sibling": "node_8_1550763622067"
+      "conditions": "#InformazioniPercorso",
+      "dialog_node": "node_1_1544534431384",
+      "previous_sibling": "node_1_1553767261785"
     },
     {
       "type": "standard",
@@ -3075,13 +2789,13 @@
     },
     {
       "type": "standard",
-      "title": "Pagamento Carta Di Credito",
+      "title": "Pagamento RID Bancario",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Puoi effettuare una donazione con carta di credito direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
+                "text": "Puoi effettuare una donazione continuativa con RID bancario direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
               }
             ],
             "response_type": "text",
@@ -3090,10 +2804,317 @@
         ]
       },
       "metadata": {},
-      "conditions": "#PagamentoCartaCredito",
+      "conditions": "#PagamentoRID",
       "digress_in": "does_not_return",
-      "dialog_node": "node_17_1550764173537",
-      "previous_sibling": "node_18_1550764175969"
+      "dialog_node": "node_16_1550764171649",
+      "previous_sibling": "node_17_1550764173537"
+    },
+    {
+      "type": "standard",
+      "title": "Importi Donazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Non esiste un importo minimo da donare; ogni sostegno è prezioso per la comunità; le donazioni regolari sono di notevole importanza perché ci permettono di aiutare con costanza i ragazzi in percorso e di fare una pianificazione e una progettazione degli interventi su lungo termine; abbiamo bisogno del tuo sostegno per portare avanti la nostra missione.<br/><br/>Sostienici con la tua donazione <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">cliccando qui</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#ImportiDonazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_14_1550763882455",
+      "previous_sibling": "node_10_1550763734176"
+    },
+    {
+      "type": "standard",
+      "title": "Aziende",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Patrignano è una comunità di recupero ma anche un’impresa sociale. Sono tanti i modi con cui un’azienda può sostenere la Comunità."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende è un segno di forte responsabilità sociale. Puoi scegliere tra diversi modi per sostenere la comunità di recupero San Patrignano e affermare la tua responsabilità sociale, le donazioni sono solo uno dei tanti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Scopri cosa può fare la tua impresa <a href=\"https://www.sanpatrignano.org/aziende/\">cliccando qui</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Aziende",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1550763622067",
+      "previous_sibling": "node_2_1553682497355"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Donazioni Beni",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E' possibile donare beni materiali qualora siano ritenuti utili alla Comunità e in buone condizioni."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Scopri la lista dei prodotti necessari alla Comunità <a href=\"https://www.sanpatrignano.org/aziende/gift-kind-donazione-prodotti/\" target=\"_blank\">cliccando qui</a>. Per eventuali dubbi contattaci al numero 0541 362111."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#DonazioneBeni",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1550763878119",
+      "previous_sibling": "node_11_1550763799880"
+    },
+    {
+      "type": "standard",
+      "title": "Elenco Settori Formazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La comunità di San Patrignano presenta oltre 50 settori di formazione. Questo è l'elenco:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalità, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Vuoi informazioni su qualche settore in particolare?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#ElencoSettoriFormazione",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1547828362401",
+      "previous_sibling": "node_1_1547805118753"
+    },
+    {
+      "type": "standard",
+      "title": "Cosa sai fare?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sono un chatbot è il mio obiettivo è quello di aiutarti a trovare le informazioni che desideri."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Ad esempio, posso aiutarti a trovare informazioni su: • percorso di recupero • come entrare in comunità • settori di formazione • scuola e istruzione • costi • donazioni di soldi o beni • lasciti • metodi di pagamento per le donazioni • come contattarci o raggiungerci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "agentCapabilities": 0
+      },
+      "metadata": {},
+      "conditions": "#CosaSaiFare || $agentCapabilities > 1",
+      "dialog_node": "node_1_1560671148980",
+      "previous_sibling": "node_3_1544523453277"
+    },
+    {
+      "type": "standard",
+      "title": "Congedo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ti saluto con la speranza che si risolva tutto."
+              },
+              {
+                "text": "Grazie per aver contattato la comunità di San Patrignano spero di esserti stato utile. Ti auguro una buona giornata."
+              },
+              {
+                "text": "Ti ringrazio per averci contattato, spero di aver risposto a tutte le tue richieste. Ti auguro che tutto vada per il meglio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Congedo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1544523453277",
+      "previous_sibling": "node_3_1548519355391"
+    },
+    {
+      "type": "standard",
+      "title": "Passami Operatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Per parlare con un operatore della comunità di San Patrignano puoi chiamare il numero 0541 362 111."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#PassamiOperatore",
+      "dialog_node": "node_2_1561814061390",
+      "previous_sibling": "node_2_1548518022320"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni Scuola",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All’interno di San Patrignano i ragazzi possono riprendere gli studi che hanno abbandonato a causa della tossicodipendenza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "In una struttura dedicata è infatti possibile colmare le proprie lacune o intraprendere un nuovo percorso scolastico orientato ad acquisire un diploma o una qualifica professionale. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.sanpatrignano.org/wp-content/uploads/centro%20studi_1.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "In questa <a href=\"https://www.sanpatrignano.org/la-comunita/studio/\" target=\"_blank\">pagina</a> puoi trovare ulteriori informazioni."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#InformazioniScuolaIstruzione",
+      "dialog_node": "node_3_1548004915505",
+      "previous_sibling": "node_5_1547825383595"
     },
     {
       "type": "standard",
@@ -3167,13 +3188,13 @@
       "metadata": {
         "fallback": "leave"
       },
-      "conditions": "welcome",
+      "conditions": "welcome || conversation_start",
       "digress_in": "does_not_return",
       "dialog_node": "Benvenuto",
       "digress_out": "allow_all"
     }
   ],
-  "workspace_id": "1d87e84f-89de-4429-bb7d-ca7d7b881e6a",
+  "workspace_id": "55e5302c-7896-4567-b12c-48da0ea70c26",
   "counterexamples": [
     {
       "text": "va bene"
