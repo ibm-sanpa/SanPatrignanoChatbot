@@ -5,6 +5,8 @@ User: tossicodipendente (BUTTON)
 BOT: [Richiesta Informazioni (Tossicodipendente)]
 User: come funziona il percorso di recupero?
 BOT: [Informazioni Percorso]
+User: ok grazie
+BOT: [Congedo]
 
 Scenario 2: informazioni sui settori di formazione dettaglio positiva
 ---------------------------------------------------------------------
@@ -18,6 +20,8 @@ BOT: [Informazioni Settori  Formazione]
 User: ok
 BOT: [Informazioni Settori  Formazione->conferma:positiva]
 User: il settore degli allevamenti
+User: ok grazie
+BOT: [Congedo]
 
 Scenario 3: informazioni sui settori di formazione dettaglio negativa
 ---------------------------------------------------------------------
@@ -29,132 +33,289 @@ BOT: [Informazioni Percorso]
 User: cosa sono i settori di formazione?
 BOT: [Informazioni Settori  Formazione]
 User: no grazie
-BOT: [Informazioni Settori  Formazione->conferma:negativa]
+BOT: [Informazioni Settori  Formazione->anything_else]
+User: grazie di tutto, ti saluto
+BOT: [Congedo]
 
-Scenario 4: informazioni sulla scuola
+Scenario 4: Elenco Settori di Formazione
+----------------------------------------
+Bot: [WELCOME]
+User: quali settori di formazione avete a san patrignano?
+BOT: [Elenco Settori Formazione]
+User: si dammi qualche informazione sul settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: ok grazie mille, addio
+BOT: [Congedo]
+
+Scenario 5: informazioni sulla scuola
 -------------------------------------
-- Scenario 2
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
 User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 5: informazioni sulla scuola (diretto)
+Scenario 6: informazioni sulla scuola (diretto)
 -----------------------------------------------
 Bot: [WELCOME]
 User: è possibile proseguire gli studi a san patrignano?
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 6: informazioni sui costi
+Scenario 7: informazioni sui costi
 ----------------------------------
-- Scenario 4
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
 User: quanto costa tutto ciò?
+BOT: [Costi]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 7: informazioni sui costi (diretto)
+
+Scenario 8: informazioni sui costi (diretto)
 --------------------------------------------
 Bot: [WELCOME]
 User: quanto costa entrare a san patrignano?
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 8: informazioni su come entrare a San Patrignano
+Scenario 9: informazioni su come entrare a San Patrignano
 ---------------------------------------------------------
-- Scenario 6
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
+User: quanto costa tutto ciò?
+BOT: [Costi]
 User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 9: informazioni su come entrare a San Patrignano (diretto)
+Scenario 10: informazioni su come entrare a San Patrignano (diretto)
 -------------------------------------------------------------------
 Bot: [WELCOME]
 User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 10: entrare a san patrignano con contatto diretto
+Scenario 11: entrare a san patrignano con contatto diretto
 ----------------------------------------------------------
-- Scenario 8
-User: contatto ufficio accoglienza?
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
+User: quanto costa tutto ciò?
+BOT: [Costi]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: come contatto ufficio accoglienza?
+BOT: [Contatto Ufficio Accoglienza]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 11: entrare a san patrignano con contatto diretto (diretto)
+Scenario 12: entrare a san patrignano con contatto diretto (diretto)
 --------------------------------------------------------------------
-- Scenario 9
+Bot: [WELCOME]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
 User: contatto ufficio accoglienza
+BOT: [Contatto Ufficio Accoglienza]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 12: entrare a san patrignano con SERT
+Scenario 13: entrare a san patrignano con SERT
 ----------------------------------------------
-- Scenario 8
-User: sert
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
+User: quanto costa tutto ciò?
+BOT: [Costi]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: SERT [BUTTON]
+BOT: [SERT]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 13: entrare a san patrignano con SERT (diretto)
+Scenario 14: entrare a san patrignano con SERT (diretto)
 --------------------------------------------------------
-- Scenario 9
-User: sert
+Bot: [WELCOME]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: SERT
+BOT: [SERT]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 14: entrare a san patrignano con associazioni di volontariato
+Scenario 15: entrare a san patrignano con associazioni di volontariato
 ----------------------------------------------------------------------
-- Scenario 8
-User: associazioni di volontariato
+Bot: [WELCOME]
+User: sono un tossicodipendente
+BOT: [Richiesta Informazioni (Tossicodipendente)]
+User: mi dai qualche informazione sul percorso di recupero
+BOT: [Informazioni Percorso]
+User: cosa sono i settori di formazione?
+BOT: [Informazioni Settori  Formazione]
+User: ok
+BOT: [Informazioni Settori  Formazione->conferma:positiva]
+User: il settore degli allevamenti
+BOT: [Informazione Dettagli Settori di Formazione]
+User: è possibile proseguire gli studi a san patrignano?
+BOT: [Informazioni Scuola]
+User: quanto costa tutto ciò?
+BOT: [Costi]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
+User: associazioni di volontariato [BUTTON]
+BOT: [Associazioni Volontariato]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 15: entrare a san patrignano con associazioni di volontariato (diretto)
+Scenario 16: entrare a san patrignano con associazioni di volontariato (diretto)
 --------------------------------------------------------------------------------
-- Scenario 9
+Bot: [WELCOME]
+User: come faccio ad entrare a san patrignano?
+BOT: [Come Entrare San Patrignano]
 User: associazioni di volontariato
+BOT: [Associazioni Volontariato]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 16: informazioni sulle associazioni di volontariato
+Scenario 17: informazioni sulle associazioni di volontariato
 ------------------------------------------------------------
 Bot: [WELCOME]
 User: come funzionano le associazioni di volontariato?
+BOT: [Associazioni Volontariato]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 17: informazioni sui SERT
+Scenario 18: informazioni sui SERT
 ----------------------------------
 Bot: [WELCOME]
 User: cosa sono i sert
+BOT: [SERT]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 18: informazioni sui contatti e luogo
+Scenario 19: informazioni sui contatti e luogo
 ----------------------------------------------
 Bot: [WELCOME]
-User: come posso contattarvi
+User: come posso contattarvi?
 Bot: [Contatti]
 User: dove vi trovate?
 Bot: [DoveSiTrova]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 19: Contatti ufficio accoglienza
+Scenario 20: Contatti ufficio accoglienza
 -----------------------------------------
 Bot: [WELCOME]
 User: come posso contattare l'ufficio accoglienza
+Bot: [Contatti Ufficio Accoglienza]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 20: Presentazione e Congedo
+Scenario 21: Presentazione e Congedo
 ------------------------------------
 Bot: [WELCOME]
 User: ciao sanpa, come stai?
 Bot: [Presentazione]
 User: addio sanpa
 
-Scenario 21: Cosa sai fare? e Passami Operatore
+Scenario 22: Cosa sai fare? e Passami Operatore
 -----------------------------------------------
 Bot: [WELCOME]
 User: cosa sai fare?
 Bot: [Cosa sai Fare]
 User: ok passami operatore
 Bot: [Contatti]
+User: ok grazie
+BOT: [Congedo]
 
-------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 SCENARI DONATORE
-------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
-Scenario 22: Scenario donatore soldi
+Scenario 23: Scenario donatore soldi
 ------------------------------------
 Bot: [WELCOME]
 User: donatore
 Bot: [Richiesta Informazioni (Donatore)]
 User: come posso donare soldi alla vostra comunità?
+Bot: [Donazione Soldi]
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 23: Scenario donatore beni
+Scenario 24: Scenario donatore beni
 ------------------------------------
 Bot: [WELCOME]
 User: vorrei fare una donazione
 Bot: [Richiesta Informazioni (Donatore)]
 User: posso donarvi una bicicletta?
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 24: Scenario donatore lascito
+Scenario 25: Scenario donatore lascito
 --------------------------------------
 Bot: [WELCOME]
 User: vorrei fare una donazione
 Bot: [Richiesta Informazioni (Donatore)]
 User: come funziona un lascito?
+User: ok grazie
+BOT: [Congedo]
 
-Scenario 25: Scenario donatore soldi metodi pagamento
+Scenario 26: Scenario donatore soldi metodi pagamento
 -----------------------------------------------------
 Bot: [WELCOME]
 User: quali sono i metodi di pagamento per le donazioni?
@@ -162,7 +323,7 @@ Bot: [Metodi di Pagamento]
 User: ok grazie
 Bot: [Congedo]
 
-Scenario 26: Scenario donazione con carta di credito
+Scenario 27: Scenario donazione con carta di credito
 ------------------------------------------------------
 Bot: [WELCOME]
 User: posso fare una donazione pagandola con carta di credito?
@@ -170,31 +331,31 @@ Bot: [Metodi di Pagamento]
 User: ti ringrazio, a presto
 Bot: [Congedo]
 
-Scenario 27: Scenario donazione con bonifico
+Scenario 28: Scenario donazione con bonifico
 --------------------------------------------
 Bot: [WELCOME]
 User: posso fare una donazione pagandola con un bonifico?
-Bot: [Metodi di Pagamento]
+Bot: [Bonifico]
 User: ti ringrazio, a presto
 Bot: [Congedo]
 
-Scenario 28: Scenario donazione con bollettino postale
+Scenario 29: Scenario donazione con bollettino postale
 ------------------------------------------------------
 Bot: [WELCOME]
 User: posso fare una donazione pagandola con un bollettino postale?
-Bot: [Metodi di Pagamento]
+Bot: [Bollettino Postale]
 User: ti ringrazio, a presto
 Bot: [Congedo]
 
-Scenario 29: Scenario donazione con RID
+Scenario 30: Scenario donazione con RID
 ------------------------------------------------------
 Bot: [WELCOME]
 User: posso fare una donazione continuativa addebitandola con con rid bancario?
-Bot: [Metodi di Pagamento]
+Bot: [RID]
 User: ti ringrazio, a presto
 Bot: [Congedo]
 
-Scenario 30: Deducibilità Fiscale
+Scenario 31: Deducibilità Fiscale
 ---------------------------------
 Bot: [WELCOME]
 User: donatore
@@ -206,7 +367,7 @@ Bot: [Deducibilità Fiscale]
 User: ok grazie
 Bot: [Congedo]
 
-Scenario 31: Donazione 5x1000
+Scenario 32: Donazione 5x1000
 -----------------------------
 Bot: [WELCOME]
 User: donatore
@@ -216,7 +377,7 @@ Bot: [Donazioni 5x1000]
 User: ok grazie
 Bot: [Congedo]
 
-Scenario 32: Una Giornata a SanPa
+Scenario 33: Una Giornata a SanPa
 ---------------------------------
 Bot: [WELCOME]
 User: E' possibile visitare la vostra comunità?
@@ -224,7 +385,7 @@ Bot: [Una Giornata a SanPa]
 User: ti ringrazio. A presto.
 Bot: [Congedo]
 
-Scenario 33: Finalità e Importi Donazioni
+Scenario 34: Finalità e Importi Donazioni
 -----------------------------------------
 Bot: [WELCOME]
 User: donatore
@@ -238,7 +399,7 @@ Bot: [Importi Donazioni]
 User: ok ti ringrazio per le informazioni
 Bot: [Congedo]
 
-Scenario 34: Donazioni Familiare
+Scenario 35: Donazioni Familiare
 --------------------------------
 Bot: [WELCOME]
 User: mio figlio è un ospite della comunità
@@ -248,10 +409,9 @@ Bot: [Donazioni (Familiare)]
 User: ok ti ringrazio per le informazioni
 Bot: [Congedo]
 
+-------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------
-
-Scenario 35: Pena Alternativa e Assistenza Legale
+Scenario 36: Pena Alternativa e Assistenza Legale
 -------------------------------------------------
 Bot: [WELCOME]
 User: familiare
@@ -265,7 +425,7 @@ Bot: [Partecipazione Udienze]
 User: perfetto, ti ringrazio. Addio.
 Bot: [Congedo]
 
-Scenario 36: Altro Utente
+Scenario 37: Altro Utente
 -------------------------
 Bot: [WELCOME]
 User: altro utente
@@ -275,7 +435,7 @@ Bot: [Percorso Recupero]
 User: ho finito. grazie.
 Bot: [Congedo]
 
-Scenario 37: Minorenni
+Scenario 38: Minorenni
 ----------------------
 Bot: [WELCOME]
 User: altro utente
@@ -287,7 +447,7 @@ Bot: [Istruzione e Scuola]
 User: ok grazie. A presto.
 Bot: [Congedo]
 
-Scenario 38: Aziende
+Scenario 39: Aziende
 --------------------
 Bot: [WELCOME]
 User: altro utente
@@ -297,7 +457,7 @@ Bot: [Aziende]
 User: ok grazie, bye
 Bot: [Congedo]
 
-Scenario 39: Test Comprensione
+Scenario 40: Test Comprensione
 -------------------------------
 Bot: [WELCOME]
 User: sai mangiare la cioccolata?

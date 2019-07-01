@@ -72,6 +72,9 @@
         },
         {
           "text": "Sono minorenne vorrei entrare a San Patrignano"
+        },
+        {
+          "text": "Ospitate anche minorenni?"
         }
       ],
       "description": "Questo Intent gestisce le richieste di informazioni sui minori."
@@ -360,6 +363,9 @@
         },
         {
           "text": "Come posso contattare il SERT a me più vicino?"
+        },
+        {
+          "text": "SERT"
         }
       ],
       "description": "Informazioni sui SERT"
@@ -452,7 +458,7 @@
           "text": "Posso donarvi 10 Euro al mese?"
         },
         {
-          "text": "come posso donare dei soldi"
+          "text": "Come posso donare dei soldi"
         },
         {
           "text": "Posso contribuire con una quota mensile?"
@@ -665,7 +671,7 @@
           "text": "Vorrei sapere quali sono i settori di formazione che avete"
         },
         {
-          "text": "mi dici quali settori vita ci sono"
+          "text": "Mi dici quali settori vita ci sono"
         },
         {
           "text": "Vorrei l'elenco delle attività lavorative svolte nella comunità"
@@ -1417,6 +1423,21 @@
       "dialog_node": "handler_3_1547815740175"
     },
     {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1561816798660",
+      "metadata": {},
+      "dialog_node": "slot_3_1561816798674",
+      "previous_sibling": "handler_6_1561816798674"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1561816798660",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1561816798674"
+    },
+    {
       "type": "event_handler",
       "parent": "Benvenuto",
       "event_name": "focus",
@@ -1454,6 +1475,23 @@
       "dialog_node": "node_4_1547829318977"
     },
     {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1561816798674",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1561816798674",
+      "previous_sibling": "handler_4_1561816798674"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1561816798674",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_4_1561816798674"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_6_1548008790726",
@@ -1470,6 +1508,29 @@
     },
     {
       "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Proseguiamo con la nostra conversazione. Come posso aiutarti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1547805118753",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1561815391262",
+      "previous_sibling": "node_2_1547985519266"
+    },
+    {
+      "type": "standard",
+      "title": "Conferma positiva",
       "output": {
         "generic": [
           {
@@ -2225,6 +2286,25 @@
       "digress_in": "does_not_return",
       "dialog_node": "node_6_1548008790726",
       "digress_out": "allow_all",
+      "previous_sibling": "node_2_1561816798660"
+    },
+    {
+      "type": "standard",
+      "title": "Test Confidence Level",
+      "output": {
+        "generic": []
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1560671148980"
+      },
+      "conditions": "intent[0].confidence < 0.4",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1561816798660",
       "previous_sibling": "Benvenuto"
     },
     {
@@ -2248,7 +2328,7 @@
         "selector": "condition",
         "dialog_node": "node_5_1550763400131"
       },
-      "conditions": "#InformazioniDonatore",
+      "conditions": "#InformazioniDonatore && $personas != \"familiare\"",
       "dialog_node": "node_4_1553770744638",
       "previous_sibling": "node_3_1553770672111"
     },
@@ -2369,7 +2449,7 @@
                 "label": "Attraverso i servizi territoriali (Sert)",
                 "value": {
                   "input": {
-                    "text": "sert"
+                    "text": "SERT"
                   }
                 }
               }
@@ -2953,7 +3033,7 @@
           {
             "values": [
               {
-                "text": "Vuoi informazioni su qualche settore in particolare?"
+                "text": "Se lo desideri posso dart informazioni su uno dei settori sopra menzionati."
               }
             ],
             "response_type": "text",
