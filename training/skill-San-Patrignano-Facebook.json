@@ -244,7 +244,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Con una donazione regolare il tuo contributo alla comunit\u00e0 sar\u00e0 continuativo. Puoi farla direttamente dal nostro <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">sito</a> scegliendo l'importo e la frequenza che pi\u00f9 desideri con queste modalit\u00e0 di pagamento: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a> e RID bancario (addebito sul conto corrente bancario)."
+                                "text": "Con una donazione regolare il tuo contributo alla comunit\u00e0 sar\u00e0 continuativo. Puoi farla direttamente dal nostro sito (https://ibm.biz/BdzS6t) scegliendo l'importo e la frequenza che pi\u00f9 desideri con queste modalit\u00e0 di pagamento: carta di credito (https://ibm.biz/BdzS6t) e RID bancario (addebito sul conto corrente bancario)."
                             }
                         ]
                     },
@@ -258,7 +258,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Con una donazione una tantum il tuo contributo alla comunit\u00e0 sar\u00e0 singolo. Puoi effettuare la donazione tramite: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a>. In alternativa chiama il numero verde 800 894575."
+                                "text": "Con una donazione una tantum il tuo contributo alla comunit\u00e0 sar\u00e0 singolo. Puoi effettuare la donazione tramite: carta di credito (https://ibm.biz/BdzS6t), bonifico bancario o bollettino postale (https://ibm.biz/BdzS66). In alternativa chiama il numero verde 800 894575."
                             }
                         ]
                     }
@@ -293,7 +293,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Quando un ragazzo entra in comunit\u00e0, viene inserito in uno dei <u>settori di formazione</u> in cui San Patrignano \u00e8 suddivisa. Qui \u00e8 affidato a un ragazzo che diventa suo tutor e nel primo anno di comunit\u00e0 lo segue costantemente. Parallelamente ad ogni ragazzo viene data la possibilit\u00e0 di <u>riprendere gli studi abbandonati in passato</u> ad ogni livello e grado scolastico."
+                                "text": "Quando un ragazzo entra in comunit\u00e0, viene inserito in uno dei **settori di formazione** in cui San Patrignano \u00e8 suddivisa. Qui \u00e8 affidato a un ragazzo che diventa suo tutor e nel primo anno di comunit\u00e0 lo segue costantemente. Parallelamente ad ogni ragazzo viene data la possibilit\u00e0 di **riprendere gli studi abbandonati in passato** ad ogni livello e grado scolastico."
                             }
                         ]
                     },
@@ -307,7 +307,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente <a href=\"https://www.sanpatrignano.org/la-comunita/il-metodo-di-recupero/\" target=\"_blank\">pagina</a>. Se lo desideri posso fornirti informazioni su: \u2022 settori di formazione \u2022 scuola e istruzione."
+                                "text": "Per ulteriori informazioni sul metodo di recupero leggi la seguente pagina (https://ibm.biz/BdzS6A). Se lo desideri posso fornirti informazioni su: \u2022 settori di formazione \u2022 scuola e istruzione."
                             }
                         ]
                     }
@@ -328,7 +328,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, qui (https://ibm.biz/BdzS6a) puoi ascoltare alcune storie."
                             }
                         ]
                     },
@@ -425,7 +425,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno dovuto combattere contro i problemi di tossicodipendenza dei propri familiari. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/cari-genitori-i-genitori-si-raccontano/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie dipersoneche ce l'hanno fatta."
+                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno dovuto combattere contro i problemi di tossicodipendenza dei propri familiari. Se lo desideri, qui (https://ibm.biz/BdzS6b) puoi ascoltare alcune storie dipersone che ce l'hanno fatta."
                             }
                         ]
                     },
@@ -502,7 +502,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Per trovare l\u2019associazione pi\u00f9 vicina a te, <a href=\"https://www.sanpatrignano.org/hai-bisogno-aiuto/le-associazioni/\" target=\"_blank\">clicca qui</a><br/><br/>"
+                                "text": "Per trovare l\u2019associazione pi\u00f9 vicina a te, clicca qui (https://ibm.biz/BdzS63)."
                             }
                         ]
                     }
@@ -609,7 +609,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Puoi contattare l\u2019Ufficio Accoglienza utilizzando il telefono, la posta, tradizionale o elettronica, oppure compilando l\u2019apposito form in <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a>."
+                                "text": "Puoi contattare l\u2019Ufficio Accoglienza utilizzando il telefono, la posta, tradizionale o elettronica, oppure compilando l\u2019apposito form in homepage https://www.sanpatrignano.org."
                             }
                         ]
                     },
@@ -659,7 +659,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, <a href=\"https://www.sanpatrignano.org/la-comunita/sanpastorie/\" target=\"_blank\">qui</a> puoi ascoltare alcune storie."
+                                "text": "San Patrignano ha gi\u00e0 aiutato migliaia di persone che hanno avuto problemi di tossicodipendenza. Se lo desideri, qui (https://ibm.biz/BdzS6a) puoi ascoltare alcune storie."
                             }
                         ]
                     },
@@ -831,7 +831,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Puoi sostenerci con un bollettino sul conto corrente n. 610410, intestato a Comunit\u00e0 San Patrignano Societ\u00e0 Cooperativa Sociale, via San Patrignano, 53 - Coriano - 47853 (RN). Puoi scaricarlo <a href=\"https://donazione.sanpatrignano.org/assets/bollettino.pdf\" target=\"_blank\">qui</a>"
+                                "text": "Puoi sostenerci con un bollettino sul conto corrente n. 610410, intestato a Comunit\u00e0 San Patrignano Societ\u00e0 Cooperativa Sociale, via San Patrignano, 53 - Coriano - 47853 (RN). Puoi scaricarlo qui (https://ibm.biz/BdzSUc)."
                             }
                         ]
                     }
@@ -867,7 +867,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Scopri la lista dei prodotti necessari alla Comunit\u00e0 <a href=\"https://www.sanpatrignano.org/aziende/gift-kind-donazione-prodotti/\" target=\"_blank\">cliccando qui</a>. Per eventuali dubbi contattaci al numero 0541 362111."
+                                "text": "Scopri la lista dei prodotti necessari alla Comunit\u00e0 cliccando qui (https://ibm.biz/BdzS6U). Per eventuali dubbi contattaci al numero 0541 362111."
                             }
                         ]
                     }
@@ -889,7 +889,21 @@
                         "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Non esiste un importo minimo da donare; ogni sostegno \u00e8 prezioso per la comunit\u00e0; le donazioni regolari sono di notevole importanza perch\u00e9 ci permettono di aiutare con costanza i ragazzi in percorso e di fare una pianificazione e una progettazione degli interventi su lungo termine; abbiamo bisogno del tuo sostegno per portare avanti la nostra missione.<br/><br/>Sostienici con la tua donazione <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">cliccando qui</a>."
+                                "text": "Non esiste un importo minimo da donare; ogni sostegno \u00e8 prezioso per la comunit\u00e0; le donazioni regolari sono di notevole importanza perch\u00e9 ci permettono di aiutare con costanza i ragazzi in percorso e di fare una pianificazione e una progettazione degli interventi su lungo termine; abbiamo bisogno del tuo sostegno per portare avanti la nostra missione."
+                            }
+                        ]
+                    },
+                    {
+                        "response_type": "pause",
+                        "time": 2000,
+                        "typing": true
+                    },
+                    {
+                        "response_type": "text",
+                        "selection_policy": "sequential",
+                        "values": [
+                            {
+                                "text": "Sostienici con la tua donazione cliccando qui (https://ibm.biz/BdzS6t)."
                             }
                         ]
                     }
@@ -911,7 +925,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Puoi effettuare una donazione continuativa con RID bancario direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
+                                "text": "Puoi effettuare una donazione continuativa con RID bancario direttamente dal nostro sito donazione.sanpatrignano.org."
                             }
                         ]
                     }
@@ -933,7 +947,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Puoi effettuare una donazione con carta di credito direttamente dal nostro sito <a href=\"https://donazione.sanpatrignano.org/\" target=\"_blank\">donazione.sanpatrignano.org/</a>"
+                                "text": "Puoi effettuare una donazione con carta di credito direttamente dal nostro sito donazione.sanpatrignano.org."
                             }
                         ]
                     }
@@ -1074,7 +1088,7 @@
             "type": "standard"
         },
         {
-            "conditions": "#Contatti || #PassamiOperatore",
+            "conditions": "#Contatti",
             "dialog_node": "node_2_1548518022320",
             "digress_in": "does_not_return",
             "metadata": {},
@@ -1085,7 +1099,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
+                                "text": "Su questa pagina (https://ibm.biz/BdzSUZ) puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
                             }
                         ]
                     },
@@ -1124,7 +1138,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Potete leggere <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
+                                "text": "Potete leggere la Carta dei servizi (https://ibm.biz/BdzSUr) per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
                             }
                         ]
                     }
@@ -1170,7 +1184,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Puoi pagare la tua donazione con i seguenti metodi di pagamento: <a href=\"https://donazione.sanpatrignano.org\" target=\"_blank\">carta di credito</a>, <a href=\"https://donazione.sanpatrignano.org/#menu3\" target=\"_blank\">bonifico bancario o bollettino postale</a> e RID bancario (addebito sul conto corrente bancario)."
+                                "text": "Puoi pagare la tua donazione con i seguenti metodi di pagamento: carta di credito (https://ibm.biz/BdzS6t), bonifico bancario o bollettino postale (https://ibm.biz/BdzS66) e RID bancario (addebito sul conto corrente bancario)."
                             }
                         ]
                     }
@@ -1286,7 +1300,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "In questa <a href=\"https://www.sanpatrignano.org/la-comunita/studio/\" target=\"_blank\">pagina</a> puoi trovare ulteriori informazioni."
+                                "text": "In questa pagina (https://ibm.biz/BdzS6C) puoi trovare ulteriori informazioni."
                             }
                         ]
                     }
@@ -1308,7 +1322,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "La comunit\u00e0 di San Patrignano si trova a Coriano (RN) in via San Patrignano n\u00b0 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps.<iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                                "text": "La comunit\u00e0 di San Patrignano si trova a Coriano (RN) in via San Patrignano n\u00b0 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps (https://goo.gl/maps/vu9JJVbEHiWP5TYu6)."
                             }
                         ]
                     }
@@ -1380,7 +1394,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Ci sono tre modalit\u00e0 per essere accolti nella comunit\u00e0 di San Patrignano. Cliccando su una qualunque di essa potr\u00f2 fornirti ulteriori dettagli. "
+                                "text": "Ci sono tre modalit\u00e0 per essere accolti nella comunit\u00e0 di San Patrignano. "
                             }
                         ]
                     },
@@ -1418,7 +1432,7 @@
                             }
                         ],
                         "response_type": "option",
-                        "title": ""
+                        "title": "Cliccando su una qualunque di essa potr\u00f2 fornirti ulteriori dettagli."
                     }
                 ]
             },
@@ -1463,7 +1477,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Per avere ulteriori informazioni sul settore <? entities['settoriformazione'] ?>  puoi consultare la seguente <a href=\"https://redirect.eu-gb.mybluemix.net/<? entities['settoriformazione'] ?>\" target=\"_blank\">pagina</a>."
+                                "text": "Per avere ulteriori informazioni sul settore <? entities['settoriformazione'] ?>  puoi consultare la seguente pagina (https://redirect.eu-gb.mybluemix.net/<? entities['settoriformazione'] ?>)."
                             }
                         ]
                     },
@@ -1488,7 +1502,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "L\u2019accoglienza in Comunit\u00e0 e l\u2019intero programma di recupero sono <b>completamente gratuiti</b> sia per i ragazzi che per le loro famiglie."
+                                "text": "L\u2019accoglienza in Comunit\u00e0 e l\u2019intero programma di recupero sono **completamente gratuiti** sia per i ragazzi che per le loro famiglie."
                             }
                         ]
                     },
@@ -1524,7 +1538,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "<a href=\"http://www.salute.gov.it/imgs/C_17_pubblicazioni_433_allegato.pdf\" target=\"_blank\">Clicca qui</a> per scaricare l\u2019elenco dei servizi pubblici per le tossicodipendenze.<br/><br/>"
+                                "text": "Clicca qui (https://ibm.biz/BdzS6w) per scaricare l\u2019elenco dei servizi pubblici per le tossicodipendenze."
                             }
                         ]
                     },
@@ -1538,7 +1552,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Una volta accertata la reale determinazione della persona, vengono organizzati uno o pi\u00f9 colloqui con gli operatori dell\u2019ufficio accoglienza, che illustrano i metodi, i principi e il programma di recupero.<br/><br/>"
+                                "text": "Una volta accertata la reale determinazione della persona, vengono organizzati uno o pi\u00f9 colloqui con gli operatori dell\u2019ufficio accoglienza, che illustrano i metodi, i principi e il programma di recupero."
                             }
                         ]
                     },
@@ -1552,7 +1566,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Alla fine del colloquio, i ragazzi valutano la proposta e decidono liberamente se il programma di San Patrignano corrisponde o meno alle proprie esigenze. Se accettano, l\u2019ingresso in comunit\u00e0 avviene direttamente.<br/><br/>"
+                                "text": "Alla fine del colloquio, i ragazzi valutano la proposta e decidono liberamente se il programma di San Patrignano corrisponde o meno alle proprie esigenze. Se accettano, l\u2019ingresso in comunit\u00e0 avviene direttamente."
                             }
                         ]
                     }
@@ -1713,7 +1727,21 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Se sei familiare di un ragazzo ospite in Comunit\u00e0 puoi aiutarci unicamente sostenendo il Progetto editoriale con soli 9\u20ac mensili e ricevendo la rivista <b>SanpaNews</b> che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi. <br/>Per ulteriori chiarimenti <a href=\"https://www.sanpatrignano.org/sostienici/sanpanews-voci-crescere/\" target=\"_blank\">visita il sito</a>"
+                                "text": "Se sei familiare di un ragazzo ospite in Comunit\u00e0 puoi aiutarci unicamente sostenendo il Progetto editoriale con soli 9\u20ac mensili e ricevendo la rivista **SanpaNews** che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi."
+                            }
+                        ]
+                    },
+                    {
+                        "response_type": "pause",
+                        "time": 2500,
+                        "typing": true
+                    },
+                    {
+                        "response_type": "text",
+                        "selection_policy": "sequential",
+                        "values": [
+                            {
+                                "text": "Per ulteriori chiarimenti visita il sito (https://ibm.biz/BdzS6L)."
                             }
                         ]
                     }
@@ -1749,7 +1777,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
+                                "text": "Per prenotare la tua visita clicca qui (https://ibm.biz/BdzSU4)."
                             }
                         ]
                     }
@@ -1785,7 +1813,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Se sostieni San Patrignano tramite domiciliazione bancaria o postale, carta di credito, bonifico o assegno, l\u2019estratto conto ha valore di ricevuta. Negli altri casi, puoi richiedere la ricevuta di donazione contattandoci al 0541 362247. Per maggiori informazioni visita <a href=\"https://www.sanpatrignano.org/sostienici/deducibilita-fiscale\" target=\"_blank\">il nostro sito</a>"
+                                "text": "Se sostieni San Patrignano tramite domiciliazione bancaria o postale, carta di credito, bonifico o assegno, l\u2019estratto conto ha valore di ricevuta. Negli altri casi, puoi richiedere la ricevuta di donazione contattandoci al 0541 362247. Per maggiori informazioni visita il nostro sito (https://ibm.biz/BdzS67)."
                             }
                         ]
                     }
@@ -1835,7 +1863,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "Scopri cosa pu\u00f2 fare la tua impresa <a href=\"https://www.sanpatrignano.org/aziende/\">cliccando qui</a>"
+                                "text": "Scopri cosa pu\u00f2 fare la tua impresa cliccando qui (https://ibm.biz/BdzSUi)."
                             }
                         ]
                     }
@@ -1857,7 +1885,7 @@
                         "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Un lascito pu\u00f2 essere effettuato solo tramite testamento. Per essere sicuri che le tue volont\u00e0 siano rispettate, puoi scegliere di redigere un testamento olografo (esclusivamente scritto di tuo pugno con data e firma) oppure pubblico, redatto da un Notaio. Per ricevere la Guida al Testamento della Comunit\u00e0 San Patrignano <a href=\"https://www.sanpatrignano.org/sostienici/fai-tuo-lascito/\" target=\"_blank\">clicca qui</a> oppure <a href=\"mailto:fundraising\\@sanpatrignano.org\">scrivici</a>"
+                                "text": "Un lascito pu\u00f2 essere effettuato solo tramite testamento. Per essere sicuri che le tue volont\u00e0 siano rispettate, puoi scegliere di redigere un testamento olografo (esclusivamente scritto di tuo pugno con data e firma) oppure pubblico, redatto da un Notaio. Per ricevere la Guida al Testamento della Comunit\u00e0 San Patrignano clicca qui (https://ibm.biz/BdzS6N) oppure scrivi a fundraising\\@sanpatrignano.org."
                             }
                         ]
                     }
@@ -3336,7 +3364,7 @@
             "minor_version": "2018-02-16"
         }
     },
-    "name": "San Patrignano",
+    "name": "San Patrignano (Facebook)",
     "status": "Available",
     "system_settings": {
         "tooling": {
