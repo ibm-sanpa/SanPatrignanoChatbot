@@ -50,6 +50,8 @@ curl -X POST -H "Contenjson" -d '{ "get_started": {"payload": "Inizia"} }' "http
 
 dove PAGE_AGGESS_TOKEN è quello che abbiamo configurato nello step 4.
 
+Modifica il messaggio di Benvenuto andando su **Impostazioni -> Messaggi -> Impostazioni Generali** e cambia **Mostra Saluto di Messanger**.
+
 **Importante!!!** Per testare che il nodo Welcome venga attivato quando si Inizia la conversazione, bisogna resettare tutto il dialogo. Per fare ciò da chatbot cliccare: Opzioni->Apri in Messanger. In Messanger in alto a destra, dove compare il logo della pagina, c'è la rotellina delle Impostazioni, clicca su di essa e seleziona l'opzione Elimina.
 
 ## Troubleshooting
