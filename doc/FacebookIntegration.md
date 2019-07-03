@@ -45,7 +45,7 @@ L'Integrazione del chatbot in facebook funziona in modo diverso rispetto all'int
 Per far apparire il bottone Inizia bisogna inviare il seguente comando da shell:
 
 ```
-curl -X POST -H "Contenjson" -d '{ "get_started": {"payload": "Inizia"} }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=PAGE_ACCESS_TOKEN"
+curl -X POST -H "Content-Type: application/json" -d '{ "get_started": {"payload": "Inizia"} }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=PAGE_ACCESS_TOKEN"
 ```
 
 dove PAGE_AGGESS_TOKEN è quello che abbiamo configurato nello step 4.
