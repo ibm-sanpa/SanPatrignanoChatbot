@@ -12,4 +12,4 @@ Il secondo incontro è stato gestito da Antonio di Cocco, D'Angelo Salvatore e R
 
 ## 3° Incontro
 
-Il secondo incontro è stato gestito da D'Angelo Salvatore e Rosario Boccia che hanno rivisto lo scenario Donatori preparato dal team di San Patrignano. Lo scenario è stato rivisto e completato quasi per intero. E' stato poi mostrata una [demo](https://sanpatrignano.eu-gb.mybluemix.net/) degli scenari Familiare e Ospite. Abbiamo poi visto alcuni [esempi di chatbots](ChatbotExamples.md) e [best practices](BestPractices.md).
+Il terzo incontro è stato gestito da D'Angelo Salvatore e Rosario Boccia che hanno rivisto lo scenario Donatori preparato dal team di San Patrignano. Lo scenario è stato rivisto e completato quasi per intero. E' stato poi mostrata una [demo](https://sanpatrignano.eu-gb.mybluemix.net/) degli scenari Familiare e Ospite. Abbiamo poi visto alcuni [esempi di chatbots](ChatbotExamples.md) e [best practices](BestPractices.md).
