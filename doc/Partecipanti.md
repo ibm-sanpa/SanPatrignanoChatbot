@@ -5,7 +5,7 @@ Questa è la lista dei partecipanti all'iniziativa.
 * Antonio di Cocco.
 * Rosario Boccia.
 * Salvatore D'Angelo.
-* Angelo Albanese (partecipato primo incontro)
+* Angelo Albanese
 
 ## San Patrignano
 
