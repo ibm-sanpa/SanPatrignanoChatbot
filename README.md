@@ -16,7 +16,7 @@ Gli obiettivi della collaborazione tra la Fondazione IBM e la comunità di San P
 1. Far crescere all'interno della Comunità un Centro di Competenza su IBM Cloud.
 2. Promuovere il trasferimento delle competenze acquisite dagli operatori agli ospiti della comunità.
 3. Aumentare l'impiegabilità degli ospiti nella fase post-comunità.
-4. Alla fine del percorso formativo i partecipanti conosceranno i fondamentali delle applicazioni “cloud native”.
+4. Migliorare l'efficienza del centro accoglienza aiutando gli operatori nella realizzazione di un chatbot per il sito web di San Patrignano che aiuti a ridurre il numero di contatti via social, email e telefono per domande ricorrenti.
 
 La collaborazione si svolgerà con 5 incontri tra il team IBM e quello di San Patrignano nella sede di quest'ultimo. In questi incontri verrà spiegato i fondamentali della piattaforma IBM Cloud e si progetterà e realizzerà un chatbot per il sito web della comunità. Durante gli incontri si definiranno anche le attività da svolgere remotamente nell'arco di tempo che intercorre tra ciascun incontro.
 
