@@ -6,10 +6,22 @@ In questo primo incontro Angelo Albanese [ha presentato](slides/Presentazione-1-
 
 ## 2° Incontro
 
-Il secondo incontro è stato gestito da Antonio di Cocco, D'Angelo Salvatore e Rosario Boccia che [hanno ripreso i concetti generali esposti nella precedente sessione](slides/Presentazione-2-Sessione.ppt?raw=true) e hanno poi guidato una [sessione di Design Thinking](DesignThinking.md) per individuare due scenari molto semplici da cui partire per la la realizzazione del chatbot. Infine, con il team di San Patrignano abbiamo iniziato l'implementazione del chatbot.
+Il secondo incontro è stato gestito da Antonio di Cocco, D'Angelo Salvatore e Rosario Boccia che [hanno ripreso i concetti generali esposti nella precedente sessione](slides/Presentazione-2-Sessione.ppt?raw=true) e hanno poi guidato una [sessione di Design Thinking](DesignThinking.md) per individuare scenari molto semplici da cui partire per la la realizzazione del chatbot per il Familiare e L'Ospite. Infine, con il team di San Patrignano abbiamo iniziato l'implementazione del chatbot.
 
 [Cliccando qui](slides/Presentazione-2-Sessione.ppt?raw=true) puoi scaricare le slides.
+
+## Attività offline
+
+Tra il 2° e il 3° incontro il team di San Patrignano ha fatto una sessione di Design Thinking sugli scenari del Donatore e hanno creato una prima bozza di implementazione degli scenari nel chatbot.
 
 ## 3° Incontro
 
 Il terzo incontro è stato gestito da D'Angelo Salvatore e Rosario Boccia che hanno rivisto lo scenario Donatori preparato dal team di San Patrignano. Lo scenario è stato rivisto e completato quasi per intero. E' stato poi mostrata una [demo](https://sanpatrignano.eu-gb.mybluemix.net/) degli scenari Familiare e Ospite. Abbiamo poi visto alcuni [esempi di chatbots](ChatbotExamples.md) e [best practices](BestPractices.md).
+
+## Attività offline
+
+Dopo il 3° incontro il team di San Patrignano ha rivisto gli scenari del Donatore e rifinito l'implementazione. Inoltre, sono stati implementati alcuni scenari di Chit Chat.
+
+## Sessione WebEx
+
+In 
