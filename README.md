@@ -55,7 +55,7 @@ intgrazione.
 
 ## Demo del Chatbot
 
-[Cliccando qui](https://sanpatrignano.eu-gb.mybluemix.net/) puoi accedere ad una demo live del chatbot. La demo consiste in un'applicazione Node.js che punta al servizio Watson Assistant e che permette di renderizzare pulsanti, immagini, pause, ecc. A breve verrà deployato su IBM Cloud un sito web Wordpress di test con il chatbot integrato.
+[Cliccando qui](https://sanpatrignano.eu-gb.mybluemix.net/) puoi accedere ad una demo live del chatbot. La demo consiste in un'[applicazione Node.js](https://github.com/watson-developer-cloud/assistant-simple) che punta al servizio Watson Assistant e che permette di renderizzare pulsanti, immagini, pause, ecc. A breve verrà deployato su IBM Cloud un sito web Wordpress di test con il chatbot integrato.
 
 A [questa pagina](doc/ConfiguraAmbienteSviluppo.md) puoi trovare le istruzioni per configurare l'ambiente di sviluppo di quest'applicazione.
 
