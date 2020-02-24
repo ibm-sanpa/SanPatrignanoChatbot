@@ -290,7 +290,7 @@ SCENARI DONATORE
 Scenario 23: Scenario donatore soldi
 ------------------------------------
 Bot: [WELCOME]
-User: donatore
+User: donatore [BUTTON]
 Bot: [Richiesta Informazioni (Donatore)]
 User: come posso donare soldi alla vostra comunità?
 Bot: [Donazione Soldi]
@@ -358,7 +358,7 @@ Bot: [Congedo]
 Scenario 31: Deducibilità Fiscale
 ---------------------------------
 Bot: [WELCOME]
-User: donatore
+User: donatore [BUTTON]
 Bot: [Richiesta Informazioni (Donatore)]
 User: come posso donare soldi alla vostra comunità?
 Bot: [Donazione Soldi]
@@ -388,7 +388,7 @@ Bot: [Congedo]
 Scenario 34: Finalità e Importi Donazioni
 -----------------------------------------
 Bot: [WELCOME]
-User: donatore
+User: sono un donatore
 Bot: [Richiesta Informazioni (Donatore)]
 User: come posso donare soldi alla vostra comunità?
 Bot: [Donazione Soldi]
