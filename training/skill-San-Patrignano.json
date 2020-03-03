@@ -339,7 +339,13 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "La comunit\u00e0 di San Patrignano si trova a Coriano (RN) in via San Patrignano n\u00b0 53 CAP 47853. Cliccando il link sotto potrai vedere la nostra posizione su Google Maps.<iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                                "text": "La comunit\u00e0 di San Patrignano si trova a Coriano (RN) in via San Patrignano n\u00b0 53 CAP 47853. <iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                            },
+                            {
+                                "text": "L'indirizzo della comunit\u00e0 \u00e8 via San Patrignano n\u00b0 53 Coriano (RN) CAP 47853. <iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+                            },
+                            {
+                                "text": "La comunit\u00e0 si trova a Coriano (RN) in via San Patrignano n\u00b0 53  CAP 47853. <iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.901574421138!2d12.553749315221465!3d43.98208497911138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ce9bc521a948f%3A0x691009dff32c489e!2sSan+Patrignano!5e0!3m2!1sit!2sit!4v1479483275018\" width=\"300\" height=\"200\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
                             }
                         ]
                     }
@@ -1329,7 +1335,7 @@
                         "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Ti saluto con la speranza che si risolva tutto."
+                                "text": "Grazie per averci contattato. Ti auguro una buona giornata."
                             },
                             {
                                 "text": "Grazie per aver contattato la comunit\u00e0 di San Patrignano spero di esserti stato utile. Ti auguro una buona giornata."
@@ -2104,7 +2110,7 @@
             "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi.",
             "examples": [
                 {
-                    "text": "Come posso donare dei soldi"
+                    "text": "come posso donare dei soldi"
                 },
                 {
                     "text": "Vorrei donare dei soldi"
@@ -2146,7 +2152,7 @@
                     "text": "Come posso contattare l'ufficio raccolta fondi?"
                 },
                 {
-                    "text": "Come posso contattare l'ufficio stampa?"
+                    "text": "come posso contattare l'ufficio stampa?"
                 },
                 {
                     "text": "Come posso contattarvi?"
