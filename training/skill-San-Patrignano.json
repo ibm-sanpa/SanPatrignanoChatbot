@@ -53,7 +53,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
+                                "text": "allevamenti, canile, cantina, centro medico, coltivazioni, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, tessitura, norcineria, caseificio, magazzini, laboratorio e grafiche."
                             }
                         ]
                     },
@@ -308,38 +308,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Per l\u2019accoglienza in Comunit\u00e0 e il programma di recupero non sono richiesti contributi da parte dei ragazzi e delle loro famiglie. "
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Se sei familiare di un ospite della Comunit\u00e0 puoi aiutarci unicamente sostenendo il progetto editoriale <b>SanpaNews</b>. Con soli 9\u20ac mensili riceverai la rivista che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti <a href=\"https://www.sanpatrignano.org/sostienici/sanpanews-voci-crescere/\" target=\"_blank\">visita il sito</a>"
+                            },
                             {
-                                "text": "Se sei familiare di un ragazzo ospite in Comunit\u00e0 puoi aiutarci unicamente sostenendo il Progetto editoriale con soli 9\u20ac mensili e ricevendo la rivista <b>SanpaNews</b> che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "I familiari degli ospiti della Comunit\u00e0 possono aiutarci unicamente sostenendo il progetto editoriale <b>SanpaNews</b>. Pagando 9\u20ac mensili potrai ricevere la rivista che ti aggiorner\u00e0 sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti <a href=\"https://www.sanpatrignano.org/sostienici/sanpanews-voci-crescere/\" target=\"_blank\">visita il sito</a>"
+                            },
                             {
-                                "text": "Per ulteriori chiarimenti <a href=\"https://www.sanpatrignano.org/sostienici/sanpanews-voci-crescere/\" target=\"_blank\">visita il sito</a>"
+                                "text": "Per l\u2019accoglienza in Comunit\u00e0 non sono richiesti contributi da parte dei ragazzi e delle loro famiglie. Volendo puoi aiutarci unicamente sostenendo il progetto editoriale <b>SanpaNews</b>. Con soli 9\u20ac mensili riceverai la rivista con aggiornamenti sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti <a href=\"https://www.sanpatrignano.org/sostienici/sanpanews-voci-crescere/\" target=\"_blank\">visita il sito</a>"
                             }
                         ]
                     }
@@ -610,7 +588,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
+                                "text": "allevamenti, canile, cantina, centro medico, coltivazioni, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, tessitura, norcineria, caseificio, magazzini, laboratorio e grafiche."
                             }
                         ]
                     },
@@ -768,38 +746,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "San Patrignano \u00e8 una comunit\u00e0 di recupero ma anche un\u2019impresa sociale. Sono tanti i modi con cui un\u2019azienda pu\u00f2 sostenere la Comunit\u00e0."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "San Patrignano \u00e8 una comunit\u00e0 di recupero ma anche un\u2019impresa sociale. Sono tanti i modi con cui un\u2019azienda pu\u00f2 sostenere la Comunit\u00e0. Scopri cosa pu\u00f2 fare la tua impresa <a href=\"https://www.sanpatrignano.org/aziende/\" target=\"_blank\">cliccando qui</a>"
+                            },
                             {
-                                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende \u00e8 un segno di forte responsabilit\u00e0 sociale. Puoi scegliere tra diversi modi per sostenere la comunit\u00e0 di recupero San Patrignano e affermare la tua responsabilit\u00e0 sociale, le donazioni sono solo uno dei tanti."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende \u00e8 un segno di forte responsabilit\u00e0 sociale. Leggendo <a href=\"https://www.sanpatrignano.org/aziende/\" target=\"_blank\">questa pagina</a> puoi scoprire cosa pu\u00f2 fare la tua impresa per i nostri ragazzi. "
+                            },
                             {
-                                "text": "Scopri cosa pu\u00f2 fare la tua impresa <a href=\"https://www.sanpatrignano.org/aziende/\">cliccando qui</a>"
+                                "text": "La tua azienda pu\u00f2 sostenere concretamente la nostra comunit\u00e0 in tanti modi diversi dimostrando cos\u00ec una forte responsabilit\u00e0 sociale. Scopri cosa pu\u00f2 fare la tua impresa per i ragazzi <a href=\"https://www.sanpatrignano.org/aziende/\" target=\"_blank\">cliccando questo link</a>"
                             }
                         ]
                     }
@@ -1342,24 +1298,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Vivi una giornata nella comunit\u00e0 di San Patrignano perch\u00e9 \u00e8 un\u2019esperienza indimenticabile. Non solo per la bellezza di cui si riempiranno gli occhi sulla collina che guarda il mare di Rimini, ma anche per la bellezza che riscoprirai nel tuo cuore ascoltando le storie dei ragazzi che stanno lottando per rinascere."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Vivi una giornata nella comunit\u00e0 di San Patrignano perch\u00e9 \u00e8 un\u2019esperienza indimenticabile. Lascia che il tuo cuore si apra ascoltando le storie dei ragazzi che stanno lottando per rinascere. Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
+                            },
                             {
-                                "text": "Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
+                                "text": "San Patrignano ti offre la possibilit\u00e0 di vivere una giornata nella comunit\u00e0 e vivere un'esperienza indimenticabile. Potrai ascoltare le storie dei ragazzi che stanno lottando per rinascere. Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
+                            },
+                            {
+                                "text": "Visita la comunit\u00e0 di San Patrignano e vivi un'esperienza indimenticabile. Ascolta le storie dei ragazzi che ogni giorno si impegnano e lottano per riappropriarsi del proprio futuro. Per prenotare la tua visita <a href=\"http://visita.sanpatrignano.org/\" target=\"_blank\">clicca qui </a>"
                             }
                         ]
                     }
@@ -1405,24 +1353,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio. Potete leggere <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\" target=\"_blank\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
+                            },
                             {
-                                "text": "Potete leggere <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
+                                "text": "La comunit\u00e0 di San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o altre forme di disagio. Visita la <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\" target=\"_blank\">seguente pagina</a> per avere ulteriori informazioni."
+                            },
+                            {
+                                "text": "San Patrignano accoglie ragazze e ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti. Leggi <a href=\"https://www.sanpatrignano.org/la-comunita/comunit-minori/\" target=\"_blank\">la Carta dei servizi</a>per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
                             }
                         ]
                     }
@@ -1768,35 +1708,13 @@
                         "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Sono un chatbot \u00e8 il mio obiettivo \u00e8 quello di aiutarti a trovare le informazioni che desideri."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Sono un chatbot e il mio obiettivo \u00e8 quello di fornirti le informazioni che desideri. Ad esempio, posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+                            },
                             {
-                                "text": "Ad esempio, posso aiutarti a trovare informazioni su: \u2022 percorso di recupero \u2022 come entrare in comunit\u00e0 \u2022 settori di formazione \u2022 scuola e istruzione \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Sono qui per aiutarti a trovare le informazioni che desideri. Posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se vuoi posso metterti in contatto con un operatore dell'Ufficio Accoglienza."
+                            },
                             {
-                                "text": "Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+                                "text": "Sono un chatbot e posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se vuoi posso metterti in contatto con un operatore dell'Ufficio Accoglienza."
                             }
                         ]
                     }
@@ -1945,13 +1863,6 @@
                 },
                 {
                     "synonyms": [
-                        "stalla"
-                    ],
-                    "type": "synonyms",
-                    "value": "scuderia"
-                },
-                {
-                    "synonyms": [
                         "allevamento"
                     ],
                     "type": "synonyms",
@@ -2001,15 +1912,6 @@
                 },
                 {
                     "synonyms": [
-                        "chimico",
-                        "reparto chimico",
-                        "settore chimico"
-                    ],
-                    "type": "synonyms",
-                    "value": "chimici"
-                },
-                {
-                    "synonyms": [
                         "area coltivata",
                         "campo",
                         "coltura",
@@ -2017,15 +1919,6 @@
                     ],
                     "type": "synonyms",
                     "value": "coltivazioni"
-                },
-                {
-                    "synonyms": [
-                        "comunicazioni",
-                        "redazione",
-                        "ufficio stampa"
-                    ],
-                    "type": "synonyms",
-                    "value": "comunicazione"
                 },
                 {
                     "synonyms": [
@@ -2058,15 +1951,6 @@
                     ],
                     "type": "synonyms",
                     "value": "fabbri"
-                },
-                {
-                    "synonyms": [
-                        "bottega falegname",
-                        "falegnami",
-                        "legneria"
-                    ],
-                    "type": "synonyms",
-                    "value": "falegnameria"
                 },
                 {
                     "synonyms": [
@@ -2220,37 +2104,37 @@
             "description": "Questo intento gestisce la richiesta di informazioni sulle donazione di soldi.",
             "examples": [
                 {
-                    "text": "Come posso mandarvi dei soldi?"
-                },
-                {
-                    "text": "Vorrei donarvi dei soldi, come faccio?"
+                    "text": "Come posso donare dei soldi"
                 },
                 {
                     "text": "Vorrei donare dei soldi"
                 },
                 {
-                    "text": "come posso donare dei soldi"
+                    "text": "Vorrei donarvi dei soldi, come faccio?"
+                },
+                {
+                    "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
+                },
+                {
+                    "text": "Vorrei contribuire con un'offerta di soldi"
+                },
+                {
+                    "text": "Posso donarvi 10 Euro al mese?"
+                },
+                {
+                    "text": "Posso contribuire con una quota mensile?"
                 },
                 {
                     "text": "Come posso fare una donazione di soldi mensile?"
+                },
+                {
+                    "text": "Come posso mandarvi dei soldi?"
                 },
                 {
                     "text": "Mi aiutate a capire come fare una donazione monetaria?"
                 },
                 {
                     "text": "Mi piacerebbe fare una donazione di 10 Euro, come devo fare?"
-                },
-                {
-                    "text": "Posso contribuire con una quota mensile?"
-                },
-                {
-                    "text": "Posso donarvi 10 Euro al mese?"
-                },
-                {
-                    "text": "Vorrei contribuire con un'offerta di soldi"
-                },
-                {
-                    "text": "Vorrei fare una donazione di 50 Euro, come posso fare?"
                 }
             ],
             "intent": "DonazioneSoldi"
@@ -2259,19 +2143,19 @@
             "description": "Informazione sui contatti",
             "examples": [
                 {
-                    "text": "Come posso contattare l'ufficio prevenzione WeFree?"
+                    "text": "Come posso contattare l'ufficio raccolta fondi?"
                 },
                 {
-                    "text": "Come posso contattare l'ufficio commerciale?"
+                    "text": "Come posso contattare l'ufficio stampa?"
                 },
                 {
                     "text": "Come posso contattarvi?"
                 },
                 {
-                    "text": "come posso contattare l'ufficio stampa?"
+                    "text": "Come posso contattare l'ufficio commerciale?"
                 },
                 {
-                    "text": "Come posso contattare l'ufficio raccolta fondi?"
+                    "text": "Come posso contattare l'ufficio prevenzione WeFree?"
                 }
             ],
             "intent": "Contatti"
@@ -2280,16 +2164,13 @@
             "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite RID.",
             "examples": [
                 {
-                    "text": "E' possibile pagare tramite RID?"
-                },
-                {
-                    "text": "Come faccio per pagare con RID?"
+                    "text": "Posso pagare tramite RID"
                 },
                 {
                     "text": "E' possibile pagare una donazione con accredito sul conto corrente?"
                 },
                 {
-                    "text": "Posso pagare tramite RID"
+                    "text": "Come faccio per pagare con RID?"
                 },
                 {
                     "text": "Vorrei che la donazione fosse accreditata sul mio conto corrente. E' possibile?"
@@ -2301,6 +2182,9 @@
                     "text": "Vorrei fare una donazione continuativa con RID bancario."
                 },
                 {
+                    "text": "E' possibile pagare tramite RID?"
+                },
+                {
                     "text": "Come faccio per pagare con l'accredito sul mio conto corrente?"
                 }
             ],
@@ -2309,6 +2193,12 @@
         {
             "description": "Questo intent serve a capire come vengono usate le donazioni alla comunit\u00e0.",
             "examples": [
+                {
+                    "text": "Dove vanno a finire i soldi che dono?"
+                },
+                {
+                    "text": "Vi ho fatto una donazione, come la investirete?"
+                },
                 {
                     "text": "A cosa destinate la mia donazione?"
                 },
@@ -2322,13 +2212,7 @@
                     "text": "Cosa fate con le donazioni?"
                 },
                 {
-                    "text": "Dove vanno a finire i soldi che dono?"
-                },
-                {
                     "text": "La donazione che faccio come la usate?"
-                },
-                {
-                    "text": "Vi ho fatto una donazione, come la investirete?"
                 }
             ],
             "intent": "FinalitaDonazioni"
@@ -2337,28 +2221,28 @@
             "description": "Questo intent serve per aiutare l'utente a capire come si pu\u00f2 entrare nella comunit\u00e0",
             "examples": [
                 {
-                    "text": "Come si fa per entrare nella comunit\u00e0 di San Patrignano?"
-                },
-                {
-                    "text": "Come posso entrare in comunit\u00e0"
-                },
-                {
-                    "text": "Come faccio ad entrare a san patrignano"
-                },
-                {
-                    "text": "Come faccio ad entrare nella comunit\u00e0?"
-                },
-                {
-                    "text": "Mi spieghi come si fa ad entrare nella comunit\u00e0?"
+                    "text": "Cosa devo fare per entrare nella comunit\u00e0 di San Patrignano?"
                 },
                 {
                     "text": "Mi aiuti a capire come si entra nella comunit\u00e0?"
                 },
                 {
-                    "text": "Come si entra nella comunit\u00e0?"
+                    "text": "Mi spieghi come si fa ad entrare nella comunit\u00e0?"
                 },
                 {
-                    "text": "Cosa devo fare per entrare nella comunit\u00e0 di San Patrignano?"
+                    "text": "Come faccio ad entrare nella comunit\u00e0?"
+                },
+                {
+                    "text": "Come faccio ad entrare a san patrignano"
+                },
+                {
+                    "text": "Come posso entrare in comunit\u00e0"
+                },
+                {
+                    "text": "Come si fa per entrare nella comunit\u00e0 di San Patrignano?"
+                },
+                {
+                    "text": "Come si entra nella comunit\u00e0?"
                 }
             ],
             "intent": "ComeEntrareSanPatrignano"
@@ -2367,22 +2251,22 @@
             "description": "Questo intent consente di richiedere informazioni su Scuola e Istruzione",
             "examples": [
                 {
-                    "text": "Mi dai qualche informazione su scuola e istruzione?"
-                },
-                {
                     "text": "E' possibile studiare a San Patrignano"
                 },
                 {
-                    "text": "E' possibile recuperare gli anni di studio persi?"
-                },
-                {
-                    "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
+                    "text": "Come posso recuperare gli anni scolastici persi?"
                 },
                 {
                     "text": "Posso anche frequentare la scuola?"
                 },
                 {
-                    "text": "Come posso recuperare gli anni scolastici persi?"
+                    "text": "Mi dici qualcosa su come riprendere gli studi abbandonati anni fa?"
+                },
+                {
+                    "text": "Mi dai qualche informazione su scuola e istruzione?"
+                },
+                {
+                    "text": "E' possibile recuperare gli anni di studio persi?"
                 }
             ],
             "intent": "InformazioniScuolaIstruzione"
@@ -2394,19 +2278,19 @@
                     "text": "mi date il vostro conto corrente postale"
                 },
                 {
-                    "text": "posso donare con ccp?"
-                },
-                {
-                    "text": "posso donare con bollettino postale?"
+                    "text": "avete un bollettino da darmi?"
                 },
                 {
                     "text": "mi mandate un bollettino postale in bianco?"
                 },
                 {
-                    "text": "avete un bollettino da darmi?"
+                    "text": "mi mandate un bollettino postale precompilato?"
                 },
                 {
-                    "text": "mi mandate un bollettino postale precompilato?"
+                    "text": "posso donare con bollettino postale?"
+                },
+                {
+                    "text": "posso donare con ccp?"
                 }
             ],
             "intent": "PagamentoBollettinoPostale"
@@ -2415,13 +2299,16 @@
             "description": "Questo intent gestisce le richieste dei donatori che vogliono informazioni.",
             "examples": [
                 {
-                    "text": "Come posso contribuire?"
+                    "text": "Vorrei fare una donazione"
                 },
                 {
                     "text": "\u00e8 possibile fare una donazione?"
                 },
                 {
-                    "text": "Vorrei fare una donazione"
+                    "text": "Come posso contribuire?"
+                },
+                {
+                    "text": "Come posso donare?"
                 },
                 {
                     "text": "Come posso fare una donazione?"
@@ -2437,9 +2324,6 @@
                 },
                 {
                     "text": "donatore"
-                },
-                {
-                    "text": "Come posso donare?"
                 }
             ],
             "intent": "InformazioniDonatore"
@@ -2448,7 +2332,10 @@
             "description": "Informazioni sui SERT",
             "examples": [
                 {
-                    "text": "Vorrei contattare un SERT nella mia zona"
+                    "text": "cosa sono i sert"
+                },
+                {
+                    "text": "Desidero sapere dove posso trovare informazioni sui SERT"
                 },
                 {
                     "text": "Non trovo le informazioni sui SERT, mi aiuti?"
@@ -2460,13 +2347,10 @@
                     "text": "Ciao, mi puoi dire dove trovo le informazioni sui SERT"
                 },
                 {
+                    "text": "Vorrei contattare un SERT nella mia zona"
+                },
+                {
                     "text": "Come posso contattare il SERT a me pi\u00f9 vicino?"
-                },
-                {
-                    "text": "cosa sono i sert"
-                },
-                {
-                    "text": "Desidero sapere dove posso trovare informazioni sui SERT"
                 }
             ],
             "intent": "InformazioniSERT"
@@ -2478,22 +2362,22 @@
                     "text": "posso donarvi giocattoli per i bambini?"
                 },
                 {
-                    "text": "posso regalarvi una fornitura di cancelleria?"
+                    "text": "avete bisogno di materiali?"
+                },
+                {
+                    "text": "posso donarvi una bicicletta?"
                 },
                 {
                     "text": "posso regalarvi una macchina?"
                 },
                 {
+                    "text": "posso regalarvi una fornitura di cancelleria?"
+                },
+                {
+                    "text": "posso regalarvi dei medicinali?"
+                },
+                {
                     "text": "posso regalarvi un motorino?"
-                },
-                {
-                    "text": "volete dei vestiti?"
-                },
-                {
-                    "text": "vorrei donarvi una macchina"
-                },
-                {
-                    "text": "posso donarvi una bicicletta?"
                 },
                 {
                     "text": "posso mandarvi dei mobili?"
@@ -2505,13 +2389,13 @@
                     "text": "posso regalarvi della carta igienica?"
                 },
                 {
-                    "text": "posso regalarvi dei medicinali?"
-                },
-                {
-                    "text": "avete bisogno di materiali?"
-                },
-                {
                     "text": "posso donare un computer?"
+                },
+                {
+                    "text": "vorrei donarvi una macchina"
+                },
+                {
+                    "text": "volete dei vestiti?"
                 }
             ],
             "intent": "DonazioneBeni"
@@ -2520,7 +2404,7 @@
             "description": "Questo intent serve a rispondere alle domande relative agli importi delle donazioni.",
             "examples": [
                 {
-                    "text": "Quale e\u2019 l\u2019importo minimo che posso donare?"
+                    "text": "Quanto posso donare per aiutare i ragazzi vittime della droga?"
                 },
                 {
                     "text": "Quanto posso donare per aiutare ad accogliere i ragazzi, vittime della droga?"
@@ -2529,13 +2413,13 @@
                     "text": "Quanto posso donare?"
                 },
                 {
+                    "text": "Quale e\u2019 l\u2019importo minimo che posso donare?"
+                },
+                {
                     "text": "Come posso assicurare i pasti quotidiani dei ragazzi?"
                 },
                 {
                     "text": "Come posso contribuire alla formazione professionale dei ragazzi in percorso?"
-                },
-                {
-                    "text": "Quanto posso donare per aiutare i ragazzi vittime della droga?"
                 }
             ],
             "intent": "ImportiDonazione"
@@ -2547,37 +2431,16 @@
                     "text": "Fornisci assistenza generale? Non so cosa posso chiederti"
                 },
                 {
-                    "text": "Puoi dirmi i tipi di cose con cui puoi aiutarmi?"
-                },
-                {
-                    "text": "Mi piacerebbe sapere che tipo di domande puoi rispondere per me."
-                },
-                {
-                    "text": "Mi piacerebbe sapere a che tipo di domande puoi rispondermi."
+                    "text": "In che cosa puoi aiutarmi?"
                 },
                 {
                     "text": "In quale modo puoi aiutarmi?"
                 },
                 {
-                    "text": "In che cosa puoi aiutarmi?"
+                    "text": "Mi piacerebbe sapere a che tipo di domande puoi rispondermi."
                 },
                 {
-                    "text": "E' possibile ricevere un qualche tipo d'aiuto?"
-                },
-                {
-                    "text": "Cosa sai fare?"
-                },
-                {
-                    "text": "Cosa puoi aiutarmi a fare?"
-                },
-                {
-                    "text": "Cosa posso chiederti?"
-                },
-                {
-                    "text": "Ciao, su quali argomenti puoi aiutarmi?"
-                },
-                {
-                    "text": "Ciao. Potresti darmi un elenco di argomenti con cui puoi aiutarmi per favore?"
+                    "text": "Mi piacerebbe sapere che tipo di domande puoi rispondere per me."
                 },
                 {
                     "text": "Ciao, come puoi essermi d'aiuto oggi?"
@@ -2586,7 +2449,19 @@
                     "text": "Che tipo di assistenza mi puoi dare?"
                 },
                 {
-                    "text": "Che genere di informazioni fornisci?"
+                    "text": "Senti puoi dirmi come puoi aiutarmi per favore?"
+                },
+                {
+                    "text": "Quale genere di informazioni puoi aiutarmi a cercare?"
+                },
+                {
+                    "text": "Quali informazioni puoi fornirmi?"
+                },
+                {
+                    "text": "Ciao, su quali argomenti puoi aiutarmi?"
+                },
+                {
+                    "text": "Ciao. Potresti darmi un elenco di argomenti con cui puoi aiutarmi per favore?"
                 },
                 {
                     "text": "A cosa servi?"
@@ -2595,13 +2470,22 @@
                     "text": "Perch\u00e9 devo parlare con un risponditore automatico?"
                 },
                 {
-                    "text": "Senti puoi dirmi come puoi aiutarmi per favore?"
+                    "text": "Che genere di informazioni fornisci?"
                 },
                 {
-                    "text": "Quali informazioni puoi fornirmi?"
+                    "text": "Puoi dirmi i tipi di cose con cui puoi aiutarmi?"
                 },
                 {
-                    "text": "Quale genere di informazioni puoi aiutarmi a cercare?"
+                    "text": "Cosa posso chiederti?"
+                },
+                {
+                    "text": "Cosa puoi aiutarmi a fare?"
+                },
+                {
+                    "text": "Cosa sai fare?"
+                },
+                {
+                    "text": "E' possibile ricevere un qualche tipo d'aiuto?"
                 }
             ],
             "intent": "CosaSaiFare"
@@ -2610,22 +2494,22 @@
             "description": "Questo Intent serve a capire le richieste di informazioni sul 5x1000",
             "examples": [
                 {
-                    "text": "Posso sostenervi con il 5x1000"
+                    "text": "Ma il 5x1000 si paga ?"
                 },
                 {
                     "text": "Come posso sostenervi con la dichiarazione dei redditi ?"
                 },
                 {
-                    "text": "Mi  date il vostro codice fiscale per donarvi il 5x1000"
+                    "text": "Vi aiuto se dono il 5x1000?"
                 },
                 {
-                    "text": "Ma il 5x1000 si paga ?"
+                    "text": "Mi  date il vostro codice fiscale per donarvi il 5x1000"
                 },
                 {
                     "text": "Posso donarvi il 5x1000"
                 },
                 {
-                    "text": "Vi aiuto se dono il 5x1000?"
+                    "text": "Posso sostenervi con il 5x1000"
                 }
             ],
             "intent": "Donazione5x1000"
@@ -2634,19 +2518,19 @@
             "description": "Questo Intent gestisce le richieste di informazioni sui minori.",
             "examples": [
                 {
-                    "text": "Ospitate anche minorenni?"
+                    "text": "C'\u00e8 un centro minori nella comunit\u00e0 di San Patrignano?"
                 },
                 {
                     "text": "Mio figlio minorenne si droga come posso farlo entrare?"
                 },
                 {
-                    "text": "Sono minorenne vorrei entrare a San Patrignano"
-                },
-                {
-                    "text": "C'\u00e8 un centro minori nella comunit\u00e0 di San Patrignano?"
-                },
-                {
                     "text": "Come funziona l'ingresso dei minorenni ?"
+                },
+                {
+                    "text": "Ospitate anche minorenni?"
+                },
+                {
+                    "text": "Sono minorenne vorrei entrare a San Patrignano"
                 }
             ],
             "intent": "Minori"
@@ -2655,7 +2539,7 @@
             "description": "Questo intent serve ad intercettare domande su quali sono i settori di formazione nella comunit\u00e0.",
             "examples": [
                 {
-                    "text": "Vorrei sapere quali sono i settori di formazione che avete"
+                    "text": "mi dici quali settori vita ci sono"
                 },
                 {
                     "text": "Potresti mostrarmi l'elenco dei settori di formazione disponibili?"
@@ -2664,7 +2548,7 @@
                     "text": "Vorrei l'elenco delle attivit\u00e0 lavorative svolte nella comunit\u00e0"
                 },
                 {
-                    "text": "mi dici quali settori vita ci sono"
+                    "text": "Vorrei sapere quali sono i settori di formazione che avete"
                 },
                 {
                     "text": "Mi dici quali sono i settori di formazione che avete?"
@@ -2679,31 +2563,31 @@
             "description": "Questo intent serve ad intercettare domande generiche sulle pene alternative.",
             "examples": [
                 {
-                    "text": "San Patrignano accoglie persone che devono scontare il carcere a causa della tossicodipendenza?"
-                },
-                {
-                    "text": "Posso far entrare una persona a San Patrignano  per scontare gli  arresti domiciliari  per reati connessi alla tossicodipendenza?"
-                },
-                {
                     "text": "Posso scontare la mia pena residua a San Patrignano?"
                 },
                 {
-                    "text": "Posso far entrare una persona a San Patrignano  per affidamento sociale  per reati connessi alla tossicodipendenza?"
+                    "text": "Sono un tossicodipendente agli arresti domiciliari, posso scontare la pena a San Patrignano?"
                 },
                 {
-                    "text": "Mio figlio \u00e8 in carcere come possiamo farlo entrare in comunit\u00e0"
-                },
-                {
-                    "text": "E' possibile scontare la pena a San Patrignano?"
-                },
-                {
-                    "text": "Ho l'affidamento sociale, posso scontare il residuo pena a San Patrignano"
+                    "text": "San Patrignano accoglie persone che devono scontare il carcere a causa della tossicodipendenza?"
                 },
                 {
                     "text": "Posso scontare pene alternative nella vostra comunit\u00e0?"
                 },
                 {
-                    "text": "Sono un tossicodipendente agli arresti domiciliari, posso scontare la pena a San Patrignano?"
+                    "text": "Ho l'affidamento sociale, posso scontare il residuo pena a San Patrignano"
+                },
+                {
+                    "text": "E' possibile scontare la pena a San Patrignano?"
+                },
+                {
+                    "text": "Mio figlio \u00e8 in carcere come possiamo farlo entrare in comunit\u00e0"
+                },
+                {
+                    "text": "Posso far entrare una persona a San Patrignano  per affidamento sociale  per reati connessi alla tossicodipendenza?"
+                },
+                {
+                    "text": "Posso far entrare una persona a San Patrignano  per scontare gli  arresti domiciliari  per reati connessi alla tossicodipendenza?"
                 }
             ],
             "intent": "PenaAlternativa"
@@ -2712,19 +2596,19 @@
             "description": "Questo intent consente di capire come possono sostenerci le aziende.",
             "examples": [
                 {
-                    "text": "Vorrei organizzare una visita aziendale, come posso fare?"
+                    "text": "E\u2019 possibile realizzare un evento aziendale presso la vostra struttura?"
                 },
                 {
                     "text": "Sono un imprenditore come posso sostenervi?"
                 },
                 {
-                    "text": "E\u2019 possibile realizzare un evento aziendale presso la vostra struttura?"
-                },
-                {
-                    "text": "Come posso vendere i vostri prodotti all\u2019interno della mia azienda?"
+                    "text": "Vorrei organizzare una visita aziendale, come posso fare?"
                 },
                 {
                     "text": "Avete proposte di welfare aziendale?"
+                },
+                {
+                    "text": "Come posso vendere i vostri prodotti all\u2019interno della mia azienda?"
                 }
             ],
             "intent": "Aziende"
@@ -2733,28 +2617,28 @@
             "description": "Questo intent serve a capire se stiamo parlando con un familiare di un tossicodipendente.",
             "examples": [
                 {
-                    "text": "Sono il familiare di un tossicodipendente"
+                    "text": "familiare"
                 },
                 {
-                    "text": "Mio fratello fa uso di droga"
+                    "text": "Mio padre si droga"
+                },
+                {
+                    "text": "Mia madre usa cocaina"
+                },
+                {
+                    "text": "Sono il familiare di un tossicodipendente"
                 },
                 {
                     "text": "Mio padre fa uso di eroina"
                 },
                 {
-                    "text": "Mio padre si droga"
+                    "text": "Mio fratello fa uso di droga"
                 },
                 {
                     "text": "Mia sorella fa uso di droga"
                 },
                 {
                     "text": "Mia sorella \u00e8 cocainomane"
-                },
-                {
-                    "text": "familiare"
-                },
-                {
-                    "text": "Mia madre usa cocaina"
                 }
             ],
             "intent": "FamiliareTossicodipendente"
@@ -2766,9 +2650,6 @@
                     "text": "Quali metodi di pagamento mettete a disposizione?"
                 },
                 {
-                    "text": "Come posso pagare la mia donazione"
-                },
-                {
                     "text": "Vorrei fare una donazione, come posso pagarla?"
                 },
                 {
@@ -2776,6 +2657,9 @@
                 },
                 {
                     "text": "Mi aiutate a capire come posso pagare la mia donazione?"
+                },
+                {
+                    "text": "Come posso pagare la mia donazione"
                 }
             ],
             "intent": "MetodiPagamento"
@@ -2784,13 +2668,13 @@
             "description": "Questo Intent \u00e8 usato nel contesto delle Pene Alternative per rispondere alle domande sulla partecipazione alle udienze.",
             "examples": [
                 {
-                    "text": "E' possibile partecipare alle udienze una volta entrati in comunit\u00e0?"
+                    "text": "Gli ospiti della comunit\u00e0 possono partecipare alle udienze?"
                 },
                 {
                     "text": "Se uno intraprende il percorso poi pu\u00f2 presenziare alle udienze?"
                 },
                 {
-                    "text": "Gli ospiti della comunit\u00e0 possono partecipare alle udienze?"
+                    "text": "E' possibile partecipare alle udienze una volta entrati in comunit\u00e0?"
                 }
             ],
             "intent": "PartecipazioniUdienze"
@@ -2799,37 +2683,37 @@
             "description": "Informazioni su come contattare l'ufficio accoglienza",
             "examples": [
                 {
-                    "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
-                },
-                {
-                    "text": "Qual \u00e8 il numero dell'accoglienza?"
-                },
-                {
-                    "text": "C'\u00e8 un ufficio informazioni al quale rivolgermi?"
-                },
-                {
-                    "text": "Come contatto l'accoglienza?"
-                },
-                {
-                    "text": "Come posso contattare l'accoglienza?"
+                    "text": "Vorrei contattare l'ufficio accoglienza"
                 },
                 {
                     "text": "Qual \u00e8 l'email dell'ufficio accoglienza?"
                 },
                 {
-                    "text": "Mi dai il numero per parlare con qualcuno dell'accoglienza?"
+                    "text": "Mi aiuti a capire come faccio a contattare l'accoglienza?"
                 },
                 {
-                    "text": "Passami l'ufficio accoglienza"
+                    "text": "Come posso contattare l'accoglienza?"
                 },
                 {
-                    "text": "A chi mi devo rivolgere per essere accolto"
+                    "text": "Come contatto l'accoglienza?"
                 },
                 {
                     "text": "Voglio il numero per contattare l'ufficio informazioni"
                 },
                 {
-                    "text": "Vorrei contattare l'ufficio accoglienza"
+                    "text": "A chi mi devo rivolgere per essere accolto"
+                },
+                {
+                    "text": "Passami l'ufficio accoglienza"
+                },
+                {
+                    "text": "C'\u00e8 un ufficio informazioni al quale rivolgermi?"
+                },
+                {
+                    "text": "Qual \u00e8 il numero dell'accoglienza?"
+                },
+                {
+                    "text": "Mi dai il numero per parlare con qualcuno dell'accoglienza?"
                 }
             ],
             "intent": "ContattiUfficioAccoglienza"
@@ -2837,6 +2721,45 @@
         {
             "description": "Richiedi un agente umano.",
             "examples": [
+                {
+                    "text": "Ciao. Potresti passare la mia chiamata a un operatore in carne e ossa per favore? Vorrei parlare direttamente con un essere umano."
+                },
+                {
+                    "text": "Voglio parlare con un operatore al telefono"
+                },
+                {
+                    "text": "Per favore mi colleghi ad un agente umano."
+                },
+                {
+                    "text": "Per favore aiutarmi a raggiungere un agente"
+                },
+                {
+                    "text": "Per favore aiutarmi a connettersi ad un agente"
+                },
+                {
+                    "text": "Ho bisogno di parlare con una persona reale piuttosto che comunicare con un sistema di risposta automatica, per favore."
+                },
+                {
+                    "text": "Fammi parlare con un essere umano per favore"
+                },
+                {
+                    "text": "Voglio parlare con un addetto all'accoglienza."
+                },
+                {
+                    "text": "Voglio parlare con qualcuno che pu\u00f2 farlo adesso"
+                },
+                {
+                    "text": "Voglio che mi mettiate in contatto con un operatore che mi pu\u00f2 aiutare, non con una macchina"
+                },
+                {
+                    "text": "Voglio parlare della gestione del profilo con un agente"
+                },
+                {
+                    "text": "Sto cercando di parlare una persona fisica. Come posso parlare con qualcuno dell'ufficio accoglienza? grazie"
+                },
+                {
+                    "text": "Puoi solamente mandarmi un numero di telefono per parlare con un rappresentante umano?"
+                },
                 {
                     "text": "Posso parlare con un operatore in carne e ossa?"
                 },
@@ -2857,45 +2780,6 @@
                 },
                 {
                     "text": "Collegami a un operatore"
-                },
-                {
-                    "text": "Ciao. Potresti passare la mia chiamata a un operatore in carne e ossa per favore? Vorrei parlare direttamente con un essere umano."
-                },
-                {
-                    "text": "Voglio parlare con un operatore al telefono"
-                },
-                {
-                    "text": "Sto cercando di parlare una persona fisica. Come posso parlare con qualcuno dell'ufficio accoglienza? grazie"
-                },
-                {
-                    "text": "Voglio che mi mettiate in contatto con un operatore che mi pu\u00f2 aiutare, non con una macchina"
-                },
-                {
-                    "text": "Voglio parlare con qualcuno che pu\u00f2 farlo adesso"
-                },
-                {
-                    "text": "Voglio parlare con un addetto all'accoglienza."
-                },
-                {
-                    "text": "Fammi parlare con un essere umano per favore"
-                },
-                {
-                    "text": "Ho bisogno di parlare con una persona reale piuttosto che comunicare con un sistema di risposta automatica, per favore."
-                },
-                {
-                    "text": "Per favore aiutarmi a connettersi ad un agente"
-                },
-                {
-                    "text": "Voglio parlare della gestione del profilo con un agente"
-                },
-                {
-                    "text": "Per favore aiutarmi a raggiungere un agente"
-                },
-                {
-                    "text": "Per favore mi colleghi ad un agente umano."
-                },
-                {
-                    "text": "Puoi solamente mandarmi un numero di telefono per parlare con un rappresentante umano?"
                 }
             ],
             "intent": "PassamiOperatore"
@@ -2903,9 +2787,6 @@
         {
             "description": "Questo Intent \u00e8 utilizzato nel contesto delle Pene Alternative quando l'utente chiede informazioni sul sostegno legale.",
             "examples": [
-                {
-                    "text": "Ci sono avvocati che possono aiutarmi nei processi"
-                },
                 {
                     "text": "Posso avere assistenza legale all'interno della Comunit\u00e0?"
                 },
@@ -2922,13 +2803,16 @@
                     "text": "San Patrignano offre sostegno legale a chi intraprende il percorso di recupero?"
                 },
                 {
-                    "text": "Ci sono persone che possono sostenermi nelle mie future scelte processuali?"
+                    "text": "Se entro a San Patrignano l'assistenza legale \u00e8 gratuita?"
                 },
                 {
                     "text": "Come faccio ad ottenere assistenza legale?"
                 },
                 {
-                    "text": "Se entro a San Patrignano l'assistenza legale \u00e8 gratuita?"
+                    "text": "Ci sono persone che possono sostenermi nelle mie future scelte processuali?"
+                },
+                {
+                    "text": "Ci sono avvocati che possono aiutarmi nei processi"
                 }
             ],
             "intent": "AssistenzaLegale"
@@ -2938,6 +2822,9 @@
             "examples": [
                 {
                     "text": "Potrei avere qualche informazione in pi\u00f9 sui settori di formazione"
+                },
+                {
+                    "text": "Mi dai qualche info sulla falegnameria"
                 },
                 {
                     "text": "Cosa sono i settori di formazione?"
@@ -2952,9 +2839,6 @@
                     "text": "Si dammi qualche info sugli allevamenti"
                 },
                 {
-                    "text": "Mi dai qualche info sulla falegnameria"
-                },
-                {
                     "text": "Aiutami a capire cosa sono i settori di formazione"
                 }
             ],
@@ -2964,7 +2848,7 @@
             "description": "Questo \u00e8 l'intento per il riconoscimento della personas tossicodipendente.",
             "examples": [
                 {
-                    "text": "Mi drogo"
+                    "text": "Sono cocainomane"
                 },
                 {
                     "text": "Faccio uso di droga"
@@ -2973,22 +2857,22 @@
                     "text": "Faccio uso di eroina"
                 },
                 {
-                    "text": "Faccio uso di cocaina"
+                    "text": "Ho problemi di droga"
+                },
+                {
+                    "text": "Mi drogo"
                 },
                 {
                     "text": "Sono un tossico"
                 },
                 {
-                    "text": "Sono cocainomane"
+                    "text": "Sono un tossicodipendente"
                 },
                 {
                     "text": "tossicodipendente"
                 },
                 {
-                    "text": "Sono un tossicodipendente"
-                },
-                {
-                    "text": "Ho problemi di droga"
+                    "text": "Faccio uso di cocaina"
                 }
             ],
             "intent": "Tossicodipendente"
@@ -2997,10 +2881,13 @@
             "description": "Presentazione dell'utente.",
             "examples": [
                 {
-                    "text": "Salve, avrei bisogno di una vostra consulenza"
+                    "text": "Salve operatore virtuale"
                 },
                 {
-                    "text": "Buonasera, ho qualche domanda da farle, posso ?"
+                    "text": "Saluti a te"
+                },
+                {
+                    "text": "Salve, avrei bisogno di una vostra consulenza"
                 },
                 {
                     "text": "Ti trovo bene, buona sera"
@@ -3021,18 +2908,6 @@
                     "text": "Saluti a lei"
                 },
                 {
-                    "text": "Saluti a te"
-                },
-                {
-                    "text": "Ciao SanPa"
-                },
-                {
-                    "text": "Salve operatore virtuale"
-                },
-                {
-                    "text": "Sto parlando con un computer?"
-                },
-                {
                     "text": "Che succede, assistente"
                 },
                 {
@@ -3040,6 +2915,15 @@
                 },
                 {
                     "text": "Ciao Sanpa fornitore di informazioni"
+                },
+                {
+                    "text": "Ciao SanPa"
+                },
+                {
+                    "text": "Sto parlando con un computer?"
+                },
+                {
+                    "text": "Buonasera, ho qualche domanda da farle, posso ?"
                 }
             ],
             "intent": "Presentazione"
@@ -3048,13 +2932,13 @@
             "description": "Informazioni sulle associazioni di volontariato",
             "examples": [
                 {
-                    "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
-                },
-                {
                     "text": "Vorrei avere informazioni sulle associazioni di volontariato, dove posso trovarli?"
                 },
                 {
                     "text": "Puoi aiutarmi a trovare le informazioni sulle associazioni di volontariato?"
+                },
+                {
+                    "text": "Non trovo le informazioni sulle associazioni di volontariato, mi aiutate?"
                 },
                 {
                     "text": "Desidero sapere dove posso trovare informazioni sulle associazioni di volontariato"
@@ -3072,7 +2956,7 @@
                     "text": "Dove siete?"
                 },
                 {
-                    "text": "Come faccio a raggiungervi?"
+                    "text": "Dove si trova la comunit\u00e0?"
                 },
                 {
                     "text": "Dove si trova San Patrignano"
@@ -3084,7 +2968,7 @@
                     "text": "In quale citt\u00e0 vi trovate?"
                 },
                 {
-                    "text": "Dove si trova la comunit\u00e0?"
+                    "text": "Come faccio a raggiungervi?"
                 }
             ],
             "intent": "DoveSiTrova"
@@ -3093,19 +2977,19 @@
             "description": "deducibilit\u00e0 fiscale",
             "examples": [
                 {
-                    "text": "Quando mi arriva la ricevuta per la mia donazione?"
+                    "text": "Sono un donatore, posso usufruire dei benefici fiscali?"
                 },
                 {
-                    "text": "La donazione \u00e8 deducibile?"
+                    "text": "Mi mandate una ricevuta per la mia donazione?"
                 },
                 {
                     "text": "Ho donato, vorrei la ricevuta"
                 },
                 {
-                    "text": "Sono un donatore, posso usufruire dei benefici fiscali?"
+                    "text": "La donazione \u00e8 deducibile?"
                 },
                 {
-                    "text": "Mi mandate una ricevuta per la mia donazione?"
+                    "text": "Quando mi arriva la ricevuta per la mia donazione?"
                 }
             ],
             "intent": "DeducibilitaFiscale"
@@ -3114,55 +2998,10 @@
             "description": "Termina la conversazione.",
             "examples": [
                 {
-                    "text": "Grazie di avermi aiutato. Ciao"
-                },
-                {
                     "text": "Ci sentiamo."
                 },
                 {
-                    "text": "Bye Bye."
-                },
-                {
-                    "text": "Bene, abbiamo fatto tutto ci\u00f2 che mi serviva."
-                },
-                {
-                    "text": "Arrividerci."
-                },
-                {
-                    "text": "A presto."
-                },
-                {
-                    "text": "Ti auguro una giornata bellissima"
-                },
-                {
-                    "text": "Stammi bene."
-                },
-                {
-                    "text": "Spero di risentirti presto"
-                },
-                {
-                    "text": "Smetti questa sessione adesso"
-                },
-                {
-                    "text": "Non vedo l'ora di parlarti la prossima volta."
-                },
-                {
-                    "text": "Mi \u00e8 piaciuto cooperare con te."
-                },
-                {
-                    "text": "Me ne sto andando."
-                },
-                {
-                    "text": "Grazie, sei stato di grande aiuto. A presto."
-                },
-                {
-                    "text": "Pausa"
-                },
-                {
-                    "text": "Ti saluto, a presto."
-                },
-                {
-                    "text": "Grazie di tutto, \u00e8 stato molto di aiuto"
+                    "text": "Arrivederci."
                 },
                 {
                     "text": "Va bene, grazie mille allora"
@@ -3171,7 +3010,52 @@
                     "text": "Addio!"
                 },
                 {
+                    "text": "A presto."
+                },
+                {
+                    "text": "Bene, abbiamo fatto tutto ci\u00f2 che mi serviva."
+                },
+                {
+                    "text": "Bye Bye."
+                },
+                {
                     "text": "Ehi penso che hai risolto il mio problema grazie"
+                },
+                {
+                    "text": "Grazie di avermi aiutato. Ciao"
+                },
+                {
+                    "text": "Grazie di tutto, \u00e8 stato molto di aiuto"
+                },
+                {
+                    "text": "Grazie, sei stato di grande aiuto. A presto."
+                },
+                {
+                    "text": "Me ne sto andando."
+                },
+                {
+                    "text": "Mi \u00e8 piaciuto cooperare con te."
+                },
+                {
+                    "text": "Non vedo l'ora di parlarti la prossima volta."
+                },
+                {
+                    "text": "Smetti questa sessione adesso"
+                },
+                {
+                    "text": "Spero di risentirti presto"
+                },
+                {
+                    "text": "Stammi bene."
+                },
+                {
+                    "text": "Ti auguro una giornata bellissima"
+                },
+                {
+                    "text": "Ti saluto, a presto."
+                },
+                {
+                    "text": "Pausa"
                 }
             ],
             "intent": "Congedo"
@@ -3180,25 +3064,25 @@
             "description": "Informazioni sul percorso di recupero.",
             "examples": [
                 {
-                    "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunit\u00e0"
-                },
-                {
-                    "text": "Dammi qualche informazioni sui percorsi di recupero"
-                },
-                {
-                    "text": "come funziona il percorso?"
+                    "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
                 },
                 {
                     "text": "Aiutami a trovare informazioni sul percorso di recupero"
                 },
                 {
-                    "text": "Vorrei avere sapere quali sono i passi necessari per partecipare al percorso di recupero"
+                    "text": "come funziona il percorso?"
                 },
                 {
-                    "text": "Vorrei avere informazioni sul percorso di recupero nella vostra comunit\u00e0"
+                    "text": "Dammi qualche informazioni sui percorsi di recupero"
+                },
+                {
+                    "text": "Dove trovo le informazioni sul percorso di recupero nella vostra comunit\u00e0"
                 },
                 {
                     "text": "Mi potresti dare qualche informazione sul percorso di recupero che viene svolto nella comunit\u00e0?"
+                },
+                {
+                    "text": "Vorrei avere informazioni sul percorso di recupero nella vostra comunit\u00e0"
                 }
             ],
             "intent": "InformazioniPercorso"
@@ -3207,19 +3091,19 @@
             "description": "Questo intent serve a spiegare all'utente quali sono i costi per entrare a San Patrignano.",
             "examples": [
                 {
-                    "text": "Quanto costa entrare a San Patrignano?"
-                },
-                {
-                    "text": "Quali sono i costi per entrare a San Patrignano?"
-                },
-                {
-                    "text": "Quali sono i costi di ingresso per San Patrignano?"
+                    "text": "Ci sono costi per entrare nella comunit\u00e0?"
                 },
                 {
                     "text": "Mi dici quanto costa entrare a San Patrignano?"
                 },
                 {
-                    "text": "Ci sono costi per entrare nella comunit\u00e0?"
+                    "text": "Quali sono i costi di ingresso per San Patrignano?"
+                },
+                {
+                    "text": "Quali sono i costi per entrare a San Patrignano?"
+                },
+                {
+                    "text": "Quanto costa entrare a San Patrignano?"
                 },
                 {
                     "text": "va bene ma quanto costa tutto ci\u00f2"
@@ -3232,6 +3116,9 @@
             "examples": [
                 {
                     "text": "Sto per morire. Vorrei fare un lascito alla comunit\u00e0."
+                },
+                {
+                    "text": "Come posso fare un lascito alla vostra comunit\u00e0?"
                 },
                 {
                     "text": "Come sar\u00e0 gestito il mio lascito?"
@@ -3247,9 +3134,6 @@
                 },
                 {
                     "text": "Quanto incide la tassa di successione su ci\u00f2 che destino nel mio testamento?"
-                },
-                {
-                    "text": "Come posso fare un lascito alla vostra comunit\u00e0?"
                 }
             ],
             "intent": "DonazioneLasciti"
@@ -3257,6 +3141,9 @@
         {
             "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite carta credito.",
             "examples": [
+                {
+                    "text": "Come faccio per pagare con carta di credito?"
+                },
                 {
                     "text": "Vorrei pagare la donazione con carta di credito, \u00e8 possibile?"
                 },
@@ -3271,9 +3158,6 @@
                 },
                 {
                     "text": "E' possibile pagare tramite carta di credito?"
-                },
-                {
-                    "text": "Come faccio per pagare con carta di credito?"
                 },
                 {
                     "text": "Accettate american express?"
@@ -3291,22 +3175,22 @@
             "description": "Visite a San Patrignano",
             "examples": [
                 {
+                    "text": "Posso venire a vedere San Patrignano"
+                },
+                {
+                    "text": "E' possibile visitare la vostra comunit\u00e0?"
+                },
+                {
                     "text": "Posso venire a visitare San Patrignano"
                 },
                 {
-                    "text": "Posso venire a vedere San Patrignano"
+                    "text": "Siamo un gruppo possiamo venire in visita?"
                 },
                 {
                     "text": "Posso venire a trovarvi?"
                 },
                 {
                     "text": "Organizzate visite in comunit\u00e0 ?"
-                },
-                {
-                    "text": "E' possibile visitare la vostra comunit\u00e0?"
-                },
-                {
-                    "text": "Siamo un gruppo possiamo venire in visita?"
                 }
             ],
             "intent": "UnGiornoASanpa"
@@ -3324,7 +3208,7 @@
             "description": "Questo intent gestisce le richieste di informazioni sui pagamenti tramite bonifico bancario.",
             "examples": [
                 {
-                    "text": "Vorrei l'iban di sanpa per donare"
+                    "text": "Mi date il vostro iban?"
                 },
                 {
                     "text": "Posso farvi un bonifico?"
@@ -3336,10 +3220,10 @@
                     "text": "Posso avere gli estremi bancari?"
                 },
                 {
-                    "text": "Mi date le vostre coordinate bancarie?"
+                    "text": "Vorrei l'iban di sanpa per donare"
                 },
                 {
-                    "text": "Mi date il vostro iban?"
+                    "text": "Mi date le vostre coordinate bancarie?"
                 },
                 {
                     "text": "Come faccio a fare un bonifico?"

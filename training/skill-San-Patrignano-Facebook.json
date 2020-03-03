@@ -53,7 +53,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
+                                "text": "allevamenti, canile, cantina, centro medico, coltivazioni, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, tessitura, norcineria, caseificio, magazzini, laboratorio e grafiche."
                             }
                         ]
                     },
@@ -202,38 +202,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "San Patrignano \u00e8 una comunit\u00e0 di recupero ma anche un\u2019impresa sociale. Sono tanti i modi con cui un\u2019azienda pu\u00f2 sostenere la Comunit\u00e0."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende \u00e8 un segno di forte responsabilit\u00e0 sociale. Leggendo questa pagina (https://ibm.biz/BdzSUi) puoi scoprire cosa pu\u00f2 fare la tua impresa per i nostri ragazzi. "
+                            },
                             {
-                                "text": "Aiutare San Patrignano rappresenta per gli ospiti in percorso terapeutico un sostegno concreto nel percorso di rinascita, per le aziende \u00e8 un segno di forte responsabilit\u00e0 sociale. Puoi scegliere tra diversi modi per sostenere la comunit\u00e0 di recupero San Patrignano e affermare la tua responsabilit\u00e0 sociale, le donazioni sono solo uno dei tanti."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "La tua azienda pu\u00f2 sostenere concretamente la nostra comunit\u00e0 in tanti modi diversi dimostrando cos\u00ec una forte responsabilit\u00e0 sociale. Scopri cosa pu\u00f2 fare la tua impresa per i ragazzi cliccando questo link (https://ibm.biz/BdzSUi)."
+                            },
                             {
-                                "text": "Scopri cosa pu\u00f2 fare la tua impresa cliccando qui (https://ibm.biz/BdzSUi)."
+                                "text": "San Patrignano \u00e8 una comunit\u00e0 di recupero ma anche un\u2019impresa sociale. Sono tanti i modi con cui un\u2019azienda pu\u00f2 sostenere la Comunit\u00e0. Scopri cosa pu\u00f2 fare la tua impresa cliccando qui (https://ibm.biz/BdzSUi)."
                             }
                         ]
                     }
@@ -506,7 +484,7 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
                                 "text": "L\u2019accoglienza in Comunit\u00e0 e l\u2019intero programma di recupero sono **completamente gratuiti** sia per i ragazzi che per le loro famiglie."
@@ -577,24 +555,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o qualsiasi altra forma di disagio. Potete leggere la Carta dei servizi (https://ibm.biz/BdzSUr) per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
+                            },
                             {
-                                "text": "Potete leggere la Carta dei servizi (https://ibm.biz/BdzSUr) per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
+                                "text": "La comunit\u00e0 di San Patrignano accoglie ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti o altre forme di disagio. Visita la seguente pagina (https://ibm.biz/BdzSUr) per avere ulteriori informazioni."
+                            },
+                            {
+                                "text": "San Patrignano accoglie ragazze e ragazzi minorenni con problematiche legate all\u2019utilizzo di sostanze stupefacenti. Leggi la Carta dei servizi (https://ibm.biz/BdzSUr) per avere tutte le informazioni sulla Comunit\u00e0 per i minori all\u2019interno di San Patrignano."
                             }
                         ]
                     }
@@ -1000,35 +970,13 @@
                         "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Sono un chatbot \u00e8 il mio obiettivo \u00e8 quello di aiutarti a trovare le informazioni che desideri."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Sono un chatbot e il mio obiettivo \u00e8 quello di fornirti le informazioni che desideri. Ad esempio, posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+                            },
                             {
-                                "text": "Ad esempio, posso aiutarti a trovare informazioni su: \u2022 percorso di recupero \u2022 come entrare in comunit\u00e0 \u2022 settori di formazione \u2022 scuola e istruzione \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Sono qui per aiutarti a trovare le informazioni che desideri. Posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se vuoi posso metterti in contatto con un operatore dell'Ufficio Accoglienza."
+                            },
                             {
-                                "text": "Se lo desideri posso passare la comunicazione ad un operatore dell'Ufficio Accoglienza."
+                                "text": "Sono un chatbot e posso fornirti informazioni su: \u2022 percorso di recupero (settori di formazione e scuola) \u2022 come entrare in comunit\u00e0 \u2022 costi \u2022 donazioni di soldi o beni \u2022 lasciti \u2022 metodi di pagamento per le donazioni \u2022 come contattarci o raggiungerci. Se vuoi posso metterti in contatto con un operatore dell'Ufficio Accoglienza."
                             }
                         ]
                     }
@@ -1171,7 +1119,7 @@
                         "selection_policy": "sequential",
                         "values": [
                             {
-                                "text": "allevamenti, canile, cantina, centro medico, chimici, coltivazioni, comunicazione, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, scuderia, tessitura, norcineria, caseificio, magazzini, falegnameria, laboratorio e grafiche."
+                                "text": "allevamenti, canile, cantina, centro medico, coltivazioni, cucina, decorazioni, fabbri, forno, idraulici, elettricisti, lavanderia, manutenzioni, ospitalit\u00e0, odontotecnici, parco, pizzeria e spaccio, regia, ristorante vite, sanpa hair, tessitura, norcineria, caseificio, magazzini, laboratorio e grafiche."
                             }
                         ]
                     },
@@ -1204,38 +1152,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Per l\u2019accoglienza in Comunit\u00e0 e il programma di recupero non sono richiesti contributi da parte dei ragazzi e delle loro famiglie. "
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Se sei familiare di un ospite della Comunit\u00e0 puoi aiutarci unicamente sostenendo il progetto editoriale **SanpaNews**. Con soli 9\u20ac mensili riceverai la rivista che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti visita il sito (https://ibm.biz/BdzS6L)."
+                            },
                             {
-                                "text": "Se sei familiare di un ragazzo ospite in Comunit\u00e0 puoi aiutarci unicamente sostenendo il Progetto editoriale con soli 9\u20ac mensili e ricevendo la rivista **SanpaNews** che ti terr\u00e0 aggiornato sulla vita quotidiana dei ragazzi."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "I familiari degli ospiti della Comunit\u00e0 possono aiutarci unicamente sostenendo il progetto editoriale **SanpaNews**. Pagando 9\u20ac mensili potrai ricevere la rivista che ti aggiorner\u00e0 sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti visita il sito (https://ibm.biz/BdzS6L)."
+                            },
                             {
-                                "text": "Per ulteriori chiarimenti visita il sito (https://ibm.biz/BdzS6L)."
+                                "text": "Per l\u2019accoglienza in Comunit\u00e0 non sono richiesti contributi da parte dei ragazzi e delle loro famiglie. Volendo puoi aiutarci unicamente  sostenendo il progetto editoriale **SanpaNews**. Con soli 9\u20ac mensili riceverai la rivista con aggiornamenti sulla vita quotidiana dei ragazzi. Per ulteriori chiarimenti visita il sito (https://ibm.biz/BdzS6L)."
                             }
                         ]
                     }
@@ -1547,24 +1473,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Vivi una giornata nella comunit\u00e0 di San Patrignano perch\u00e9 \u00e8 un\u2019esperienza indimenticabile. Non solo per la bellezza di cui si riempiranno gli occhi sulla collina che guarda il mare di Rimini, ma anche per la bellezza che riscoprirai nel tuo cuore ascoltando le storie dei ragazzi che stanno lottando per rinascere."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Vivi una giornata nella comunit\u00e0 di San Patrignano perch\u00e9 \u00e8 un\u2019esperienza indimenticabile. Lascia che il tuo cuore si apra ascoltando le storie dei ragazzi che stanno lottando per rinascere. Per prenotare la tua visita clicca qui (https://ibm.biz/BdzSU4)."
+                            },
                             {
-                                "text": "Per prenotare la tua visita clicca qui (https://ibm.biz/BdzSU4)."
+                                "text": "San Patrignano ti offre la possibilit\u00e0 di vivere una giornata nella comunit\u00e0 e vivere un'esperienza indimenticabile. Potrai ascoltare le storie dei ragazzi che stanno lottando per rinascere. Per prenotare la tua visita clicca qui (https://ibm.biz/BdzSU4)."
+                            },
+                            {
+                                "text": "Visita la comunit\u00e0 di San Patrignano e vivi un'esperienza indimenticabile. Ascolta le storie dei ragazzi che ogni giorno si impegnano e lottano per riappropriarsi del proprio futuro. Per prenotare la tua visita clicca qui (https://ibm.biz/BdzSU4)."
                             }
                         ]
                     }
@@ -1958,19 +1876,30 @@
                 {
                     "synonyms": [],
                     "type": "synonyms",
+                    "value": "regia"
+                },
+                {
+                    "synonyms": [
+                        "acconciatore",
+                        "coiffeur"
+                    ],
+                    "type": "synonyms",
+                    "value": "parrucchiere"
+                },
+                {
+                    "synonyms": [],
+                    "type": "synonyms",
+                    "value": "pizzeria"
+                },
+                {
+                    "synonyms": [],
+                    "type": "synonyms",
                     "value": "tessitura"
                 },
                 {
                     "synonyms": [],
                     "type": "synonyms",
                     "value": "ristorante"
-                },
-                {
-                    "synonyms": [
-                        "stalla"
-                    ],
-                    "type": "synonyms",
-                    "value": "scuderia"
                 },
                 {
                     "synonyms": [
@@ -2023,15 +1952,6 @@
                 },
                 {
                     "synonyms": [
-                        "chimico",
-                        "reparto chimico",
-                        "settore chimico"
-                    ],
-                    "type": "synonyms",
-                    "value": "chimici"
-                },
-                {
-                    "synonyms": [
                         "area coltivata",
                         "campo",
                         "coltura",
@@ -2039,15 +1959,6 @@
                     ],
                     "type": "synonyms",
                     "value": "coltivazioni"
-                },
-                {
-                    "synonyms": [
-                        "comunicazioni",
-                        "redazione",
-                        "ufficio stampa"
-                    ],
-                    "type": "synonyms",
-                    "value": "comunicazione"
                 },
                 {
                     "synonyms": [
@@ -2080,15 +1991,6 @@
                     ],
                     "type": "synonyms",
                     "value": "fabbri"
-                },
-                {
-                    "synonyms": [
-                        "bottega falegname",
-                        "falegnami",
-                        "legneria"
-                    ],
-                    "type": "synonyms",
-                    "value": "falegnameria"
                 },
                 {
                     "synonyms": [
@@ -2168,24 +2070,6 @@
                     ],
                     "type": "synonyms",
                     "value": "parco"
-                },
-                {
-                    "synonyms": [
-                        "acconciatore",
-                        "coiffeur"
-                    ],
-                    "type": "synonyms",
-                    "value": "parrucchiere"
-                },
-                {
-                    "synonyms": [],
-                    "type": "synonyms",
-                    "value": "pizzeria"
-                },
-                {
-                    "synonyms": [],
-                    "type": "synonyms",
-                    "value": "regia"
                 }
             ]
         },
@@ -2195,6 +2079,15 @@
             "values": [
                 {
                     "synonyms": [
+                        "no",
+                        "no grazie",
+                        "non mi interessa"
+                    ],
+                    "type": "synonyms",
+                    "value": "negativa"
+                },
+                {
+                    "synonyms": [
                         "ok",
                         "si",
                         "va bene",
@@ -2202,15 +2095,6 @@
                     ],
                     "type": "synonyms",
                     "value": "positiva"
-                },
-                {
-                    "synonyms": [
-                        "no",
-                        "no grazie",
-                        "non mi interessa"
-                    ],
-                    "type": "synonyms",
-                    "value": "negativa"
                 }
             ]
         }
@@ -2499,16 +2383,16 @@
                     "text": "Grazie di tutto, \u00e8 stato molto di aiuto"
                 },
                 {
-                    "text": "Addio!"
+                    "text": "Arrivederci."
                 },
                 {
                     "text": "Va bene, grazie mille allora"
                 },
                 {
-                    "text": "A presto."
+                    "text": "Addio!"
                 },
                 {
-                    "text": "Arrividerci."
+                    "text": "A presto."
                 },
                 {
                     "text": "Bene, abbiamo fatto tutto ci\u00f2 che mi serviva."
