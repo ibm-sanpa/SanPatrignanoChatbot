@@ -1,3 +1,4 @@
+# This script export the Website Test skill as a JSON file
 if [ ! -f ".env" ]
 then
     echo "ERROR: file .env does not exist. Create a .env file with the following parameters:"

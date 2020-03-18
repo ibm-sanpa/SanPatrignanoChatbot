@@ -1,3 +1,4 @@
+# This script export the Website Facebook skill as a JSON file
 if [ ! -f ".env-facebook" ]
 then
     echo "ERROR: file .env-facebook does not exist. Create a .env-facebook file with the following parameters:"
