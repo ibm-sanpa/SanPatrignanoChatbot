@@ -867,38 +867,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Puoi contattare l\u2019Ufficio Accoglienza utilizzando il telefono, la posta, tradizionale o elettronica, oppure compilando l\u2019apposito form in homepage https://www.sanpatrignano.org."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Contatta l'Ufficio Accoglienza agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando il form nella homepage del nostro sito web (https://ibm.biz/BdzS6T). Per ulteriori informazioni visita la pagina https://ibm.biz/BdzSUZ. "
+                            },
                             {
-                                "text": "Email: accoglienza\\@sanpatrignano.org (italiani)\nhelp\\@sanpatrignano.org (stranieri)"
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Puoi contattare l'Ufficio Accoglienza via email agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando l\u2019apposito form in homepage (https://ibm.biz/BdzS6T). Clicca qui (https://ibm.biz/BdzSUZ) per ulteriori informazioni. "
+                            },
                             {
-                                "text": "Via San Patrignano 53\n47853 Coriano (Rimini) \u2013 Italia\n\nTel. +39 0541 362111\nFax +39 0541 756108"
+                                "text": "E' possibile contattare l'Ufficio Accoglienza via email agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando l\u2019apposito form in <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a>. Per ulteriori informazioni clicca qui (https://ibm.biz/BdzSUZ). "
                             }
                         ]
                     }
@@ -939,10 +917,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
                                 "text": "Su questa pagina (https://ibm.biz/BdzSUZ) puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
+                            },
+                            {
+                                "text": "Clicca qui (https://ibm.biz/BdzSUZ) per sapere come contattarci. I nostri uffici ricevono molti contatti al giorno per cui ti suggeriamo di contattarci preferibilmente via email."
+                            },
+                            {
+                                "text": "Questa \u00e8 la pagina (https://ibm.biz/BdzSUZ) che contiene tutte le informazioni necessarie per contattare i nostri uffici. Poich\u00e9 riceviamo molti contatti al giorno noi suggeriamo, quando possibile, di contattarci via email."
                             }
                         ]
                     },

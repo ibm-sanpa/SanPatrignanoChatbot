@@ -499,10 +499,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare l'ufficio accoglienza, l'ufficio stampa, l'ufficio raccolta fondi, l'ufficio organizzazione eventi, l'ufficio commerciale e l'ufficio WeFree."
+                                "text": "Su <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">questa pagina</a> puoi trovare tutte le informazioni per contattare i nostri uffici. Devi sapere che i nostri uffici ricevono molti contatti al giorno per cui ti suggeriamo, se possibile, contattarci via email."
+                            },
+                            {
+                                "text": "Clicca <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">qui</a> per sapere come contattarci. I nostri uffici ricevono molti contatti al giorno per cui ti suggeriamo di contattarci preferibilmente via email."
+                            },
+                            {
+                                "text": "Questa \u00e8 <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">la pagina</a> che contiene tutte le informazioni necessarie per contattare i nostri uffici. Poich\u00e9 riceviamo molti contatti al giorno noi suggeriamo, quando possibile, di contattarci via email."
                             }
                         ]
                     },
@@ -627,38 +633,16 @@
                 "generic": [
                     {
                         "response_type": "text",
-                        "selection_policy": "sequential",
+                        "selection_policy": "random",
                         "values": [
                             {
-                                "text": "Puoi contattare l\u2019Ufficio Accoglienza utilizzando il telefono, la posta, tradizionale o elettronica, oppure compilando l\u2019apposito form in <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a>."
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2000,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Contatta l'Ufficio Accoglienza agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando il form nella <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a> del nostro sito web. Per ulteriori informazioni <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">visita questa pagina</a>. "
+                            },
                             {
-                                "text": "Email: accoglienza\\@sanpatrignano.org (italiani)\nhelp\\@sanpatrignano.org (stranieri)"
-                            }
-                        ]
-                    },
-                    {
-                        "response_type": "pause",
-                        "time": 2500,
-                        "typing": true
-                    },
-                    {
-                        "response_type": "text",
-                        "selection_policy": "sequential",
-                        "values": [
+                                "text": "Puoi contattare l'Ufficio Accoglienza via email agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando l\u2019apposito form in <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a>. <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">Clicca qui</a> per ulteriori informazioni. "
+                            },
                             {
-                                "text": "Via San Patrignano 53\n47853 Coriano (Rimini) \u2013 Italia\n\nTel. +39 0541 362111\nFax +39 0541 756108"
+                                "text": "E' possibile contattare l'Ufficio Accoglienza via email agli indirizzi accoglienza\\@sanpatrignano.org (italiani) e help\\@sanpatrignano.org (stranieri) oppure compilando l\u2019apposito form in <a href=\"https://www.sanpatrignano.org\" target=\"_blank\">homepage</a>. Per ulteriori informazioni <a href=\"https://www.sanpatrignano.org/chi-siamo/contatti/\" target=\"_blank\">clicca qui</a>. "
                             }
                         ]
                     }
